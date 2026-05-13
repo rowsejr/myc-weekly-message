@@ -8,17 +8,17 @@ Automatically generates the weekly WhatsApp update for Margate Yacht Club, combi
 ## How it works
 
 ```
-Every Wednesday 06:00 UTC
+Every day at 12:00 UK local time (Europe/London)
         ↓
 GitHub Actions runs scraper/scrape_myc.py
         ↓
 Logs into MYC website → scrapes events + duties for next 14 days
         ↓
-Commits data/events.json to the repo
+Validates and commits data/events.json to the repo
         ↓
-GitHub Pages serves index.html → fetches data/events.json + live weather
+GitHub Pages (deploy from main/root) serves index.html → fetches data/events.json + live weather
         ↓
-Heather copies the generated message → pastes into WhatsApp 🎉
+Copy the generated message → paste into WhatsApp 🎉
 ```
 
 ## Setup
@@ -31,8 +31,10 @@ cd myc-weekly-message
 git push -u origin main
 ```
 
-### 2. Enable GitHub Pages
-- Settings → Pages → Source: **GitHub Actions** or **Deploy from branch (main / root)**
+### 2. Enable GitHub Pages (root deploy)
+- Settings → Pages → Source: **Deploy from branch**
+- Branch: **main**
+- Folder: **/ (root)**
 
 ### 3. Add secrets for MYC login
 Settings → Secrets and variables → Actions → New repository secret:
@@ -41,11 +43,40 @@ Settings → Secrets and variables → Actions → New repository secret:
 
 > ⚠️ These are for the **MYC website** (no 2FA required), NOT the Sailing Club Manager portal.
 
-### 4. Run the workflow manually first
-Actions → "Update MYC Events" → Run workflow
+### 4. Run the workflow manually first (test/fresh data push)
+Actions → "Update MYC Events" → **Run workflow**
+- Leave `force_refresh` checked (default) to force a fresh scrape immediately.
 
 ### 5. Check the output
 Open `https://yourusername.github.io/myc-weekly-message/`
+
+## First-time setup checklist
+
+- [ ] GitHub Pages enabled with **main / root**
+- [ ] `MYC_USERNAME` and `MYC_PASSWORD` secrets added
+- [ ] Manual workflow run completed successfully
+- [ ] `data/events.json` updated by workflow
+- [ ] Site URL loads and shows generated message content
+
+## Daily operations & troubleshooting
+
+### Trigger model
+- Scheduled runs happen every day around UK noon with timezone-safe gating.
+- Manual runs are available anytime using **Run workflow** and `force_refresh=true`.
+
+### Post-run checks
+- Actions run status is ✅ successful.
+- `data/events.json` commit appears when data changes.
+- Site reflects fresh timestamp/content.
+
+### If a run fails
+1. Open Actions → latest **Update MYC Events** run.
+2. Check logs for:
+   - login/credentials issues (`MYC_USERNAME`, `MYC_PASSWORD`)
+   - MYC site structure changes affecting selectors
+   - temporary network/API failures
+3. Fix issue, then rerun manually with `force_refresh=true`.
+4. Previous `data/events.json` remains as fallback so the UI still loads.
 
 ## Updating tide data
 

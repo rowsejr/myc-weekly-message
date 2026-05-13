@@ -1,0 +1,94 @@
+name: Update MYC Events
+
+on:
+  # GitHub cron is UTC. We run at 11:00 and 12:00 UTC, then gate execution
+  # so scraping only proceeds at 12:00 Europe/London (handles BST/GMT).
+  schedule:
+    - cron: '0 11 * * *'
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+    inputs:
+      force_refresh:
+        description: 'Force refresh now (manual testing/fresh data push)'
+        required: false
+        default: true
+        type: boolean
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Decide whether to run scrape
+        run: |
+          RUN_SCRAPE=false
+          REASON="Not in 12:00 Europe/London window"
+
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            if [ "${{ github.event.inputs.force_refresh }}" = "true" ] || [ "${{ github.event.inputs.force_refresh }}" = "" ]; then
+              RUN_SCRAPE=true
+              REASON="Manual dispatch with force refresh"
+            else
+              UK_TIME=$(TZ=Europe/London date +%H:%M)
+              [ "$UK_TIME" = "12:00" ] && RUN_SCRAPE=true
+              REASON="Manual dispatch without force refresh (UK time check: ${UK_TIME})"
+            fi
+          else
+            UK_TIME=$(TZ=Europe/London date +%H:%M)
+            [ "$UK_TIME" = "12:00" ] && RUN_SCRAPE=true
+            REASON="Scheduled run (UK time check: ${UK_TIME})"
+          fi
+
+          echo "RUN_SCRAPE=$RUN_SCRAPE" >> "$GITHUB_ENV"
+          echo "Decision: RUN_SCRAPE=$RUN_SCRAPE ($REASON)"
+
+      - name: Install dependencies
+        if: env.RUN_SCRAPE == 'true'
+        run: pip install -r scraper/requirements.txt
+
+      - name: Scrape MYC events
+        if: env.RUN_SCRAPE == 'true'
+        env:
+          MYC_USERNAME: ${{ secrets.MYC_USERNAME }}
+          MYC_PASSWORD: ${{ secrets.MYC_PASSWORD }}
+        run: python scraper/scrape_myc.py
+
+      - name: Validate events JSON
+        if: env.RUN_SCRAPE == 'true'
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          p = Path("data/events.json")
+          data = json.loads(p.read_text())
+          assert isinstance(data, dict), "events.json root must be an object"
+          assert isinstance(data.get("generated_at"), str), "generated_at missing or invalid"
+          events = data.get("events")
+          assert isinstance(events, list), "events must be a list"
+          for i, ev in enumerate(events):
+            assert isinstance(ev, dict), f"event[{i}] must be an object"
+            assert isinstance(ev.get("title"), str), f"event[{i}].title missing or invalid"
+            assert isinstance(ev.get("date"), str), f"event[{i}].date missing or invalid"
+            duties = ev.get("duties")
+            assert isinstance(duties, dict), f"event[{i}].duties missing or invalid"
+          print(f"Validated {len(events)} events")
+          PY
+
+      - name: Commit updated events data
+        if: env.RUN_SCRAPE == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/events.json
+          git diff --cached --quiet || git commit -m "chore: update events data [skip ci]"
+          git push
