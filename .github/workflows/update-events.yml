@@ -33,23 +33,26 @@ jobs:
           RUN_SCRAPE=false
           REASON="Not in 12:00 Europe/London window"
           UK_TIME=$(TZ=Europe/London date +%H:%M)
+          UK_HOUR=$(TZ=Europe/London date +%H)
+          IS_UK_NOON=false
+          [ "$UK_HOUR" = "12" ] && IS_UK_NOON=true
 
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             if [ "${{ github.event.inputs.force_refresh }}" = "true" ]; then
               RUN_SCRAPE=true
               REASON="Manual dispatch with force refresh"
             else
-              if [ "$UK_TIME" = "12:00" ]; then
+              if [ "$IS_UK_NOON" = "true" ]; then
                 RUN_SCRAPE=true
-                REASON="Manual dispatch without force refresh, UK time is 12:00"
+                REASON="Manual dispatch without force refresh, UK hour is 12 (${UK_TIME})"
               else
                 REASON="Manual dispatch without force refresh, skipped (UK time check: ${UK_TIME})"
               fi
             fi
           else
-            if [ "$UK_TIME" = "12:00" ]; then
+            if [ "$IS_UK_NOON" = "true" ]; then
               RUN_SCRAPE=true
-              REASON="Scheduled run at 12:00 Europe/London"
+              REASON="Scheduled run in UK noon hour (${UK_TIME})"
             else
               REASON="Scheduled run skipped (UK time check: ${UK_TIME})"
             fi
