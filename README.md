@@ -61,7 +61,7 @@ Open `https://yourusername.github.io/myc-weekly-message/`
 ## Daily operations & troubleshooting
 
 ### Trigger model
-- Scheduled runs happen every day around UK noon with timezone-safe gating.
+- Scheduled runs happen every day at 12:00 UK local time (Europe/London) with timezone-safe gating.
 - Manual runs are available anytime using **Run workflow** and `force_refresh=true`.
 
 ### Post-run checks

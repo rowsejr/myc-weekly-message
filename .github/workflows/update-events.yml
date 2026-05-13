@@ -39,12 +39,20 @@ jobs:
               RUN_SCRAPE=true
               REASON="Manual dispatch with force refresh"
             else
-              [ "$UK_TIME" = "12:00" ] && RUN_SCRAPE=true
-              REASON="Manual dispatch without force refresh (UK time check: ${UK_TIME})"
+              if [ "$UK_TIME" = "12:00" ]; then
+                RUN_SCRAPE=true
+                REASON="Manual dispatch without force refresh, UK time is 12:00"
+              else
+                REASON="Manual dispatch without force refresh, skipped (UK time check: ${UK_TIME})"
+              fi
             fi
           else
-            [ "$UK_TIME" = "12:00" ] && RUN_SCRAPE=true
-            REASON="Scheduled run (UK time check: ${UK_TIME})"
+            if [ "$UK_TIME" = "12:00" ]; then
+              RUN_SCRAPE=true
+              REASON="Scheduled run at 12:00 Europe/London"
+            else
+              REASON="Scheduled run skipped (UK time check: ${UK_TIME})"
+            fi
           fi
 
           echo "RUN_SCRAPE=$RUN_SCRAPE" >> "$GITHUB_ENV"
