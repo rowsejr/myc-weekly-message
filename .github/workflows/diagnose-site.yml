@@ -1,0 +1,39 @@
+name: Diagnose MYC Site
+
+on:
+  workflow_dispatch:   # run manually from the Actions tab
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Run diagnostic scraper
+        # Exit code 1 means login failed but we still want the artifact,
+        # so we use || true to avoid failing the whole job.
+        env:
+          MYC_USERNAME: ${{ secrets.MYC_USERNAME }}
+          MYC_PASSWORD: ${{ secrets.MYC_PASSWORD }}
+        run: python scraper/diagnose_myc.py || true
+
+      - name: Upload diagnostic files
+        uses: actions/upload-artifact@v4
+        with:
+          name: myc-site-diagnostic
+          path: data/debug/
+          retention-days: 7
+          if-no-files-found: error
