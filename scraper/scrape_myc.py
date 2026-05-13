@@ -43,8 +43,14 @@ def login(session: requests.Session) -> bool:
             payload[name] = val
 
     resp = session.post(LOGIN_URL, data=payload, timeout=20, allow_redirects=True)
-    # If login succeeded we should NOT still be on the login page
-    return "wp-login.php" not in resp.url
+    # Definitive indicator: WordPress sets a wordpress_logged_in_* cookie on success
+    if any(k.startswith("wordpress_logged_in") for k in session.cookies.keys()):
+        return True
+    # Fallback: if we were redirected away from the login page, assume success
+    success = "wp-login.php" not in resp.url
+    if not success:
+        print(f"    (login response URL: {resp.url}, status: {resp.status_code})")
+    return success
 
 
 def fetch_events_list(session: requests.Session) -> list[dict]:
@@ -53,15 +59,53 @@ def fetch_events_list(session: requests.Session) -> list[dict]:
     cutoff = today + timedelta(days=14)
 
     r = session.get(EVENTS_URL, timeout=20)
+    print(f"  Events page: {r.url} (HTTP {r.status_code})")
     soup = BeautifulSoup(r.text, "html.parser")
+    if soup.title:
+        print(f"  Page title: {soup.title.string.strip()}")
     events = []
 
-    # The MYC site uses The Events Calendar plugin — standard class names
-    for article in soup.select("article.type-tribe_events, .tribe-event-url"):
+    # The MYC site uses The Events Calendar plugin — standard class names.
+    # Try multiple selector strategies from most-specific to most-general.
+    selector_sets = [
+        # The Events Calendar v5+
+        "article.type-tribe_events",
+        # The Events Calendar list view items
+        ".tribe-events-calendar-list__event",
+        ".tribe-event",
+        # Older Events Calendar or custom themes
+        "article[class*=tribe]",
+        "article[class*=event]",
+        ".tribe-event-url",
+    ]
+    articles = []
+    for sel in selector_sets:
+        articles = soup.select(sel)
+        if articles:
+            print(f"  Selector '{sel}' matched {len(articles)} element(s)")
+            break
+
+    if not articles:
+        # Diagnostic: report what article classes exist and tribe-like elements
+        all_articles = soup.select("article")
+        if all_articles:
+            sample_classes = [" ".join(a.get("class", [])) for a in all_articles[:5]]
+            print(f"  No event articles matched — article classes found: {sample_classes}")
+        tribe_els = soup.select("[class*=tribe], [class*=event]")
+        if tribe_els:
+            sample = list({" ".join(e.get("class", [])) for e in tribe_els})[:8]
+            print(f"  Elements with 'tribe'/'event' classes: {sample}")
+        return events
+
+    for article in articles:
         # Try to find the event link and title
-        link_el = article.select_one("a.url, h2 a, h3 a, .tribe-event-url")
-        title_el = article.select_one(".tribe-events-list-event-title, h2, h3")
-        date_el  = article.select_one(".tribe-event-date-start, .tribe-events-abbr, time")
+        link_el = article.select_one("a.url, h2 a, h3 a, .tribe-event-url, a[href*='/event/']")
+        if not link_el:
+            link_el = article.select_one("a[href]")
+        title_el = article.select_one(".tribe-events-list-event-title, .tribe-events-calendar-list__event-title, h2, h3")
+        date_el  = article.select_one(".tribe-event-date-start, .tribe-events-abbr, time[datetime]")
+        if not date_el:
+            date_el = article.select_one("time, .tribe-events-schedule")
 
         if not link_el:
             continue
