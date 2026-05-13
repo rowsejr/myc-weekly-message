@@ -42,7 +42,17 @@ def login(session: requests.Session) -> bool:
         if name:
             payload[name] = val
 
-    resp = session.post(LOGIN_URL, data=payload, timeout=20, allow_redirects=True)
+    resp = session.post(
+        LOGIN_URL,
+        data=payload,
+        timeout=20,
+        allow_redirects=True,
+        headers={
+            "Referer": LOGIN_URL,
+            "Origin":  BASE_URL,
+            "Content-Type": "application/x-www-form-urlencoded",
+        },
+    )
     # Definitive indicator: WordPress sets a wordpress_logged_in_* cookie on success
     if any(k.startswith("wordpress_logged_in") for k in session.cookies.keys()):
         return True
@@ -206,9 +216,11 @@ def scrape_event_duties(session: requests.Session, event: dict) -> dict:
 
 def main():
     session = requests.Session()
-    session.headers["User-Agent"] = (
-        "Mozilla/5.0 (compatible; MYCBot/1.0; +https://github.com/rowsejr)"
-    )
+    session.headers.update({
+        "User-Agent":      "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0",
+        "Accept":          "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-GB,en;q=0.9",
+    })
 
     print("Logging in to MYC website...")
     if USERNAME and PASSWORD:

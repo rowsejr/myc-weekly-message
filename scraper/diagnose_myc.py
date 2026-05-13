@@ -142,8 +142,8 @@ def fmt_section(d: dict) -> str:
 # login
 # ---------------------------------------------------------------------------
 
-def do_login(session: requests.Session) -> tuple[bool, str]:
-    """Returns (success, redirect_url)."""
+def do_login(session: requests.Session) -> tuple[bool, str, str]:
+    """Returns (success, redirect_url, response_html)."""
     r = session.get(LOGIN_URL, timeout=20)
     soup = BeautifulSoup(r.text, "html.parser")
 
@@ -159,11 +159,21 @@ def do_login(session: requests.Session) -> tuple[bool, str]:
         if name:
             payload[name] = val
 
-    resp = session.post(LOGIN_URL, data={**payload, "pwd": PASSWORD}, timeout=20, allow_redirects=True)
+    resp = session.post(
+        LOGIN_URL,
+        data={**payload, "pwd": PASSWORD},
+        timeout=20,
+        allow_redirects=True,
+        headers={
+            "Referer":      LOGIN_URL,
+            "Origin":       BASE_URL,
+            "Content-Type": "application/x-www-form-urlencoded",
+        },
+    )
 
     has_auth_cookie = any(k.startswith("wordpress_logged_in") for k in session.cookies.keys())
     success = has_auth_cookie or ("wp-login.php" not in resp.url)
-    return success, resp.url
+    return success, resp.url, resp.text
 
 
 # ---------------------------------------------------------------------------
@@ -178,7 +188,11 @@ def main() -> None:
     print(f"Credentials supplied: {'yes' if (USERNAME and PASSWORD) else 'NO'}")
     print()
 
-    ua = "Mozilla/5.0 (compatible; MYCDiagBot/1.0; +https://github.com/rowsejr)"
+    ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0"
+    browser_headers = {
+        "Accept":          "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-GB,en;q=0.9",
+    }
     summaries = []
 
     # ------------------------------------------------------------------
@@ -186,7 +200,7 @@ def main() -> None:
     # ------------------------------------------------------------------
     print("Step 1 — fetching login page...")
     s_noauth = requests.Session()
-    s_noauth.headers["User-Agent"] = ua
+    s_noauth.headers.update({"User-Agent": ua, **browser_headers})
     r = s_noauth.get(LOGIN_URL, timeout=20)
     print(f"  HTTP {r.status_code}  {r.url}")
     save("login_page.html", r.text)
@@ -205,15 +219,16 @@ def main() -> None:
     # 3. Login attempt
     # ------------------------------------------------------------------
     s_auth = requests.Session()
-    s_auth.headers["User-Agent"] = ua
+    s_auth.headers.update({"User-Agent": ua, **browser_headers})
     login_ok = False
 
     if USERNAME and PASSWORD:
         print("\nStep 3 — attempting login...")
-        login_ok, login_redirect = do_login(s_auth)
+        login_ok, login_redirect, login_response_html = do_login(s_auth)
         print(f"  Login {'SUCCEEDED' if login_ok else 'FAILED'}")
         print(f"  Redirect URL : {login_redirect}")
         print(f"  Cookies set  : {list(s_auth.cookies.keys())}")
+        save("login_response.html", login_response_html)
 
         # Save cookie names only (not values, to avoid writing auth tokens to disk)
         save("login_cookies.json", json.dumps({"cookie_names": list(s_auth.cookies.keys()), "login_succeeded": login_ok, "redirect_url": login_redirect}, indent=2))
