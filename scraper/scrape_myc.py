@@ -93,7 +93,7 @@ def fetch_events_list(session: requests.Session) -> list[dict]:
             print(f"  No event articles matched — article classes found: {sample_classes}")
         tribe_els = soup.select("[class*=tribe], [class*=event]")
         if tribe_els:
-            sample = list({" ".join(e.get("class", [])) for e in tribe_els})[:8]
+            sample = list(dict.fromkeys(" ".join(e.get("class", [])) for e in tribe_els))[:8]
             print(f"  Elements with 'tribe'/'event' classes: {sample}")
         return events
 
