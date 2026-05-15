@@ -1,0 +1,92 @@
+MYC Diagnostic Report
+Generated : 2026-05-15T09:10:41.177431+00:00
+Credentials supplied : True
+Login succeeded      : True
+
+=== events (no auth) ===
+URL    : https://www.margateyachtclub.co.uk/events
+Status : 200
+Title  : Events : Margate Yacht Club
+Main wrapper classes: []
+
+Articles (0 total, showing first 0):
+
+Classes containing 'tribe' or 'event' (1 unique):
+  action-events
+
+Links containing '/event' (20):
+  /events
+  /events?month=5&year=2026
+  /event/safety-boat-training-for-pb2
+  /event/commodore-cup-8
+  /event/rnli-meeting
+  /event/cadet-training-cadet-training-1
+  /event/myc-youth-squad-training-2
+  /event/halfmoon-2026-1
+  /event/halfmoon-2027
+  /event/safety-boat-training-for-pb2-backup-date
+  /event/leisure-sailing-2026-1
+  /event/leisure-sail-2
+  /event/long-distance-race
+  /event/long-distance-race-3
+  /event/pettman-cup-2026
+  /event/pettman-cup-race-2
+  /event/myc-youth-squad-training-3
+  /event/halfmoon-4-split-class-youth-adult-1
+  /event/leisure-sail-3
+  /event/pettman-cup-race-3
+
+<time> elements (0):
+
+=== events (authenticated) ===
+URL    : https://www.margateyachtclub.co.uk/events
+Status : 200
+Title  : Events : Margate Yacht Club
+Main wrapper classes: []
+
+Articles (0 total, showing first 0):
+
+Classes containing 'tribe' or 'event' (1 unique):
+  action-events
+
+Links containing '/event' (20):
+  /events
+  /events?types%5B%5D=8511
+  /events?types%5B%5D=8513
+  /events?types%5B%5D=8515
+  /events?types%5B%5D=8517
+  /events?types%5B%5D=8519
+  /events?design_id=21645
+  /events?design_id=436
+  /events?tags%5B%5D=130229
+  /events?tags%5B%5D=130233
+  /events?tags%5B%5D=130235
+  /events?tags%5B%5D=130283
+  /events?tags%5B%5D=130231
+  /events?tags%5B%5D=132585
+  /events?month=5&year=2026
+  /event/safety-boat-training-for-pb2
+  /event/safety-boat-training-practical
+  /event/commodore-cup-8
+  /event/rnli-meeting
+  /event/cadet-training-cadet-training-1
+
+<time> elements (0):
+
+=== event detail ===
+URL    : https://www.margateyachtclub.co.uk/event/safety-boat-training-for-pb2
+Status : 200
+Title  : Margate Yacht Club
+Main wrapper classes: []
+
+Articles (0 total, showing first 0):
+
+Classes containing 'tribe' or 'event' (1 unique):
+  action-event
+
+Links containing '/event' (3):
+  /events
+  /event/halfmoon-2026
+  /event/safety-boat-training-practical
+
+<time> elements (0):

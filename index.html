@@ -258,6 +258,56 @@ function formatDate(isoDate) {
   return d.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', timeZone: 'UTC' });
 }
 
+function titleCase(s) {
+  if (!s) return '';
+  return String(s)
+    .split(' ')
+    .map(w => w ? (w[0].toUpperCase() + w.slice(1)) : w)
+    .join(' ');
+}
+
+function formatDutyAssignments(dutiesObj) {
+  // `dutiesObj` shape (new): { "Race Box": [{name, role, status, member_url}, ...], ... }
+  // (legacy): { safety_boat: "..." }
+  if (!dutiesObj || typeof dutiesObj !== 'object') return [];
+
+  // Legacy format detection: if value is a string, show as-is.
+  const legacyKeys = Object.keys(dutiesObj);
+  if (legacyKeys.some(k => typeof dutiesObj[k] === 'string')) {
+    const rows = [];
+    for (const [k, v] of Object.entries(dutiesObj)) {
+      if (typeof v === 'string' && v.trim()) rows.push([titleCase(String(k).replaceAll('_', ' ')), v.trim()]);
+    }
+    return rows;
+  }
+
+  const rows = [];
+  for (const [dutyName, assignments] of Object.entries(dutiesObj)) {
+    if (!Array.isArray(assignments) || !assignments.length) continue;
+
+    // Sort to keep stable output: confirmed, pending, needed, unassigned, unknown; then role
+    const rank = { confirmed: 0, pending: 1, needed: 2, unassigned: 3, unknown: 4 };
+    const list = [...assignments].sort((a, b) => {
+      const ra = rank[a?.status] ?? 9;
+      const rb = rank[b?.status] ?? 9;
+      if (ra !== rb) return ra - rb;
+      const ar = (a?.role ?? '').toString();
+      const br = (b?.role ?? '').toString();
+      return ar.localeCompare(br);
+    });
+
+    const parts = list.map(a => {
+      const role = a?.role ? `${a.role}: ` : '';
+      const name = a?.name ? a.name : (a?.status === 'needed' ? 'Volunteer needed' : a?.status === 'unassigned' ? '—' : 'TBC');
+      const suffix = a?.status && a.status !== 'confirmed' ? ` (${a.status})` : '';
+      return `${role}${name}${suffix}`;
+    });
+
+    rows.push([dutyName, parts.join(' · ')]);
+  }
+  return rows;
+}
+
 function buildMessage(events) {
   if (!events.length) return '(No upcoming events found.)';
 
@@ -287,12 +337,20 @@ function buildMessage(events) {
     if (d.safety_boat && !d.safety_boat_helm)
                              lines.push(`Safety Boat: ${d.safety_boat}`);
     if (d.instructor)        lines.push(`Instructor: ${d.instructor}`);
+     // Duties (roster-derived)
+     const dutyRows = formatDutyAssignments(d);
+     if (dutyRows.length) {
+       lines.push('');
+       for (const [label, value] of dutyRows) {
+         lines.push(`${label}: ${value}`);
+       }
+     }
 
-    lines.push('');
-    if (tide)   lines.push(`Tide: ${tide}`);
-    if (wx)     lines.push(`Winds: ${windDesc(wx.wind, wx.dir)}`);
+     lines.push('');
+     if (tide)   lines.push(`Tide: ${tide}`);
+     if (wx)     lines.push(`Winds: ${windDesc(wx.wind, wx.dir)}`);
 
-    lines.push('');
+     lines.push('');
   }
 
   return lines.join('\n').replace(/\n{3,}/g, '\n\n').trim();
@@ -304,22 +362,13 @@ function renderEventCard(ev) {
   const wx = ev._wx;
   const tide = ev._tide;
 
-  const dutyRows = [
-    ['Race Officers',      d.race_officer],
-    ['Safety Boat Helm',   d.safety_boat_helm],
-    ['Safety Boat Crew',   d.safety_boat_crew],
-    ['Safety Boat',        d.safety_boat && !d.safety_boat_helm ? d.safety_boat : null],
-    ['Instructor',         d.instructor],
-    ['Race briefing',      d.briefing],
-    ['Race start',         d.race_start],
-    ['Meet',               d.meet],
-  ].filter(([,v]) => v);
+   const dutyRows = formatDutyAssignments(d);
 
-  const dutyHTML = dutyRows.map(([label, value]) => `
-    <div class="duty-row">
-      <span class="duty-label">${label}:</span>
-      <span class="duty-value">${value}</span>
-    </div>`).join('') || `<div class="duty-row"><span class="duty-value missing">⚠︎ No duties scraped yet — check MYC website</span></div>`;
+   const dutyHTML = dutyRows.map(([label, value]) => `
+     <div class="duty-row">
+       <span class="duty-label">${label}:</span>
+       <span class="duty-value">${value}</span>
+     </div>`).join('') || `<div class="duty-row"><span class="duty-value missing">⚠︎ No duties scraped yet — check MYC website</span></div>`;
 
   let wxHTML = '';
   if (wx || tide) {

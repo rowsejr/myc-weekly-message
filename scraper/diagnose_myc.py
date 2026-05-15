@@ -26,11 +26,18 @@ import requests
 from bs4 import BeautifulSoup
 
 BASE_URL   = "https://www.margateyachtclub.co.uk"
-LOGIN_URL  = f"{BASE_URL}/wp-login.php"
+LOGIN_URL  = f"{BASE_URL}/login"
+DO_LOGIN_URL = f"{BASE_URL}/do_login"
 EVENTS_URL = f"{BASE_URL}/events"
 
 USERNAME = os.environ.get("MYC_USERNAME", "")
 PASSWORD = os.environ.get("MYC_PASSWORD", "")
+
+# TLS verification: corporate proxies often MITM HTTPS with a custom root CA.
+# - Default: verify TLS certificates (secure)
+# - Set MYC_VERIFY_TLS=0 to disable verification *temporarily* for debugging.
+# - Or set REQUESTS_CA_BUNDLE / SSL_CERT_FILE to your corporate CA bundle.
+VERIFY_TLS = os.environ.get("MYC_VERIFY_TLS", "1").strip().lower() not in {"0", "false", "no"}
 
 OUT_DIR = Path(__file__).parent.parent / "data" / "debug"
 
@@ -143,36 +150,52 @@ def fmt_section(d: dict) -> str:
 # ---------------------------------------------------------------------------
 
 def do_login(session: requests.Session) -> tuple[bool, str, str]:
-    """Returns (success, redirect_url, response_html)."""
-    r = session.get(LOGIN_URL, timeout=20)
+    """Login using the Boxstuff-style inline login form.
+
+    Returns (success, redirect_url, response_html).
+    """
+    # Get the login page to obtain authenticity_token
+    r = session.get(LOGIN_URL, timeout=20, verify=VERIFY_TLS)
     soup = BeautifulSoup(r.text, "html.parser")
 
+    form = soup.select_one("form[action='/do_login'], form[action='/do_login']")
+    if not form:
+        form = soup.select_one("form[action*='do_login']")
+
+    token = ""
+    tok_el = (form.select_one("input[name='authenticity_token']") if form else None) or soup.select_one(
+        "input[name='authenticity_token']"
+    )
+    if tok_el:
+        token = tok_el.get("value", "")
+
+    redirect = "/portal"  # good test for auth
     payload = {
-        "log":         USERNAME,
-        "wp-submit":   "Log In",
-        "redirect_to": BASE_URL + "/wp-admin/",
-        "testcookie":  "1",
+        "utf8": "✓",
+        "authenticity_token": token,
+        "email": USERNAME,
+        "password": PASSWORD,
+        "redirect": redirect,
+        "redirect_bad": redirect,
+        "commit": "Login",
     }
-    for inp in soup.select("input[type=hidden]"):
-        name = inp.get("name")
-        val  = inp.get("value", "")
-        if name:
-            payload[name] = val
 
     resp = session.post(
-        LOGIN_URL,
-        data={**payload, "pwd": PASSWORD},
+        DO_LOGIN_URL,
+        data=payload,
         timeout=20,
         allow_redirects=True,
+        verify=VERIFY_TLS,
         headers={
-            "Referer":      LOGIN_URL,
-            "Origin":       BASE_URL,
+            "Referer": LOGIN_URL,
+            "Origin": BASE_URL,
             "Content-Type": "application/x-www-form-urlencoded",
         },
     )
 
-    has_auth_cookie = any(k.startswith("wordpress_logged_in") for k in session.cookies.keys())
-    success = has_auth_cookie or ("wp-login.php" not in resp.url)
+    # Success heuristics: presence of logout link or not still on /login
+    text = resp.text or ""
+    success = ("/do_logout" in text) or ("Logout" in text and "/portal" in text) or ("action-login" not in text)
     return success, resp.url, resp.text
 
 
@@ -186,6 +209,7 @@ def main() -> None:
     print(f"{'='*60}")
     print(f"Output directory: {OUT_DIR}")
     print(f"Credentials supplied: {'yes' if (USERNAME and PASSWORD) else 'NO'}")
+    print(f"TLS verification     : {'ON' if VERIFY_TLS else 'OFF (MYC_VERIFY_TLS=0)'}")
     print()
 
     ua = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0"
@@ -201,7 +225,7 @@ def main() -> None:
     print("Step 1 — fetching login page...")
     s_noauth = requests.Session()
     s_noauth.headers.update({"User-Agent": ua, **browser_headers})
-    r = s_noauth.get(LOGIN_URL, timeout=20)
+    r = s_noauth.get(LOGIN_URL, timeout=20, verify=VERIFY_TLS)
     print(f"  HTTP {r.status_code}  {r.url}")
     save("login_page.html", r.text)
 
@@ -209,7 +233,7 @@ def main() -> None:
     # 2. Events page WITHOUT authentication
     # ------------------------------------------------------------------
     print("\nStep 2 — fetching events page (no auth)...")
-    r_noauth = s_noauth.get(EVENTS_URL, timeout=20)
+    r_noauth = s_noauth.get(EVENTS_URL, timeout=20, verify=VERIFY_TLS)
     print(f"  HTTP {r_noauth.status_code}  {r_noauth.url}")
     save("events_noauth.html", r_noauth.text)
     soup_noauth = BeautifulSoup(r_noauth.text, "html.parser")
@@ -239,7 +263,7 @@ def main() -> None:
     # 4. Events page WITH authentication
     # ------------------------------------------------------------------
     print("\nStep 4 — fetching events page (authenticated session)...")
-    r_auth = s_auth.get(EVENTS_URL, timeout=20)
+    r_auth = s_auth.get(EVENTS_URL, timeout=20, verify=VERIFY_TLS)
     print(f"  HTTP {r_auth.status_code}  {r_auth.url}")
     save("events_auth.html", r_auth.text)
     soup_auth = BeautifulSoup(r_auth.text, "html.parser")
@@ -269,7 +293,7 @@ def main() -> None:
     if event_links:
         first_event_url = event_links[0]
         print(f"\nStep 5 — fetching first event detail page: {first_event_url}")
-        r_event = s_auth.get(first_event_url, timeout=20)
+        r_event = s_auth.get(first_event_url, timeout=20, verify=VERIFY_TLS)
         print(f"  HTTP {r_event.status_code}  {r_event.url}")
         save("event_detail.html", r_event.text)
         soup_event = BeautifulSoup(r_event.text, "html.parser")

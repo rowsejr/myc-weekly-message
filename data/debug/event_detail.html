@@ -1,0 +1,1643 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src='/cms-packages/jquery/1.8.3/jquery-min.js' type='text/javascript'></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="/compiled-assets/autocomplete-rails-5d8d93a5f6e19ab6e682b9dd9999592b61ff3c3d69ea242a830a8556158001fa.js"></script>
+<script src="/javascripts/frontend/site.js"></script>
+<link rel="stylesheet" media="screen" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css" />
+<script src='/cms-packages/jquery-match-height/0.6.0/jquery-match-height.js' type='text/javascript'></script>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="1fdQocfnc4EnCVRaS6tgDR3PA4KZT2RTBCvSUJGJ+CYuTwxrR/QIwx+2BEiXysuLRMtAoKO6Lkp9R7E9ddHvxw==" />
+<link rel="stylesheet" media="screen" href="/bootstrap-basic/css/bootstrap.css" />
+<link rel="stylesheet" media="screen" href="/ui.css?cache=2026-05-15T09:10:40+00:00" />
+<script>
+  $(function(){
+  	$('.working-on-click').click(function(){
+  		$(this).val('Working...');
+  		return true;
+  	});
+  })
+</script>
+<link href='//fonts.googleapis.com/css?family=Quattrocento+Sans:400,700' rel='stylesheet'>
+<link href='/generated-stylesheets/1372-310120261629.css' rel='stylesheet'>
+<meta content='width=device-width,initial-scale=1.0' name='viewport'>
+<link rel="stylesheet" media="screen" href="/bootstrap-basic/css/bootstrap.css" />
+
+<title>Margate Yacht Club</title>
+<script>
+  $(function(){
+  	$('.once-only').submit(function(){
+  		$(this).find(':submit,a.submit').prop('disabled','disabled');
+  	});
+  })
+</script>
+</head>
+<body class='action-event '>
+
+
+
+
+<div id='topper'>
+<div class='inner'>
+<form action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+&nbsp;
+<span id='top-social'>
+
+
+
+
+<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCNObPoG97BWPxJhxvusX5hQ/featured"><img width="18" height="18" src="/images/site/top-white-youtube2xnew.svg" alt="Top white youtube2xnew" /></a>
+<a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/margateyachtclub/"><img width="18" height="18" src="/images/site/top-white-instagram2xnew.svg" alt="Top white instagram2xnew" /></a>
+
+</span>
+<span id='top-email'>
+<a href="/cdn-cgi/l/email-protection#82ebece4edc2efe3f0e5e3f6e7fbe3e1eaf6e1eef7e0ace1edacf7e9"><img width="24" height="18" src="/images/site/top-white-email2xnew.svg" alt="Top white email2xnew" /></a>
+<span class='not-mobile'><a href="/cdn-cgi/l/email-protection#ea83848c85aa878b988d8b9e8f938b89829e89869f88c48985c49f81">Email us</a></span>
+</span>
+<span id='top-search'>
+<a href='#' onclick='toggle_search()'><img width="12" height="18" src="/images/site/top-white-search2xnew.svg" alt="Top white search2xnew" /></a>
+<input type="text" name="q" id="q" value="" placeholder="search..." style="display:none" />
+</span>
+<span id='top-right'>
+
+<a href="/my-cart">Basket</a>
+<a class="not-mobile" href="/schedule">Schedule</a>
+<a class="not-mobile" href="/messages">Messages</a>
+<a href="#" onclick="$(&#39;#top-right-dropdown&#39;).toggle();; return false;"><span class="not-mobile">James Rowse ▾</span><span class="only-mobile">J.R. ▾</span></a>
+</span>
+<span class='bkg0f1558' id='top-right-dropdown' style='display:none;'>
+<div><a href="/portal?uix_click=uid_booking">Bookings &amp; Logbook</a></div>
+<div><a href="/portal?uix_click=uid_volunteer">Volunteering</a></div>
+<div><a href="/portal?uix_click=uid_finder">Crew-Finder</a></div>
+<div><a href="/portal?uix_click=uid_profile">Profile &amp; Membership</a></div>
+<div><a href="/portal?uix_click=uid_payment">Payments &amp; Account</a></div>
+<div><a href="/portal?uix_click=uid_club">Club Directory</a></div>
+<div><a href="/portal?uix_click=uid_comms">Communication</a></div>
+<div><a href="/portal">Portal</a></div>
+<div><a href="/do_logout">Logout</a></div>
+</span>
+<style>
+  #top-right-dropdown { position:absolute; right:0; top:calc(3px + 1em + 22px); background:#0F1558; border-bottom-left-radius:0.5em; border-bottom-right-radius:0.5em; z-index:1000; }
+  #top-right-dropdown a { display:block; padding:7px 22px; color:FFFFFF; }
+  #top-right-dropdown a:hover { text-decoration:none; background:rgba(255,255,255,0.8); }
+  #top-right-dropdown div:last-child a { border-top:1px solid rgba(255,255,255,0.8); border-bottom-left-radius:0.5em; border-bottom-right-radius:0.5em; }
+  #topper .inner { position:relative; }
+  #top-right-dropdown.bkgffffff { border:1px solid #CCC; border-top-style:none; }
+</style>
+</form>
+
+</div>
+</div>
+
+<div id='header'>
+<div class='inner'>
+<a class="not-mobile" href="/"><img id="primary-logo" src="https://boxstuff-development-thumbnails.s3.amazonaws.com/995243_orig.jpeg" alt="995243 orig" /></a>
+<a class="only-mobile" href="/portal"><img id="primary-logo" src="https://boxstuff-development-thumbnails.s3.amazonaws.com/995243_orig.jpeg" alt="995243 orig" /></a>
+
+</div>
+</div>
+
+<div id='grouping'>
+<div class='itop_pop' id='navigation'>
+<div class='inner'><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+  function descendant_selector( path ) { return $('li[data-path^='+path+']').not('li[data-path='+path+']') }
+  function child_selector( path ) { var depth = $('li[data-path='+path+']').data('depth'); return $('li[data-path^='+path+'].depth'+(depth+1)).not('li[data-path='+path+']') }
+  
+  function toggle_descendants( path ) { descendant_selector( path ).toggle() }
+  function toggle_children( path ) { child_selector( path ).toggle() }
+  
+  function hide_descendants( path ) { descendant_selector( path ).hide() }
+  function hide_children( path ) { child_selector( path ).hide() }
+  
+  function show_descendants( path ) { descendant_selector( path ).show() }
+  function show_children( path ) { child_selector( path ).show() }
+  
+  function handle_toggle_click( path ) {
+  	// (if) any children visible (then) hide all descendents (else) show children
+  	if (child_selector( path ).filter(':visible').length) {
+  		hide_descendants( path );
+  	} else {
+  		hide_descendants( path );
+  		show_children( path );
+  	}
+  }
+  
+  function string_chop( str, size ) {
+  	if (str == null) return [];
+  	str = String(str);
+  	size = ~~size;
+  	return size > 0 ? str.match(new RegExp('.{1,' + size + '}', 'g')) : [str];
+  }
+  
+  function expose_menu_item( path, fragment_size ) {
+  	// Show parents and siblings of the given path
+  	var parts = string_chop( path, fragment_size );
+  	var partial = ''
+  
+  	for (var i=0;i<parts.length;i++) {
+  		partial += parts[i];
+  		$('li[data-path='+partial+']').show();
+  		show_children( partial );
+  	}
+  }
+</script>
+<ul class='menu with-burger'>
+<li class='burger'><a href="#" onclick="toggle_burger(); return false;">&#9776; Menu</a></li>
+<li class='only-mobile non-burger depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/portal">Portal</a>
+</li>
+<li class=' non-burger depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/">Home</a>
+</li>
+<li class=' non-burger depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/links">Open Meetings</a>
+</li>
+<li class=' non-burger depth0    popdown' data-depth='0' data-index='1'>
+<a href="#" onclick="toggle_menu( 1 ); return false;">About MYC</a>
+<div class='popup-menu' id='menu1' style='display:none;min-width:154px;'><script>
+  function descendant_selector( path ) { return $('li[data-path^='+path+']').not('li[data-path='+path+']') }
+  function child_selector( path ) { var depth = $('li[data-path='+path+']').data('depth'); return $('li[data-path^='+path+'].depth'+(depth+1)).not('li[data-path='+path+']') }
+  
+  function toggle_descendants( path ) { descendant_selector( path ).toggle() }
+  function toggle_children( path ) { child_selector( path ).toggle() }
+  
+  function hide_descendants( path ) { descendant_selector( path ).hide() }
+  function hide_children( path ) { child_selector( path ).hide() }
+  
+  function show_descendants( path ) { descendant_selector( path ).show() }
+  function show_children( path ) { child_selector( path ).show() }
+  
+  function handle_toggle_click( path ) {
+  	// (if) any children visible (then) hide all descendents (else) show children
+  	if (child_selector( path ).filter(':visible').length) {
+  		hide_descendants( path );
+  	} else {
+  		hide_descendants( path );
+  		show_children( path );
+  	}
+  }
+  
+  function string_chop( str, size ) {
+  	if (str == null) return [];
+  	str = String(str);
+  	size = ~~size;
+  	return size > 0 ? str.match(new RegExp('.{1,' + size + '}', 'g')) : [str];
+  }
+  
+  function expose_menu_item( path, fragment_size ) {
+  	// Show parents and siblings of the given path
+  	var parts = string_chop( path, fragment_size );
+  	var partial = ''
+  
+  	for (var i=0;i<parts.length;i++) {
+  		partial += parts[i];
+  		$('li[data-path='+partial+']').show();
+  		show_children( partial );
+  	}
+  }
+</script>
+<ul class='menu'>
+<li class='  depth0    ' data-depth='0' data-path='0708'>
+<a rel="noopener noreferrer" href="/about-myc/committee">Committee</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='0709'>
+<a rel="noopener noreferrer" href="/about-myc/history-of-myc">History of MYC</a>
+</li>
+</ul>
+</div>
+</li>
+<li class=' non-burger depth0 on   ' data-depth='0'>
+<a rel="noopener noreferrer" href="/events">Calendar</a>
+</li>
+<li class=' non-burger depth0    popdown' data-depth='0' data-index='3'>
+<a href="#" onclick="toggle_menu( 3 ); return false;">Membership Info</a>
+<div class='popup-menu' id='menu3' style='display:none;min-width:275px;'><script>
+  function descendant_selector( path ) { return $('li[data-path^='+path+']').not('li[data-path='+path+']') }
+  function child_selector( path ) { var depth = $('li[data-path='+path+']').data('depth'); return $('li[data-path^='+path+'].depth'+(depth+1)).not('li[data-path='+path+']') }
+  
+  function toggle_descendants( path ) { descendant_selector( path ).toggle() }
+  function toggle_children( path ) { child_selector( path ).toggle() }
+  
+  function hide_descendants( path ) { descendant_selector( path ).hide() }
+  function hide_children( path ) { child_selector( path ).hide() }
+  
+  function show_descendants( path ) { descendant_selector( path ).show() }
+  function show_children( path ) { child_selector( path ).show() }
+  
+  function handle_toggle_click( path ) {
+  	// (if) any children visible (then) hide all descendents (else) show children
+  	if (child_selector( path ).filter(':visible').length) {
+  		hide_descendants( path );
+  	} else {
+  		hide_descendants( path );
+  		show_children( path );
+  	}
+  }
+  
+  function string_chop( str, size ) {
+  	if (str == null) return [];
+  	str = String(str);
+  	size = ~~size;
+  	return size > 0 ? str.match(new RegExp('.{1,' + size + '}', 'g')) : [str];
+  }
+  
+  function expose_menu_item( path, fragment_size ) {
+  	// Show parents and siblings of the given path
+  	var parts = string_chop( path, fragment_size );
+  	var partial = ''
+  
+  	for (var i=0;i<parts.length;i++) {
+  		partial += parts[i];
+  		$('li[data-path='+partial+']').show();
+  		show_children( partial );
+  	}
+  }
+</script>
+<ul class='menu'>
+<li class='  depth0    ' data-depth='0' data-path='1618'>
+<a rel="noopener noreferrer" href="/membership-info/meeting-minutes">Meeting Minutes</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='1619'>
+<a rel="noopener noreferrer" href="/membership-info/membership-pricing-1">Membership Info</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='1620'>
+<a rel="noopener noreferrer" href="/membership-info/membership-types">Membership Types</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='1621'>
+<a rel="noopener noreferrer" href="/membership-info/becoming-a-member">Becoming a Member</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='1622'>
+<a rel="noopener noreferrer" href="/membership-info/sailing-instructions-2022">Sailing Instructions 2026</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='1623'>
+<a rel="noopener noreferrer" href="/membership-info/myc-welcome-pack-2024">MYC Welcome Pack 2026</a>
+</li>
+</ul>
+</div>
+</li>
+<li class=' non-burger depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/news">News</a>
+</li>
+<li class=' non-burger depth0    popdown' data-depth='0' data-index='2'>
+<a href="#" onclick="toggle_menu( 2 ); return false;">Training</a>
+<div class='popup-menu' id='menu2' style='display:none;min-width:242px;'><script>
+  function descendant_selector( path ) { return $('li[data-path^='+path+']').not('li[data-path='+path+']') }
+  function child_selector( path ) { var depth = $('li[data-path='+path+']').data('depth'); return $('li[data-path^='+path+'].depth'+(depth+1)).not('li[data-path='+path+']') }
+  
+  function toggle_descendants( path ) { descendant_selector( path ).toggle() }
+  function toggle_children( path ) { child_selector( path ).toggle() }
+  
+  function hide_descendants( path ) { descendant_selector( path ).hide() }
+  function hide_children( path ) { child_selector( path ).hide() }
+  
+  function show_descendants( path ) { descendant_selector( path ).show() }
+  function show_children( path ) { child_selector( path ).show() }
+  
+  function handle_toggle_click( path ) {
+  	// (if) any children visible (then) hide all descendents (else) show children
+  	if (child_selector( path ).filter(':visible').length) {
+  		hide_descendants( path );
+  	} else {
+  		hide_descendants( path );
+  		show_children( path );
+  	}
+  }
+  
+  function string_chop( str, size ) {
+  	if (str == null) return [];
+  	str = String(str);
+  	size = ~~size;
+  	return size > 0 ? str.match(new RegExp('.{1,' + size + '}', 'g')) : [str];
+  }
+  
+  function expose_menu_item( path, fragment_size ) {
+  	// Show parents and siblings of the given path
+  	var parts = string_chop( path, fragment_size );
+  	var partial = ''
+  
+  	for (var i=0;i<parts.length;i++) {
+  		partial += parts[i];
+  		$('li[data-path='+partial+']').show();
+  		show_children( partial );
+  	}
+  }
+</script>
+<ul class='menu'>
+<li class='  depth0    ' data-depth='0' data-path='1112'>
+<a rel="noopener noreferrer" href="/rya-training/about-training">About Training</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='1113'>
+<a rel="noopener noreferrer" href="/rya-training/rya-dinghy-level-1-2">RYA Dinghy Level 1 &amp; 2</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='1114'>
+<a rel="noopener noreferrer" href="/rya-training/rya-powerboat-level-2">RYA Powerboat Level 2</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='1115'>
+<a rel="noopener noreferrer" href="/rya-training/rya-safety-boat">MYC Safety Boat</a>
+</li>
+</ul>
+</div>
+</li>
+<li class=' non-burger depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/results">Results</a>
+</li>
+<li class=' non-burger depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/booking">Book online</a>
+</li>
+<li class=' non-burger depth0    popdown' data-depth='0' data-index='0'>
+<a href="#" onclick="toggle_menu( 0 ); return false;">Contact</a>
+<div class='popup-menu' id='menu0' style='display:none;min-width:143px;'><script>
+  function descendant_selector( path ) { return $('li[data-path^='+path+']').not('li[data-path='+path+']') }
+  function child_selector( path ) { var depth = $('li[data-path='+path+']').data('depth'); return $('li[data-path^='+path+'].depth'+(depth+1)).not('li[data-path='+path+']') }
+  
+  function toggle_descendants( path ) { descendant_selector( path ).toggle() }
+  function toggle_children( path ) { child_selector( path ).toggle() }
+  
+  function hide_descendants( path ) { descendant_selector( path ).hide() }
+  function hide_children( path ) { child_selector( path ).hide() }
+  
+  function show_descendants( path ) { descendant_selector( path ).show() }
+  function show_children( path ) { child_selector( path ).show() }
+  
+  function handle_toggle_click( path ) {
+  	// (if) any children visible (then) hide all descendents (else) show children
+  	if (child_selector( path ).filter(':visible').length) {
+  		hide_descendants( path );
+  	} else {
+  		hide_descendants( path );
+  		show_children( path );
+  	}
+  }
+  
+  function string_chop( str, size ) {
+  	if (str == null) return [];
+  	str = String(str);
+  	size = ~~size;
+  	return size > 0 ? str.match(new RegExp('.{1,' + size + '}', 'g')) : [str];
+  }
+  
+  function expose_menu_item( path, fragment_size ) {
+  	// Show parents and siblings of the given path
+  	var parts = string_chop( path, fragment_size );
+  	var partial = ''
+  
+  	for (var i=0;i<parts.length;i++) {
+  		partial += parts[i];
+  		$('li[data-path='+partial+']').show();
+  		show_children( partial );
+  	}
+  }
+</script>
+<ul class='menu'>
+<li class='  depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/contact">Contact</a>
+</li>
+<li class='  depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/officers/sailing">Sailing</a>
+</li>
+<li class='  depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/officers/myc-committee">MYC Committee</a>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<script>
+  function toggle_burger() {
+  	$('.non-burger').toggleClass( 'show' );
+  }
+</script>
+<style>
+  .count {
+  	float:right;
+  	display:inline-block;
+  	background:#888;
+  	color:white;
+  	font-size:10px;
+  	padding:0 3px;
+  	border-radius:2px;
+  	position:relative;
+  	top:2px;
+  }
+</style>
+</div>
+
+
+<div class='with-secondary  ' id='page'>
+<div class='inner'>
+
+
+<div class='' id='secondary' style='display:none'>
+
+</div>
+
+<div id='primary'>
+
+
+<div id='paging'>
+</div>
+
+
+
+<style>
+  #problems a { color:white; font-weight:bold; }
+</style>
+
+<div class='ui-layout-fixed-auto ui-stack' id='ui-object-layout'>
+<div>
+</div>
+<div id='ui-object-page'>
+<ul class="ui-menu ui-hidden" id="ui-menu1" style="display:none;"><li><a href="" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="34" id=""><span class="arrow"></span> Portal...</a></li><li><a href="/profile" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My profile</a></li><li><a href="/password" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My login details</a></li><li><a href="/my_boats" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My boats &amp; berths</a></li><li><a href="/qualifications" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My qualifications</a></li><li><a href="/membership" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My membership</a></li><li><a href="/renew" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My renewals</a></li><li><a href="/my-information" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My data</a></li></ul>
+<ul class="ui-menu ui-hidden" id="ui-menu9" style="display:none;"><li><a href="" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="34" id=""><span class="arrow"></span> Portal...</a></li><li><a href="/orders" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My orders</a></li><li><a href="/invoices" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My invoices</a></li><li><a href="/statement" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My statement of account</a></li></ul>
+<ul class="ui-menu ui-hidden" id="ui-menu13" style="display:none;"><li><a href="" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="34" id=""><span class="arrow"></span> Portal...</a></li><li><a href="/schedule" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">Schedule</a></li><li><a href="/bookings" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My bookings & allocations</a></li><li><a href="/booking" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">Book event &nearr;</a></li><li><a href="/my-crew" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My crew</a></li></ul>
+<ul class="ui-menu ui-hidden" id="ui-menu18" style="display:none;"><li><a href="" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="34" id=""><span class="arrow"></span> Portal...</a></li><li><a href="/members-directory" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">Member Directory</a></li><li><a href="/boats-directory" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">Boat Directory</a></li><li><a href="/trophies" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">Trophy Cabinet</a></li></ul>
+<ul class="ui-menu ui-hidden" id="ui-menu22" style="display:none;"><li><a href="" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="34" id=""><span class="arrow"></span> Portal...</a></li><li><a href="/roster" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">Duty roster</a></li><li><a href="/duties" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My duties</a></li><li><a href="/swaps" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">Duty swaps</a></li><li><a href="/tasks" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">Tasks</a></li></ul>
+<ul class="ui-menu ui-hidden" id="ui-menu27" style="display:none;"><li><a href="" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="34" id=""><span class="arrow"></span> Portal...</a></li><li><a href="/crews" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My availability</a></li><li><a href="/portal-crew-finder" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">Crew available</a></li><li><a href="/portal-boat-finder" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">Crew wanted</a></li></ul>
+<ul class="ui-menu ui-hidden" id="ui-menu31" style="display:none;"><li><a href="" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="34" id=""><span class="arrow"></span> Portal...</a></li><li><a href="/messages" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">Messages</a></li><li><a href="/mailings" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">Mailings &amp; Lists</a></li></ul>
+<ul class="ui-menu ui-hidden" id="ui-menu34" style=""><li><a href="/schedule" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="13" id="uid_booking">Bookings & Logbook...</a></li><li><a href="/roster" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="22" id="uid_volunteer">Volunteering...</a></li><li><a href="/crews" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="27" id="uid_finder">Crew-Finder...</a></li><li><a href="/profile" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="1" id="uid_profile">Profile & Membership...</a></li><li><a href="/orders" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="9" id="uid_payment">Payments & Account...</a></li><li><a href="/members-directory" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="18" id="uid_club">Club Directory...</a></li><li><a href="/messages" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="31" id="uid_comms">Communication...</a></li></ul>
+<ul class="ui-menu" id="ui-menu42" style=""></ul>
+<ul class="ui-menu ui-hidden" id="ui-menu43" style="display:none;"><li><a href="" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id=""><span class="arrow"></span> Portal</a></li></ul>
+            <script>
+            function uix_mobile() { return true; /*window.matchMedia("(width<=800px)").matches;*/ }
+            function uix_menu_switch( id, do_not_hide ) { $('.ui-menu').hide(); $('#ui-menu'+id).show().removeClass('ui-hidden'); if (!do_not_hide) { $('#ui-object-page-content').hide(); } }
+            function uix_click( dom ) {
+                var a = $(dom);
+                var href = dom.getAttribute("href");
+                var menu = a.data('menu');
+                if (a.data('home') && uix_mobile()) {
+                    uix_home();
+                    return false;
+                }
+                if ((!href || uix_mobile()) && menu) {
+                    uix_menu_switch( menu );
+                    $('#ui-object-photo').removeClass( 'ui-hidden' ); //show();
+                    $('#ui-object-layout').removeClass('ui-stack');
+                    return false;
+                }
+                return true;
+            }
+            function uix_home() {
+                if (window.location.pathname!='/portal') {
+                    window.location = '/portal-home';
+                } else {
+                    uix_menu_switch( 43 );
+                    $('#ui-object-page-content').removeClass( 'ui-hidden' ).show();
+                }
+            }
+            </script>
+            <style>
+            .ui-layout-fixed-auto { display:grid; grid-template-columns:213px 1fr; grid-column-gap:2em; }
+            @media screen and (max-width:600px) {
+            .ui-layout-fixed-auto { display:block; }
+            .ui-layout-fixed-auto li a.ui-right { text-align:left !important; }
+            }
+            .ui-layout-fixed-auto > div:first-child a.ui-on { font-weight:bold; }
+            .ui-layout-fixed-auto.ui-stack { display:block; }
+            /* Funky back arrow https://webspe.net/tools/en/arrow/ */
+            .arrow { position:relative;display:inline-block;width:7.9px;height:12.9px;margin-right:0.5em;top:1px; }
+            .arrow::before, .arrow::after { content:"";position:absolute;top:calc(50% - 1.5px);left:0;width:10px;height:3px;border-radius:9999px;background-color:#0000EE;transform-origin:1.5px 50%; }
+            .arrow::before { transform: rotate(45deg); }
+            .arrow::after { transform: rotate(-45deg); }
+            .ui-on .arrow::before, .ui-on .arrow::after { background-color:#FFFFFF; }
+                        a.ui-button.ui-x-portal { background:#EEEEEE !important; color:#0000EE !important; }
+            a.ui-button.ui-x-portal:hover { background:#DDDDDD !important; }
+            a.ui-button.ui-x-portal.ui-on { background:#008800 !important; color:#FFFFFF !important; }
+            a.ui-button.ui-x-portal.ui-on:hover { background:#008800 !important; }
+
+            </style>
+            <script>
+            $(function(){
+                const urlParams = new URLSearchParams(window.location.search);
+                const myParam = urlParams.get('uix_click');
+                if (myParam) { uix_click( $('#'+myParam)[0] ); }
+            })
+            </script>
+
+<div id='ui-object-page-content'>
+<style>
+  @import url('https://css.gg/calendar-today.css');
+</style>
+<input type="hidden" name="common_design_id" id="common_design_id" />
+<script>
+var klass_names = {};
+var type_klass_ids = {};
+klass_names[7317] = "Mirror";
+klass_names[7319] = "Osprey";
+klass_names[7321] = "Enterprise";
+klass_names[7323] = "Laser";
+klass_names[7325] = "Streaker";
+klass_names[7327] = "RS";
+klass_names[7329] = "General";
+klass_names[7331] = "Wayfarer";
+klass_names[7333] = "International Contender";
+klass_names[7335] = "Miracle";
+klass_names[7337] = "Gull";
+</script>
+<div class='content' id='page-article'>
+<h1 class='page-article'>
+Safety Boat Training - for PB2
+
+</h1>
+<div style='font-size:125%;color:#888;margin-bottom:1em;'>
+<i class="gg-calendar-today" style="display:inline-block;"></i>
+Fri 15th May, 19:30-16:00
+
+</div>
+<style>
+  .pin {
+  	display:inline-block;
+  	width: 21px;
+  	height: 21px;
+  	border-radius: 50% 50% 50% 0;
+  	background: #EA4335;
+  	transform: rotate(-45deg);
+  }
+  .pin:after {
+  	content: "";
+  	width: 8px;
+  	height: 8px;
+  	margin: 6px 0 0 6px;
+  	background: #e6e6e6;
+  	position: absolute;
+  	border-radius: 50%;
+  }
+</style>
+
+
+<style>
+  .ticket-heading strong { font-size:135%; }
+  .ticket-heading em { display:inline-block; padding:0.25em 0.5em; background: white; border:1px solid #ccc; border-radius:3px; border-left-style:dashed; border-right-style:dashed; font-style:normal; position:relative; top:-0.15em; }
+  .ticket-heading em:empty::after { content:'\00a0\00a0\00a0'; } /*{ content:'\0000a0'; }*/
+  .ticket-heading em:empty { min-width:3em; color:#ccc; text-align:center; }
+</style>
+<script>
+  var show_booking_stats = true;
+  
+  var bookable_ids = {"498257":193887};
+  
+  var wide_soft_maxs = {"193887":8};
+  var wide_hard_maxs = {"193887":10};
+  
+  var soft_maxs = {"498257":8};
+  var hard_maxs = {"498257":8};
+  var cart_data = {};               /* What is currently live in _MY_ cart. */
+  var book_data = {"498257":0};            /* What have I already booked. */
+  var other_book_data = {"498257":3};   /* What have others already booked, indexed on type_id. */
+  var bookable_counts = {"193887":3};   /* Number of tickets sold (not to me), indexed on bookable_id. */
+  var my_bookable_counts = {"193887":0};   /* Number of tickets sold (to me), indexed on bookable_id. */
+  var available = {};                                 /* This gets populated dynamically. */
+  function get_cart_count( type_id )  { return cart_data[type_id] ? cart_data[type_id] : 0; }
+  function get_cart_limit( type_id )  { x = $('#type'+type_id).data('max'); return x==undefined ? 0 : x; }
+  
+  function get_book_count( type_id )  { return book_data[type_id] ? book_data[type_id] : 0; }
+  function get_book_limit( type_id )  { return get_cart_limit( type_id );  /* TODO - why? */ }
+  
+  function get_live_count( type_id )  { return $('.type_id input[value='+type_id+']').length }
+  
+  //function get_full_count( type_id )  { return get_cart_count( type_id ) + get_book_count( type_id ) + get_live_count( type_id ); }
+  //function get_full_count( type_id )  { return get_cart_count( type_id ) + get_type_count( type_id ) + get_live_count( type_id ); }
+  
+  /* Global (across all bookables) */
+  function get_global_base()            { return 3; }
+  function get_global_live()            { return $('.type_id input').length; }
+  function get_global_count()           { return get_global_base() + get_global_live(); }
+  
+  /* TODO: Double check meaning of 'wide'. */
+  
+  /* Bookable specific */
+  function get_wide_base( type_id )   { return bookable_counts[bookable_ids[type_id]] + my_bookable_counts[bookable_ids[type_id]]; }
+  function get_wide_live( type_id )   { return $('.bookable_id input[value='+bookable_ids[type_id]+']').length; }
+  function get_wide_count( type_id )  { return get_wide_base( type_id ) + get_wide_live( type_id ) + get_cart_count( type_id ); }
+  function get_wide_limit( type_id )  { return wide_soft_maxs[bookable_ids[type_id]]; }
+  function meets_wide_limit( type_id ){ return get_wide_count( type_id ) < get_wide_limit( type_id ); }
+  function get_wide_margin( type_id ) { return get_wide_limit( type_id ) - get_wide_count( type_id ); }
+  function has_wide_limit( type_id )  { return get_wide_limit( type_id ) < 9999; }
+  
+  /* Bookable specific (wide) */
+  function get_wide_wait_limit( type_id ) { return wide_hard_maxs[bookable_ids[type_id]]; }
+  function has_wide_wait_limit( type_id ) { return get_wide_wait_limit( type_id ) > get_wide_limit( type_id ); }
+  function meets_wide_wait_limit( type_id ){ return has_wide_wait_limit( type_id ) && (get_wide_count( type_id ) < get_wide_wait_limit( type_id ) ); }
+  function get_wide_wait_margin( type_id ){ return get_wide_wait_limit( type_id ) - get_wide_count( type_id ); }
+  
+  function get_type_count( type_id )  { return other_book_data[type_id] + get_book_count( type_id ) + get_cart_count( type_id ) + get_live_count( type_id ); }
+  function get_type_limit( type_id )  { return soft_maxs[type_id]; }
+  function has_type_limit( type_id )  { return get_type_limit( type_id ) > 0; }
+  function meets_type_limit( type_id ){ return (!has_type_limit( type_id )) || (get_type_count( type_id ) < get_type_limit( type_id ) ); }
+  function get_type_margin( type_id ) { return get_type_limit( type_id ) - get_type_count( type_id ); }
+  
+  function get_wait_limit( type_id )  { return hard_maxs[type_id]; }
+  function has_wait_limit( type_id )  { return get_wait_limit( type_id ) > get_type_limit( type_id ); }
+  function meets_wait_limit( type_id ){ return has_wait_limit( type_id ) && (get_type_count( type_id ) < get_wait_limit( type_id ) ); }
+  function get_wait_margin( type_id ) { return get_wait_limit( type_id ) - get_type_count( type_id ); }
+  
+  function get_base_limit( type_id )  { return Math.min( get_cart_limit( type_id ), get_book_limit( type_id ) ); }
+  function is_available( type_id )    { return available[type_id]; }
+  function logged_in()                { return true; }
+  function refresh_ui( type_id )      { $('#type'+type_id).can_add( type_id ); }
+  function can_add( type_id ) { 
+      return logged_in() && 
+          is_available( type_id ) && 
+          ((!has_type_limit( type_id ) || (get_type_count( type_id ) < get_type_limit( type_id ))) || meets_wait_limit( type_id )) && 
+          ((get_cart_count( type_id )+get_live_count( type_id )) < get_cart_limit( type_id )) && 
+          (meets_wide_limit( type_id ) || meets_wide_wait_limit( type_id )) && 
+          (meets_type_limit( type_id ) || meets_wait_limit( type_id ));
+  }
+  function show_type_remaining( type_id ) {
+      if (!show_booking_stats) {
+          return;
+      }
+      var remaining = [];
+      if (has_wide_limit( type_id )) {
+          var margin = get_wide_margin( type_id );
+          if (margin > 0) {
+              remaining.push( margin );
+          } else {
+              // Waiting list margin
+              if (has_wide_wait_limit( type_id )) {
+                  var margin = get_wide_wait_margin( type_id );
+                  if (margin > 0) {
+                      waiting = true;
+                      remaining.push( margin );
+                      type_ok = true;
+                  }
+              }
+          }
+      }
+      if (has_type_limit( type_id )) {
+          var waiting = false;
+          var margin = get_type_margin( type_id );
+          var type_ok = false;
+          if (margin > 0) {
+              remaining.push( margin );
+              type_ok = true;
+          } else {
+              // Waiting list margin
+              if (has_wait_limit( type_id )) {
+                  var margin = get_wait_margin( type_id );
+                  if (margin > 0) {
+                      waiting = true;
+                      remaining.push( margin );
+                      type_ok = true;
+                  }
+              }
+          }
+          if (!type_ok) {
+              remaining.push( 0 );
+          }
+      }
+      var rem_dom = $('#type'+type_id+' .remaining');
+      if (remaining.length>0) {
+          var number = Math.min( ...remaining );
+          if (waiting) {
+              rem_dom.html(number+' remain<br />(wait-list)')
+          } else {
+              rem_dom.text(number+' remain')
+          }
+      } else {
+          //var number = get_full_count( type_id );
+          //if (number>0) {
+          //    rem_dom.text(number+' sold');
+          //} else {
+          //    rem_dom.text('');
+          //}
+          rem_dom.text('');
+      }
+  }
+</script>
+<style>
+  .login-prompt { background:black; color:white; padding:0.5em 1em; border-radius:0.5em; margin-bottom:1em; }
+  .login-prompt a { color:white !important; font-weight:bold !important; }
+</style>
+<form id="f70051049630300" action="/do_booking" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="WCVXIVHBsx2fSTBS9oWiIJCUR51De05RQdS94AqQosmjnQvr0dLIX6f2YEAq5AmmyZAEv3mOBEg4uN6N7si1KA==" />
+<input type="hidden" name="slug" id="slug" value="safety-boat-training-for-pb2" />
+<h2>Tickets</h2>
+<script>available[498257] = true;</script>
+<div class='type' data-max='1' data-type='498257' id='type498257'>
+<div class='ui-split-2 ui-thumb-right ui-breathe'>
+<div>
+<div class='name'>Safety Boat Practical Session</div>
+<div class='price'>FREE</div>
+</div><div class='ui-quantity'><div class='ui-counter' id='counter498257'>0</div><div class='ui-modifier'><a id="add498257" href="#" onclick="inject_form(498257); return false;">+</a></div>
+<div class='ui-footer'>
+<span class='remaining'></span>
+</div></div></div>
+<div>Member only</div>
+<p>A free <span class="caps">MYC</span> club members only Safety Boat practical training. This for members already holding their PB2 qualification. Will cover areas such as rescue and recovery, laying a race course, radio communication and boat care.</p>
+<p>Current reservations (3) - <a href="#" onclick="$(&#39;#list498257&#39;).toggle();; return false;">show</a></p>
+<ol id='list498257' style='display:none;margin-left:3em;'>
+<li>Robert Atkinson </li>
+<li>Scott Hope </li>
+<li>Francis Sokalski </li>
+</ol>
+<div class='forms'></div>
+</div>
+<div class='ui-split-1 ui-mobile ui-right'>
+<input type="submit" name="commit" value="Add to basket" class="button add" id="basket" />
+<div id='message' style='font-size:125%'>Add ticket(s) to continue...</div>
+</div>
+</form>
+
+<script>
+  var any_in_cart = false;
+  var missing = 0;
+  function handle_required_field( index, dom ) {
+      if ($(dom).closest('.ui-hidden').length>0)
+          return
+      if (!$(dom).val()) {
+          is_missing( index, dom );
+          missing += 1;
+      }
+  }
+  function handle_required_field_set( index, dom ) {
+      if ($(dom).closest('.ui-hidden').length>0)
+          return
+      var any = false;
+      var set = $(dom).data('set')
+      var selector = ".require-target-set[data-set='"+set+"']";
+      $(selector).each( function(index,element) {
+          if ($(element).is('input:checkbox')) {
+              if ($(element).is(':checked')) { any = true; }
+          } else {
+              if ($(element).val()) { any = true; }
+          }
+      })
+      if (!any) {
+          is_missing( index, dom );
+          missing += 1;
+      }
+  }
+  function not_missing( index, dom ) {
+      $(dom).closest('.ui-field').removeClass('ui-missing');
+  }
+  function is_missing( index, dom ) {
+      $(dom).closest('.ui-field').addClass('ui-missing');
+  }
+  function remove_missing_classes( form_id ) {
+      $('#'+form_id+' .require-target').each( not_missing );
+      $('#'+form_id+' .require-target-set').each( not_missing );
+  }
+  function handle_required_fields( form_id ) {
+      // Run through all required fields checking for values
+      missing = 0;
+      remove_missing_classes( form_id );
+      $('#'+form_id+' .ui-visible .ui-field.required .require-target').each( handle_required_field )
+      $('#'+form_id+' .ui-visible .ui-field.required .require-target-set').each( handle_required_field_set )
+      if (missing>0) {
+          alert( 'One or more fields have not been completed.' )
+          return false
+      }
+      return true
+  }
+  function show_remaining() {
+      $('.type').each( function(index,dom){
+          var type_id = $(dom).data('type');
+          show_type_remaining( type_id );
+      } )
+  }
+  var disable_submit = false;
+  $(function(){
+      $('#f70051049630300').submit( function(){ 
+          if (num_forms<=0) {
+              if (any_in_cart) {
+                  location.href = "/my-cart?continue_url=%2Fevent%2Fsafety-boat-training-for-pb2";
+                  return false;
+              } else {
+                  alert( 'You have not yet added any tickets.' );
+                  return false;
+              }
+          }
+          if (!handle_required_fields( 'f70051049630300')) {
+              return false;
+          }
+          if (disable_submit) {
+              return false;
+          }
+          $('#basket').val( 'Working. Please wait...' );
+          disable_submit = true;
+          setInterval( function() { $('#basket').val( $('#basket').val()+'.' ) }, 200 )
+          return true;
+      })
+      show_remaining();
+  })
+</script>
+<script>
+  var type_ids = [498257];
+  var spinner = "<span class=\"spinner\">-</span>";
+  var steps = { '-': '\\', '\\': '|', '|': '/', '/': '-' }
+  function update_button() {
+      var text = $('#basket').text();
+      var num_instant = $('.instant-specifier input[value=yes]').size();
+      var num_cart = $('.instant-specifier input[value=no]').size();
+      var msg = 'Add to basket';
+      var more = (any_in_cart ? 'more ' : '');
+      if (num_instant>0 && num_cart>0) {
+          show_button();
+          hide_message();
+          msg = 'Add '+num_cart+' '+more+'to cart + Reserve '+num_instant+' now';
+      } else if (num_instant>0) {
+          show_button();
+          hide_message();
+          msg = 'Reserve '+num_instant+' '+more+'now';
+      } else if (num_cart>0) {
+          show_button();
+          hide_message();
+          msg = 'Add '+num_cart+' '+more+'to cart';
+      } else {
+          if (false) {
+              show_button();
+              hide_message();
+              msg = 'Proceed to checkout...';
+          } else {
+              hide_button();
+              show_message();
+              msg = 'Add ticket(s) to continue...';
+          }
+      }
+  
+      $('#basket').val( msg );
+  }
+  
+  function show_button() {
+      $('#basket').show();
+  }
+  function hide_button() {
+      $('#basket').hide();
+  }
+  function show_message() {
+      $('#message').show();
+  }
+  function hide_message() {
+      $('#message').hide();
+  }
+  
+  function step_spinner( type_id ) {
+      var dom = $('#counter'+type_id);
+      dom.text( steps[dom.text()] );
+  }
+  function update_quantity( type_id ) {
+      var number = $('#type'+type_id+' .forms .ui-form').size();
+      $('#counter'+type_id).text( number );
+  }
+  var num_forms = 0;
+  function inject_form( type_id ) {
+      if (!can_add( type_id )) {
+          if (!logged_in()) {
+              alert( 'You need to be logged in to book.' );
+          } else if (!is_available(type_id)) {
+              alert( 'Not currently available.' );
+          } else {
+              alert( 'Booking limit reached.' );
+          }
+          return;
+      }
+      var button = $('#add'+type_id);
+      if (button.hasClass('uim-blocked')) { return }
+      button.addClass( 'uim-blocked' );
+      $('#counter'+type_id).text('-');
+      var interval = setInterval( function() { step_spinner( type_id ) }, 150 )
+      $.get( '/do_inject_form', { type_id: type_id }, function (data) {
+          button.removeClass( 'uim-blocked' );
+          clearInterval( interval );
+          $('#type'+type_id+' .forms').append(data);
+          update_quantity( type_id );
+          update_button();
+          update_counter( type_id );
+          num_forms += 1;
+          show_remaining();
+      } )
+  }
+  function remove_form( instance_id ) {
+      var form = $('#'+instance_id).closest('.ui-form');
+      var type_id = form.closest('.type').data('type');
+      form.remove();
+      update_quantity( type_id );
+      update_button();
+      update_counter( type_id );
+      num_forms -= 1;
+      show_remaining();
+  }
+  function enable_type( type_id ) {
+      $('#type'+type_id).removeClass( 'disabled' ).addClass( 'enabled' );
+  }
+  function disable_type( type_id ) {
+      $('#type'+type_id).addClass( 'disabled' ).removeClass( 'enabled' );
+  }
+  function update_counter( type_id ) {
+      if (can_add( type_id )) {
+          enable_type( type_id );
+      } else {
+          disable_type( type_id );
+      }
+  }
+  $(function(){
+      update_button();
+      for (key in type_ids) {
+          update_counter( type_ids[key] );
+      }
+  });
+</script>
+<script>
+  function login_prompt() {
+      alert( 'Please log in to make bookings' );
+      window.location.href='#login';
+  }
+</script>
+<style>
+  .public-content {
+      font-size:11px;
+      color:#666;
+  }
+  .public-content p:first-child { margin-top:0; }
+  .type {
+      clear:both;
+      overflow:auto; 
+      position:relative;
+      min-height:5em;
+      border-bottom:2px solid #888;
+      padding-bottom:1em;
+      margin:2em 0;
+  }
+  .type > .quantity { position:absolute; left:0; top:0; margin:0; }
+  
+  .ui-quantity { xposition:absolute; xleft:0; xtop:0; margin:0; xwidth:6.5em; display:grid; grid-gap:1px; grid-template-columns: repeat(2, minmax(0, 1fr)); text-align:center; }
+  .ui-quantity .ui-counter { align-self:start; background:#CCC; color:black; font-size:22px; vertical-align:top; }
+  .ui-quantity .ui-modifier { align-self:start; background:green; color:white; font-size:22px; }
+  .ui-quantity .ui-modifier a { xxx-display:inline-grid; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IArs4c6QAAADFJREFUOE9jZMAC/v///x9ZmJGRkRFdGYYASMFw04juH2yBhU2McQhpHE0AkBDAlsgB2qY3/2LOqIAAAAAASUVORK5CYII=); background-repeat:no-repeat; background-position:center; color:white; }
+  .ui-quantity .ui-modifier a i { place-self:center; }
+  .ui-quantity .ui-footer { grid-column: 1 / span 2; color:#888; font-size:11px; }
+  .ui-quantity a { text-decoration:none; display:block; }
+  .ui-quantity .ui-footer .cart { line-height:1.3em; font-size:11px; color:black; background:#FFDDDD; border:2px solid red; display:block; text-align:center; margin-top:4px; padding:3px 3px 2px 3px; border-radius:5px; }
+  
+  .disabled .ui-quantity .ui-modifier { background:orange; }
+  .disabled .ui-quantity .ui-modifier a { transform:scale(0); }
+  
+  /* Width -> 20px * 1.8em * 2 */
+  .quantity { font-size:20px; }
+  .quantity > div { display:inline-block; text-align:center; width:1.8em; background:green; color:white; }
+  .quantity > div a { color:white; text-decoration:none; }
+  .quantity .counter {}
+  .quantity .increment { border-left: 1px dotted rgba(255,255,255,0.35); }
+  
+  .quantity .cart { font-size:11px; color:white; background:black; display:block; text-align:center; padding-top:0.25em; }
+  .quantity .remaining { font-size:11px; color:#888; display:block; text-align:center; }
+  
+  .enabled .quantity .increment a::before { content:'+'; }
+  .disabled .quantity .increment a::before { content:'x'; }
+  
+  .disabled .quantity .counter {}
+  .disabled .quantity .increment { background:orange; }
+  
+  .ui-field.required .label::after { content:' (required)'; font-weight:normal; font-style:italic; font-size:11px; color:#888; display:inline-block; margin-left:0.5em; }
+  .ui-type-search .ui-field.required .label::after { content:' (required - you must type then select from the dropdown)'; }
+  .ui-field .label { margin-bottom:0.25em; }
+  
+  .ui-hidden { display:none; }
+  
+  .remove.button { position:absolute; left:0; top:0; width:3.6em; font-size:20px; box-sizing:border-box; background:red; text-align:center; color:white; padding:0 0.25em; margin:0; }
+  .spinner { display:inline-block; padding-left:0.25em; font-family:monospace; }
+  .name { font-weight:bold; margin-bottom:0.5em; font-size:130%; padding-top:2px; padding-left:3px; }
+  .price {
+      display: inline-block;
+      padding: 0.25em 0.5em;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      border-left-style: dashed;
+      border-right-style: dashed;
+      border-left-width:2px;
+      border-right-width:2px;
+      font-style: normal;
+      font-size:125%;
+      margin-bottom:0.5em; 
+      line-height:1.3em;
+  }
+  .message { padding:1px 4px; border-radius:2px; font-size:11px; background-color:red; color:white; margin-bottom: 0.75em; }
+  .message.good { background:#aaa; }
+  
+  .forms { xxx-margin-left:-6em; }
+  .ui-form { padding-left:6em; margin-bottom:0.5em; }
+  .ui-form .deep0 { border:1px solid #ddd; background:white; border-radius:0.25em; padding:0.5em; }
+  .ui-form .ui-field { position:relative; overflow:auto; margin-bottom:0.6em; }
+  
+  .ui-field .help { grid-column: 2; font-size:11px; color:#888; }
+  .ui-field .help p { margin-top:0; margin-bottom:0.5em; }
+  
+  .ui-field { display: grid; grid-gap: 0 1em; grid-template-columns: 8em auto; }
+  .ui-field .label { text-align:right; }
+  .ui-field.fill > div:first-child { grid-column: 1 / span 2;  }
+  .ui-field.fill > div:first-child .label { text-align:left; font-weight:bold; }
+  
+  .ui-form .block .ui-field { display:block; }
+  
+  .ui-field textarea { width:100%; box-sizing:border-box; }
+  .ui-field input[type=text] { width:50%; box-sizing:border-box; min-width:4em; }
+  
+  .ui-form .debug { float:right; color:#888; font-size:11px; }
+  .ui-form .small .ui-field .control input { width:4em; }
+  .ui-form .hint p { font-style:italic; color:#888; }
+  .ui-form .deep2 > .children { padding-left:1.5em; }
+  .ui-form { position:relative; }
+  .button.add span { text-decoration:line-through; }
+  .ui-missing { border:1px solid red; background:#FFEEEE; border-radius:0.25em; padding:2px 0; }
+  
+  .only-mobile { display:none; }
+  .not-mobile {}
+  @media only screen and (max-width:800px)  {
+      .only-mobile { display:none !important; }
+      .not-mobile { display:inline !important; }
+  }
+  @media only screen and (max-width:480px)  {
+      .only-mobile { display:inline !important; }
+      .not-mobile { display:none !important; }
+  }
+  
+  .ui-type-section {
+      border-top: 1px solid #aaa;
+      margin-top: 1em;
+      padding-top: 1em;
+  }
+  .ui-type-section.ui-plain { 
+      border-top-style:none; 
+      margin-top:0; 
+      padding-top:0; 
+  }
+  
+  /* Mobile version */
+  
+  @media only screen and (max-width:480px)  {
+      .type { padding-left:0; }
+      .type .forms { margin-left:0; }
+      .type > .ui-quantity { position:static; float:right; }
+  }
+  
+  /*@media only screen and (max-width:4800px) {*/
+  
+  .ui-field { display:block; }
+  .ui-field .label { text-align:left; font-weight:bold; color:#333; }
+  .ui-field select, .ui-field input[type=text], .ui-field textarea { max-width:100%; box-sizing:border-box; }
+  .ui-field input[type=text], .ui-field textarea { width:100%; }
+  .ui-form { padding-left:0; background-color:#DDD; border-radius:0.25em; }
+  .ui-form .deep0 { background:transparent; }
+  .ui-form > div.deep0 {} /* Root form div */
+  .ui-form > .remove-button-holder { border-top:1px dotted #BBB; text-align:right; } 
+  .ui-form > .remove-button-holder > a.remove.button { width:auto; display:inline-block; position:static; margin-top:0; box-sizing:border-box; border-top-left-radius: 0; border-top-right-radius: 0; padding: 0.25em 1em; }         /* (Optional) Remove button. */
+  .ui-form .deep2 > .children { padding-left:1em; border-left:0.5em solid #ccc; }
+  
+  .ui-field select { padding:0.3em; font-size:120%; }
+  .ui-form input[type=text] { border-radius:0.3em; padding:0.4em 0.7em 0.5em 0.7em; border-width:1px; font-size:120%; }
+  
+  /* } */
+</style>
+
+
+
+
+
+<div id='contact-map' style='margin:1em 0;'>
+<iframe width="100%" height="300px" src=https://embed.savvy-navvy.com/index.html?lat=51.39185219908746&lng=1.3831409529174854&zoom=11&marker=true&depth-unit=m frameborder="0"></iframe>
+<p class='savvy-promo'><a target="_blank" rel="noopener noreferrer" href="https://www.savvy-navvy.com/partner/clubs?utm_medium=web&amp;utm_source=margateyc&amp;utm_campaign=sailclubman">Click here for 20% off Savvy-Navvy</a></p>
+<style>
+  .savvy-promo { margin:0; padding:0.5em; text-align:center; }
+</style>
+</div>
+
+<div class='ui-split-3 ui-spread ui-distinct'>
+<div><a href="/event/halfmoon-2026">Previous</a></div>
+<div><a href="/ical/safety-boat-training-for-pb2">Add to calendar</a></div>
+<div><a href="/event/safety-boat-training-practical">Next</a></div>
+</div>
+<p style='color:#aaa;font-size:12px;padding-top:1em;clear:both;'>Last updated 3:49pm on 11 May 2026</p>
+</div>
+<style>
+  input.input { padding: 0.25em 0.5em; font-size:14px; width:12em; }
+  input.input.type-email { width:16em; }
+  input.input.type-date { width:8em;  }
+  div.group { margin-top:0.5em;padding-left:1em;border-left:1em solid #ddd; }
+  
+  .info0 { font-style:italic; }
+  .info1 {}
+  .info2 { font-style:italic; }
+  
+  p.sold-status { float:right; margin:0; padding:0; text-align:right; line-height:1.2em !important; }
+  .items { }
+  span.required { font-size:11px; color:#888; font-weight:normal; font-style:italic; margin:0; padding:0; }
+  .blocked { border:1px solid #ddd; background:white; padding:0.5em; }
+  
+  .date-restricted {
+  	font-weight: normal;
+  	display: inline-block;
+  	background: red;
+  	padding: 0.15em 0.5em;
+  	color: white;
+  	border-radius: 0.25em;
+  }
+</style>
+<script>
+  $(".bookings-add-to-cart-new fieldgroup h3:not(.always)").click(function(event) {
+  	var currentid = $(this).attr('id').slice(6);
+  	var selectgroup = "#field_" + currentid + " .inputs";
+  	var grouph2 = ".bookings-add-to-cart-new fieldgroup h3#title_" + currentid;
+  
+  	$(selectgroup).toggle(0, function() {
+  		if ($(this).is(":visible")) {
+  			/* On */
+  			$(grouph2).css("background-image", "url(https://boxstuff-development-thumbnails.s3.amazonaws.com/430646_orig.png)")
+  			$('#field_'+currentid+' .chooser').prop( 'checked', true );
+  		} else {
+  			/* Off */
+  			$(grouph2).css("background-image", "url(https://boxstuff-thumbnails.s3.amazonaws.com/327165_orig.png)")
+  			$('#field_'+currentid+' .chooser').prop( 'checked', false );
+  		}
+  	});
+  });
+  
+  var do_not_clean_name = false;
+  
+  function pick_klass_ids( type_id, ids, index ) {
+  
+  	var control = '';
+  	control += '<select name="klass_ids['+type_id+']['+index+']">';
+  	var found = 0;
+  	if (ids) {
+  		control += '<option value="">Select...</option>';
+  		for(var i=0;i<ids.length;i++) {
+  			var id = ids[i]
+  			var name = klass_names[id];
+  			if (name) {
+  				control += '<option value="'+id+'">'+name+'</option>';
+  				found += 1;
+  			}
+  		}
+  	}
+  	control += "</select>"
+  
+  	if (found>0) {
+  		$('.fleet-control').empty().append( control );
+  	} else {
+  		default_fleet_control( type_id, index );
+  		//$('.fleet-control').empty().append( 'None available' );
+  	}
+  }
+  
+  function default_fleet_control( type_id, index ) {
+  
+  	var control = '';
+  	control += '<select name="klass_ids['+type_id+']['+index+']">';
+  	var found = 0;
+  	if (true) {
+  		control += '<option value="">Select...</option>';
+  
+  		for(var x=0;x<type_klass_ids[type_id].length;x++) {
+  			var tid = type_klass_ids[type_id][x];
+  			control += '<option value="'+tid+'">'+klass_names[tid]+'</option>';
+  		}
+  
+  		//control += '<option value="7317">Mirror</option><option value="7319">Osprey</option><option value="7321">Enterprise</option><option value="7323">Laser</option><option value="7325">Streaker</option><option value="7327">RS</option><option value="7329">General</option><option value="7331">Wayfarer</option><option value="7333">International Contender</option><option value="7335">Miracle</option><option value="7337">Gull</option>';
+  		found = 11;
+  	}
+  	control += "</select>"
+  
+  	if (found>0) {
+  		$('.fleet-control').empty().append( control );
+  	} else {
+  		$('.fleet-control').empty().append( 'None available' );
+  		//default_fleet_control( type_id, index );
+  	}
+  
+  }
+  
+  function handle_design_select( event ) {
+  
+  	var design_control = $(event.target).closest('.design-control');
+  	var v = $( 'select.marine_design_id', design_control ).val();
+  	if (v==0) {
+  		$('.design_name', design_control).show();
+  
+  		if (!do_not_clean_name) {
+  			$('.design_name', design_control).val('');
+  			$('.design_id',design_control).val('');
+  			$('.marine_design_id',design_control).val('');
+  		}
+  
+  	} else {
+  		$('.design_name', design_control).hide();
+  		$('input.design_id', design_control).val( v );
+  		var name = $( 'select.marine_design_id option:selected', design_control ).text();
+  		$('.design_name', design_control).val( name );
+  	}
+  
+  	var type_id = design_control.data( 'type-id' );
+  
+  	var what = $('option:selected',event.target).data('klass-ids')+'';
+  
+  	if (what && what!='undefined') {
+  		var klass_ids = what.split(',');
+  		var id_string = (''+design_control.data( 'klass-ids' ));
+  		var restricted_klass_id = id_string.split(',');
+  		var final_klass_ids = ((id_string=='') ? klass_ids : klass_ids.filter( function (value) { return restricted_klass_id.includes(value) } ));
+  		pick_klass_ids( type_id, final_klass_ids );
+  	} else {
+  		pick_klass_ids( type_id, [] );
+  	}
+  
+  }
+  
+  function handle_design_picked( event, data ) {
+  	var design_control = $(event.target).closest('.design-control');
+  	var v = $('#common_design_id').val();
+  	$('input.design_id',design_control).val( v );
+  	if ($( 'select.marine_design_id option[value='+v+']', design_control ).length==1) {
+  		$( 'select.marine_design_id', design_control ).val(v);
+  	} else {
+  		$('.design_name', design_control ).hide();
+  	}
+  	do_not_clean_name = true;
+  	handle_design_select( event );
+  	do_not_clean_name = false;
+  
+  	var type_id = design_control.data( 'type-id' );
+  
+  	var restricted_klass_id = (''+design_control.data( 'klass-ids' )).split(',');
+  
+  	// Roll in klass_ids over the top of anything which was just done
+  	var klass_ids = data.item.klass_ids;
+  
+  	var final_klass_ids = klass_ids.filter( function(value) { return restricted_klass_id.includes(value) } )
+  
+  	if (klass_ids && klass_ids!='undefined' && final_klass_ids) {
+  		pick_klass_ids( type_id, final_klass_ids );
+  	} else {
+  		pick_klass_ids( type_id, [] );
+  	}
+  
+  }
+  function check_this_form( type_id, do_not_alert ) {
+  	var form = $("#type_"+type_id);
+  
+  	/* Grab the ticket quantity, then check each instance in turn for everything needed. */
+  	var quantity = $('#quantity_'+type_id).val();
+  
+  	var fail = false;
+  
+  	for(var i=0;i<quantity;i++) {
+  
+  		var dom = $('#options-'+type_id+' .option-set').eq( i );
+  		var index = dom.data('index');
+  
+  		for(var n=1;n<=5;n++) {
+  			if (form.data('req-custom'+n)=='yes') {
+  				var mode = form.data('custom-mode'+n);
+  
+  				if (mode == 0 || mode == 4) {
+  					var dom = $('#custom'+type_id+'_'+index+'-'+n);
+  					var value = dom.val();
+  					if (!value) {
+  						fail = true;
+  						dom.closest('.field-unit').addClass('missing');
+  					} else {
+  						dom.closest('.field-unit').removeClass('missing');
+  					}
+  				} else if (mode == 1) {
+  					var value = $('#custom'+type_id+'_'+index+'-'+n+':checked').val();
+  					if (value!='Yes') {
+  						fail = true;
+  						//$(this).closest('.field-unit').addClass('missing');
+  					} else {
+  						//$(this).closest('.field-unit').removeClass('missing');
+  					}
+  				} else if (mode == 2) {
+  					// ?
+  				} else if (mode == 3) {
+  					// ?
+  				}
+  			}
+  		}
+  
+  		if (form.data('req-boat')=='yes') {
+  			var dom = $('#boat_'+type_id+'_'+index+' option:selected');
+  			var value = dom.val();
+  			if (!value) {
+  				fail = true;
+  				dom.closest('.field-unit').addClass('missing');
+  			} else {
+  				dom.closest('.field-unit').removeClass('missing');
+  			}
+  
+  			if (value=='add') {
+  				$('#add_boat_'+type_id+'_'+index+' .optional-requirement').each( function(){
+  
+  					var is_design = $(this).hasClass( 'design_id' );
+  
+  					var sub_value = $(this).val();
+  					if (!sub_value) {
+  
+  						if (is_design) {
+  							/* Special case */
+  							var design_name = $('#new_boats_'+type_id+'_'+index+'_design_name').val()+'';
+  							alert( design_name );
+  							if (design_name.length==0) {
+  								fail = true;
+  								$(this).closest('.field-unit').addClass('missing');
+  							}
+  						} else {
+  							fail = true;
+  							$(this).closest('.field-unit').addClass('missing');
+  						}
+  					} else {
+  						$(this).closest('.field-unit').removeClass('missing');
+  					}
+  				})
+  			}
+  
+  		}
+  
+  		/* Fixed requirements. */
+  		$('.fixed-requirement').each( function(){
+  			var dom = $(this).closest('.field-unit');
+  			if ($(this).val()) {
+  				dom.removeClass('missing');
+  			} else {
+  				fail = true;
+  				dom.addClass('missing');
+  			}
+  		});
+  
+  		if (form.data('req-contact')=='yes') {
+  			var dom = $('#contacts-'+type_id+'-'+index);
+  			var value = dom.val();
+  			if (value=='add') {
+  				// Should not be possible
+  			} else if (value > 0) {
+  				// Ok, chosen existing
+  				dom.closest('.field-unit').removeClass('missing');
+  			} else {
+  				// Fail
+  				fail = true;
+  				dom.closest('.field-unit').addClass('missing');
+  			}
+  		}
+  
+  		if (form.data('req-crew')=='yes') {
+  			var dom = $('#boat-contacts-'+type_id+'-'+index);
+  			var value = dom.val();
+  			if (value=='add') {
+  				dom.closest('.field-unit').removeClass('missing');
+  				// Adding a new contact
+  				$('#new-boat-contact-'+type_id+'-'+index+' .optional-requirement').each( function(){
+  					var sub_value = $(this).val();
+  					if (!sub_value) {
+  						fail = true;
+  						$(this).closest('.field-unit').addClass('missing');
+  					} else {
+  						$(this).closest('.field-unit').removeClass('missing');
+  					}
+  				})
+  
+  			} else if (value > 0) {
+  				// Ok, chosen existing
+  				dom.closest('.field-unit').removeClass('missing');
+  			} else {
+  				// Fail
+  				fail = true;
+  				dom.closest('.field-unit').addClass('missing');
+  			}
+  
+  		}
+  
+  		if (form.data('req-klass')=='yes') {
+  			var dom = $('#boat-information-'+type_id+'-'+index+' .fleet-control');
+  			var value = $('select',dom).val();
+  			if (value > 0) {
+  				// Ok
+  				dom.closest('.field-unit').removeClass('missing');
+  			} else {
+  				// Missing
+  				fail = true;
+  				dom.closest('.field-unit').addClass('missing');
+  			}
+  		}
+  
+  	}
+  
+  	if (form.data('req-ice')=='yes') {
+  		$('#instant'+type_id+' .ice-data .optional-requirement').each( function(){
+  			var sub_value = $(this).val();
+  			if (!sub_value) {
+  				fail = true;
+  				$(this).closest('.field-unit').addClass('missing');
+  			} else {
+  				$(this).closest('.field-unit').removeClass('missing');
+  			}
+  		})
+  	}
+  
+  	if (fail) {
+  		if (!do_not_alert)
+  			alert( 'Please fill in all required fields.' );
+  		return false
+  	} else {
+  		form.find(':submit,a.submit').prop('disabled','disabled');
+  		return true;
+  	}
+  }
+  
+  function check_booking_form() {
+  
+  	if ($('.chooser:checked').length==0) {
+  		alert( 'You have not chosen any ticket types.');
+  		return false;
+  	}
+  
+  	var fail = false
+  	$('.chooser:checked').each( function(index,element) {
+  		var type_id = $(element).data('id');
+  		if (!check_this_form( type_id, true ))
+  			fail = true
+  	} )
+  
+  	if (fail) {
+  		alert( 'Please fill in all required fields.' );
+  		return false
+  	} else {
+  		return true;
+  	}
+  }
+</script>
+
+</div>
+</div>
+</div>
+</div>
+<div style='clear:both;'></div>
+</div>
+</div>
+
+
+
+
+<div id='footer'>
+<div class='inner'>
+<table>
+<tr>
+<td class='cols3'>
+<h2>Safety and Policies</h2>
+<script>
+  function descendant_selector( path ) { return $('li[data-path^='+path+']').not('li[data-path='+path+']') }
+  function child_selector( path ) { var depth = $('li[data-path='+path+']').data('depth'); return $('li[data-path^='+path+'].depth'+(depth+1)).not('li[data-path='+path+']') }
+  
+  function toggle_descendants( path ) { descendant_selector( path ).toggle() }
+  function toggle_children( path ) { child_selector( path ).toggle() }
+  
+  function hide_descendants( path ) { descendant_selector( path ).hide() }
+  function hide_children( path ) { child_selector( path ).hide() }
+  
+  function show_descendants( path ) { descendant_selector( path ).show() }
+  function show_children( path ) { child_selector( path ).show() }
+  
+  function handle_toggle_click( path ) {
+  	// (if) any children visible (then) hide all descendents (else) show children
+  	if (child_selector( path ).filter(':visible').length) {
+  		hide_descendants( path );
+  	} else {
+  		hide_descendants( path );
+  		show_children( path );
+  	}
+  }
+  
+  function string_chop( str, size ) {
+  	if (str == null) return [];
+  	str = String(str);
+  	size = ~~size;
+  	return size > 0 ? str.match(new RegExp('.{1,' + size + '}', 'g')) : [str];
+  }
+  
+  function expose_menu_item( path, fragment_size ) {
+  	// Show parents and siblings of the given path
+  	var parts = string_chop( path, fragment_size );
+  	var partial = ''
+  
+  	for (var i=0;i<parts.length;i++) {
+  		partial += parts[i];
+  		$('li[data-path='+partial+']').show();
+  		show_children( partial );
+  	}
+  }
+</script>
+<ul class='menu'>
+<li class='  depth0    ' data-depth='0' data-path='0001'>
+<a rel="noopener noreferrer" href="/policies/myc-club-rules">MYC Club Rules</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='0002'>
+<a rel="noopener noreferrer" href="/policies/gdpr-policy">GDPR Policy</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='0003'>
+<a rel="noopener noreferrer" href="/policies/dbs-policy">DBS Policy</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='0004'>
+<a rel="noopener noreferrer" href="/policies/risk-assessment-">Risk Assessment </a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='0005'>
+<a rel="noopener noreferrer" href="/policies/safety-and-operations">Safety and Operations</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='0006'>
+<a rel="noopener noreferrer" href="/policies/safeguarding-policy">Safeguarding Policy</a>
+</li>
+</ul>
+
+</td>
+<td class='cols3'>
+<h2>Site</h2>
+<script>
+  function descendant_selector( path ) { return $('li[data-path^='+path+']').not('li[data-path='+path+']') }
+  function child_selector( path ) { var depth = $('li[data-path='+path+']').data('depth'); return $('li[data-path^='+path+'].depth'+(depth+1)).not('li[data-path='+path+']') }
+  
+  function toggle_descendants( path ) { descendant_selector( path ).toggle() }
+  function toggle_children( path ) { child_selector( path ).toggle() }
+  
+  function hide_descendants( path ) { descendant_selector( path ).hide() }
+  function hide_children( path ) { child_selector( path ).hide() }
+  
+  function show_descendants( path ) { descendant_selector( path ).show() }
+  function show_children( path ) { child_selector( path ).show() }
+  
+  function handle_toggle_click( path ) {
+  	// (if) any children visible (then) hide all descendents (else) show children
+  	if (child_selector( path ).filter(':visible').length) {
+  		hide_descendants( path );
+  	} else {
+  		hide_descendants( path );
+  		show_children( path );
+  	}
+  }
+  
+  function string_chop( str, size ) {
+  	if (str == null) return [];
+  	str = String(str);
+  	size = ~~size;
+  	return size > 0 ? str.match(new RegExp('.{1,' + size + '}', 'g')) : [str];
+  }
+  
+  function expose_menu_item( path, fragment_size ) {
+  	// Show parents and siblings of the given path
+  	var parts = string_chop( path, fragment_size );
+  	var partial = ''
+  
+  	for (var i=0;i<parts.length;i++) {
+  		partial += parts[i];
+  		$('li[data-path='+partial+']').show();
+  		show_children( partial );
+  	}
+  }
+</script>
+<ul class='menu'>
+<li class='  depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/">Home</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-index='4'>
+<a href="#" onclick="toggle_menu( 4 ); return false;">Safety and Policies</a>
+</li>
+<li class='  depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/links">Open Meetings</a>
+</li>
+<li class='  depth0 on   ' data-depth='0'>
+<a rel="noopener noreferrer" href="/events">Calendar</a>
+</li>
+<li class='  depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/news">News</a>
+</li>
+<li class='  depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/results">Results</a>
+</li>
+<li class='  depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/booking">Book online</a>
+</li>
+<li class='  depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/contact">Contact</a>
+</li>
+</ul>
+
+</td>
+<td class='cols3'>
+<h2>Contact details</h2>
+<p>14 Fort Hill<br />Margate<br />Kent<br />CT91HE<br />England</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+
+
+<div id='base'>
+<div class='inner'>
+<span id='base-credit'>&copy; 2026 Margate Yacht Club</span>
+<span id='base-right'>powered by <a target="_blank" rel="noopener noreferrer" href="http://www.sailingclubmanager.com">Sailing Club Manager</a></span>
+</div>
+</div>
+
+
+</body>
+</html>

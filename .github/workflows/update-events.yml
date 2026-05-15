@@ -2,14 +2,14 @@ name: Update MYC Events
 
 on:
   schedule:
-    - cron: '0 6 * * 3'   # Every Wednesday at 06:00 UTC (before the weekly message goes out)
-  workflow_dispatch:        # Allow manual runs
+    - cron: '15 5 * * *'   # Daily at 05:15 UTC
+  workflow_dispatch:
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
     permissions:
-      contents: write       # Needed to commit data/events.json back to repo
+      contents: write
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -24,16 +24,16 @@ jobs:
       - name: Install dependencies
         run: pip install -r scraper/requirements.txt
 
-      - name: Scrape MYC events
+      - name: Scrape MYC events & duties
         env:
           MYC_USERNAME: ${{ secrets.MYC_USERNAME }}
           MYC_PASSWORD: ${{ secrets.MYC_PASSWORD }}
         run: python scraper/scrape_myc.py
 
-      - name: Commit updated events data
+      - name: Commit updated data
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/events.json
+          git add data/events.json data/duties.json
           git diff --cached --quiet || git commit -m "chore: update events data [skip ci]"
           git push

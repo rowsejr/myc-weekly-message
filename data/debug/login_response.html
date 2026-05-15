@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src='/cms-packages/jquery/1.8.3/jquery-min.js' type='text/javascript'></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="/compiled-assets/autocomplete-rails-5d8d93a5f6e19ab6e682b9dd9999592b61ff3c3d69ea242a830a8556158001fa.js"></script>
+<script src="/javascripts/frontend/site.js"></script>
+<link rel="stylesheet" media="screen" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css" />
+<script src='/cms-packages/jquery-match-height/0.6.0/jquery-match-height.js' type='text/javascript'></script>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Evh9g8JqGVTRWe0KbMMQHJ4VJBoKSrMft/2CayC0rvTpQCFJQnliFunmvRiworuaxxFnODC/+QbOkeEGxOy5FQ==" />
+
+<link rel="stylesheet" media="screen" href="/ui.css?cache=2026-05-15T09:10:38+00:00" />
+<script>
+  $(function(){
+  	$('.working-on-click').click(function(){
+  		$(this).val('Working...');
+  		return true;
+  	});
+  })
+</script>
+<link href='//fonts.googleapis.com/css?family=Quattrocento+Sans:400,700' rel='stylesheet'>
+<link href='/generated-stylesheets/1372-310120261629.css' rel='stylesheet'>
+<meta content='width=device-width,initial-scale=1.0' name='viewport'>
+
+
+<title>Margate Yacht Club</title>
+<script>
+  $(function(){
+  	$('.once-only').submit(function(){
+  		$(this).find(':submit,a.submit').prop('disabled','disabled');
+  	});
+  })
+</script>
+</head>
+<body class='action-portal '>
+
+
+
+
+<div id='topper'>
+<div class='inner'>
+<form action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+&nbsp;
+<span id='top-social'>
+
+
+
+
+<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCNObPoG97BWPxJhxvusX5hQ/featured"><img width="18" height="18" src="/images/site/top-white-youtube2xnew.svg" alt="Top white youtube2xnew" /></a>
+<a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/margateyachtclub/"><img width="18" height="18" src="/images/site/top-white-instagram2xnew.svg" alt="Top white instagram2xnew" /></a>
+
+</span>
+<span id='top-email'>
+<a href="/cdn-cgi/l/email-protection#a8c1c6cec7e8c5c9dacfc9dccdd1c9cbc0dccbc4ddca86cbc786ddc3"><img width="24" height="18" src="/images/site/top-white-email2xnew.svg" alt="Top white email2xnew" /></a>
+<span class='not-mobile'><a href="/cdn-cgi/l/email-protection#cba2a5ada48ba6aab9acaabfaeb2aaa8a3bfa8a7bea9e5a8a4e5bea0">Email us</a></span>
+</span>
+<span id='top-search'>
+<a href='#' onclick='toggle_search()'><img width="12" height="18" src="/images/site/top-white-search2xnew.svg" alt="Top white search2xnew" /></a>
+<input type="text" name="q" id="q" value="" placeholder="search..." style="display:none" />
+</span>
+<span id='top-right'>
+
+<a href="/my-cart">Basket</a>
+<a class="not-mobile" href="/schedule">Schedule</a>
+<a class="not-mobile" href="/messages">Messages</a>
+<a href="#" onclick="$(&#39;#top-right-dropdown&#39;).toggle();; return false;"><span class="not-mobile">James Rowse ▾</span><span class="only-mobile">J.R. ▾</span></a>
+</span>
+<span class='bkg0f1558' id='top-right-dropdown' style='display:none;'>
+<div><a href="/portal?uix_click=uid_booking">Bookings &amp; Logbook</a></div>
+<div><a href="/portal?uix_click=uid_volunteer">Volunteering</a></div>
+<div><a href="/portal?uix_click=uid_finder">Crew-Finder</a></div>
+<div><a href="/portal?uix_click=uid_profile">Profile &amp; Membership</a></div>
+<div><a href="/portal?uix_click=uid_payment">Payments &amp; Account</a></div>
+<div><a href="/portal?uix_click=uid_club">Club Directory</a></div>
+<div><a href="/portal?uix_click=uid_comms">Communication</a></div>
+<div><a href="/portal">Portal</a></div>
+<div><a href="/do_logout">Logout</a></div>
+</span>
+<style>
+  #top-right-dropdown { position:absolute; right:0; top:calc(3px + 1em + 22px); background:#0F1558; border-bottom-left-radius:0.5em; border-bottom-right-radius:0.5em; z-index:1000; }
+  #top-right-dropdown a { display:block; padding:7px 22px; color:FFFFFF; }
+  #top-right-dropdown a:hover { text-decoration:none; background:rgba(255,255,255,0.8); }
+  #top-right-dropdown div:last-child a { border-top:1px solid rgba(255,255,255,0.8); border-bottom-left-radius:0.5em; border-bottom-right-radius:0.5em; }
+  #topper .inner { position:relative; }
+  #top-right-dropdown.bkgffffff { border:1px solid #CCC; border-top-style:none; }
+</style>
+</form>
+
+</div>
+</div>
+
+<div id='header'>
+<div class='inner'>
+<a class="not-mobile" href="/"><img id="primary-logo" src="https://boxstuff-development-thumbnails.s3.amazonaws.com/995243_orig.jpeg" alt="995243 orig" /></a>
+<a class="only-mobile" href="/portal"><img id="primary-logo" src="https://boxstuff-development-thumbnails.s3.amazonaws.com/995243_orig.jpeg" alt="995243 orig" /></a>
+
+</div>
+</div>
+
+<div id='grouping'>
+<div class='itop_pop' id='navigation'>
+<div class='inner'><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+  function descendant_selector( path ) { return $('li[data-path^='+path+']').not('li[data-path='+path+']') }
+  function child_selector( path ) { var depth = $('li[data-path='+path+']').data('depth'); return $('li[data-path^='+path+'].depth'+(depth+1)).not('li[data-path='+path+']') }
+  
+  function toggle_descendants( path ) { descendant_selector( path ).toggle() }
+  function toggle_children( path ) { child_selector( path ).toggle() }
+  
+  function hide_descendants( path ) { descendant_selector( path ).hide() }
+  function hide_children( path ) { child_selector( path ).hide() }
+  
+  function show_descendants( path ) { descendant_selector( path ).show() }
+  function show_children( path ) { child_selector( path ).show() }
+  
+  function handle_toggle_click( path ) {
+  	// (if) any children visible (then) hide all descendents (else) show children
+  	if (child_selector( path ).filter(':visible').length) {
+  		hide_descendants( path );
+  	} else {
+  		hide_descendants( path );
+  		show_children( path );
+  	}
+  }
+  
+  function string_chop( str, size ) {
+  	if (str == null) return [];
+  	str = String(str);
+  	size = ~~size;
+  	return size > 0 ? str.match(new RegExp('.{1,' + size + '}', 'g')) : [str];
+  }
+  
+  function expose_menu_item( path, fragment_size ) {
+  	// Show parents and siblings of the given path
+  	var parts = string_chop( path, fragment_size );
+  	var partial = ''
+  
+  	for (var i=0;i<parts.length;i++) {
+  		partial += parts[i];
+  		$('li[data-path='+partial+']').show();
+  		show_children( partial );
+  	}
+  }
+</script>
+<ul class='menu with-burger'>
+<li class='burger'><a href="#" onclick="toggle_burger(); return false;">&#9776; Menu</a></li>
+<li class='only-mobile non-burger depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/portal">Portal</a>
+</li>
+<li class=' non-burger depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/">Home</a>
+</li>
+<li class=' non-burger depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/links">Open Meetings</a>
+</li>
+<li class=' non-burger depth0    popdown' data-depth='0' data-index='1'>
+<a href="#" onclick="toggle_menu( 1 ); return false;">About MYC</a>
+<div class='popup-menu' id='menu1' style='display:none;min-width:154px;'><script>
+  function descendant_selector( path ) { return $('li[data-path^='+path+']').not('li[data-path='+path+']') }
+  function child_selector( path ) { var depth = $('li[data-path='+path+']').data('depth'); return $('li[data-path^='+path+'].depth'+(depth+1)).not('li[data-path='+path+']') }
+  
+  function toggle_descendants( path ) { descendant_selector( path ).toggle() }
+  function toggle_children( path ) { child_selector( path ).toggle() }
+  
+  function hide_descendants( path ) { descendant_selector( path ).hide() }
+  function hide_children( path ) { child_selector( path ).hide() }
+  
+  function show_descendants( path ) { descendant_selector( path ).show() }
+  function show_children( path ) { child_selector( path ).show() }
+  
+  function handle_toggle_click( path ) {
+  	// (if) any children visible (then) hide all descendents (else) show children
+  	if (child_selector( path ).filter(':visible').length) {
+  		hide_descendants( path );
+  	} else {
+  		hide_descendants( path );
+  		show_children( path );
+  	}
+  }
+  
+  function string_chop( str, size ) {
+  	if (str == null) return [];
+  	str = String(str);
+  	size = ~~size;
+  	return size > 0 ? str.match(new RegExp('.{1,' + size + '}', 'g')) : [str];
+  }
+  
+  function expose_menu_item( path, fragment_size ) {
+  	// Show parents and siblings of the given path
+  	var parts = string_chop( path, fragment_size );
+  	var partial = ''
+  
+  	for (var i=0;i<parts.length;i++) {
+  		partial += parts[i];
+  		$('li[data-path='+partial+']').show();
+  		show_children( partial );
+  	}
+  }
+</script>
+<ul class='menu'>
+<li class='  depth0    ' data-depth='0' data-path='0708'>
+<a rel="noopener noreferrer" href="/about-myc/committee">Committee</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='0709'>
+<a rel="noopener noreferrer" href="/about-myc/history-of-myc">History of MYC</a>
+</li>
+</ul>
+</div>
+</li>
+<li class=' non-burger depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/events">Calendar</a>
+</li>
+<li class=' non-burger depth0    popdown' data-depth='0' data-index='3'>
+<a href="#" onclick="toggle_menu( 3 ); return false;">Membership Info</a>
+<div class='popup-menu' id='menu3' style='display:none;min-width:275px;'><script>
+  function descendant_selector( path ) { return $('li[data-path^='+path+']').not('li[data-path='+path+']') }
+  function child_selector( path ) { var depth = $('li[data-path='+path+']').data('depth'); return $('li[data-path^='+path+'].depth'+(depth+1)).not('li[data-path='+path+']') }
+  
+  function toggle_descendants( path ) { descendant_selector( path ).toggle() }
+  function toggle_children( path ) { child_selector( path ).toggle() }
+  
+  function hide_descendants( path ) { descendant_selector( path ).hide() }
+  function hide_children( path ) { child_selector( path ).hide() }
+  
+  function show_descendants( path ) { descendant_selector( path ).show() }
+  function show_children( path ) { child_selector( path ).show() }
+  
+  function handle_toggle_click( path ) {
+  	// (if) any children visible (then) hide all descendents (else) show children
+  	if (child_selector( path ).filter(':visible').length) {
+  		hide_descendants( path );
+  	} else {
+  		hide_descendants( path );
+  		show_children( path );
+  	}
+  }
+  
+  function string_chop( str, size ) {
+  	if (str == null) return [];
+  	str = String(str);
+  	size = ~~size;
+  	return size > 0 ? str.match(new RegExp('.{1,' + size + '}', 'g')) : [str];
+  }
+  
+  function expose_menu_item( path, fragment_size ) {
+  	// Show parents and siblings of the given path
+  	var parts = string_chop( path, fragment_size );
+  	var partial = ''
+  
+  	for (var i=0;i<parts.length;i++) {
+  		partial += parts[i];
+  		$('li[data-path='+partial+']').show();
+  		show_children( partial );
+  	}
+  }
+</script>
+<ul class='menu'>
+<li class='  depth0    ' data-depth='0' data-path='1618'>
+<a rel="noopener noreferrer" href="/membership-info/meeting-minutes">Meeting Minutes</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='1619'>
+<a rel="noopener noreferrer" href="/membership-info/membership-pricing-1">Membership Info</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='1620'>
+<a rel="noopener noreferrer" href="/membership-info/membership-types">Membership Types</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='1621'>
+<a rel="noopener noreferrer" href="/membership-info/becoming-a-member">Becoming a Member</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='1622'>
+<a rel="noopener noreferrer" href="/membership-info/sailing-instructions-2022">Sailing Instructions 2026</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='1623'>
+<a rel="noopener noreferrer" href="/membership-info/myc-welcome-pack-2024">MYC Welcome Pack 2026</a>
+</li>
+</ul>
+</div>
+</li>
+<li class=' non-burger depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/news">News</a>
+</li>
+<li class=' non-burger depth0    popdown' data-depth='0' data-index='2'>
+<a href="#" onclick="toggle_menu( 2 ); return false;">Training</a>
+<div class='popup-menu' id='menu2' style='display:none;min-width:242px;'><script>
+  function descendant_selector( path ) { return $('li[data-path^='+path+']').not('li[data-path='+path+']') }
+  function child_selector( path ) { var depth = $('li[data-path='+path+']').data('depth'); return $('li[data-path^='+path+'].depth'+(depth+1)).not('li[data-path='+path+']') }
+  
+  function toggle_descendants( path ) { descendant_selector( path ).toggle() }
+  function toggle_children( path ) { child_selector( path ).toggle() }
+  
+  function hide_descendants( path ) { descendant_selector( path ).hide() }
+  function hide_children( path ) { child_selector( path ).hide() }
+  
+  function show_descendants( path ) { descendant_selector( path ).show() }
+  function show_children( path ) { child_selector( path ).show() }
+  
+  function handle_toggle_click( path ) {
+  	// (if) any children visible (then) hide all descendents (else) show children
+  	if (child_selector( path ).filter(':visible').length) {
+  		hide_descendants( path );
+  	} else {
+  		hide_descendants( path );
+  		show_children( path );
+  	}
+  }
+  
+  function string_chop( str, size ) {
+  	if (str == null) return [];
+  	str = String(str);
+  	size = ~~size;
+  	return size > 0 ? str.match(new RegExp('.{1,' + size + '}', 'g')) : [str];
+  }
+  
+  function expose_menu_item( path, fragment_size ) {
+  	// Show parents and siblings of the given path
+  	var parts = string_chop( path, fragment_size );
+  	var partial = ''
+  
+  	for (var i=0;i<parts.length;i++) {
+  		partial += parts[i];
+  		$('li[data-path='+partial+']').show();
+  		show_children( partial );
+  	}
+  }
+</script>
+<ul class='menu'>
+<li class='  depth0    ' data-depth='0' data-path='1112'>
+<a rel="noopener noreferrer" href="/rya-training/about-training">About Training</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='1113'>
+<a rel="noopener noreferrer" href="/rya-training/rya-dinghy-level-1-2">RYA Dinghy Level 1 &amp; 2</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='1114'>
+<a rel="noopener noreferrer" href="/rya-training/rya-powerboat-level-2">RYA Powerboat Level 2</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='1115'>
+<a rel="noopener noreferrer" href="/rya-training/rya-safety-boat">MYC Safety Boat</a>
+</li>
+</ul>
+</div>
+</li>
+<li class=' non-burger depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/results">Results</a>
+</li>
+<li class=' non-burger depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/booking">Book online</a>
+</li>
+<li class=' non-burger depth0    popdown' data-depth='0' data-index='0'>
+<a href="#" onclick="toggle_menu( 0 ); return false;">Contact</a>
+<div class='popup-menu' id='menu0' style='display:none;min-width:143px;'><script>
+  function descendant_selector( path ) { return $('li[data-path^='+path+']').not('li[data-path='+path+']') }
+  function child_selector( path ) { var depth = $('li[data-path='+path+']').data('depth'); return $('li[data-path^='+path+'].depth'+(depth+1)).not('li[data-path='+path+']') }
+  
+  function toggle_descendants( path ) { descendant_selector( path ).toggle() }
+  function toggle_children( path ) { child_selector( path ).toggle() }
+  
+  function hide_descendants( path ) { descendant_selector( path ).hide() }
+  function hide_children( path ) { child_selector( path ).hide() }
+  
+  function show_descendants( path ) { descendant_selector( path ).show() }
+  function show_children( path ) { child_selector( path ).show() }
+  
+  function handle_toggle_click( path ) {
+  	// (if) any children visible (then) hide all descendents (else) show children
+  	if (child_selector( path ).filter(':visible').length) {
+  		hide_descendants( path );
+  	} else {
+  		hide_descendants( path );
+  		show_children( path );
+  	}
+  }
+  
+  function string_chop( str, size ) {
+  	if (str == null) return [];
+  	str = String(str);
+  	size = ~~size;
+  	return size > 0 ? str.match(new RegExp('.{1,' + size + '}', 'g')) : [str];
+  }
+  
+  function expose_menu_item( path, fragment_size ) {
+  	// Show parents and siblings of the given path
+  	var parts = string_chop( path, fragment_size );
+  	var partial = ''
+  
+  	for (var i=0;i<parts.length;i++) {
+  		partial += parts[i];
+  		$('li[data-path='+partial+']').show();
+  		show_children( partial );
+  	}
+  }
+</script>
+<ul class='menu'>
+<li class='  depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/contact">Contact</a>
+</li>
+<li class='  depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/officers/sailing">Sailing</a>
+</li>
+<li class='  depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/officers/myc-committee">MYC Committee</a>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<script>
+  function toggle_burger() {
+  	$('.non-burger').toggleClass( 'show' );
+  }
+</script>
+<style>
+  .count {
+  	float:right;
+  	display:inline-block;
+  	background:#888;
+  	color:white;
+  	font-size:10px;
+  	padding:0 3px;
+  	border-radius:2px;
+  	position:relative;
+  	top:2px;
+  }
+</style>
+</div>
+
+
+<div class='  ' id='page'>
+<div class='inner'>
+
+
+
+<div id='primary'>
+
+
+
+
+
+<div class='ui-alert ui-space' id='success'><p>You are now logged in</p></div>
+<script>
+  $(function(){ setTimeout( function () { $('#success').slideUp(); }, 2000 ); })
+</script>
+<style>
+  #problems a { color:white; font-weight:bold; }
+</style>
+
+<div class='ui-layout-fixed-auto' id='ui-object-layout'>
+<div>
+<div class='xheader ui-alert ui-clean' id='ui-object-photo'>
+<div class='dtop_mright'>
+<a href="/profile"><img src='https://boxstuff-development-thumbnails.s3.amazonaws.com/1794879_140x140f.jfif'>
+</a></div>
+<div class='dbottom_mleft'>
+<p class='x-name'>James Rowse</p>
+<p class='x-type'></p>
+<p class='x-status'>Member since 1 Jan 2022</p>
+</div>
+</div>
+<style>
+  .xheader { display:grid; grid-template-columns: 1fr; margin-bottom:1em; }
+  .xheader.ui-hidden { display:none; }
+  .xheader .dtop_mright { grid-column: 1 / 2; grid-row: 1 / 2; }
+  .xheader .dbottom_mleft { grid-column: 1 / 2; grid-row: 2 / 3; }
+  @media screen and (max-width:600px) {
+  	.xheader { grid-template-columns: repeat(3, 1fr); }
+  	.xheader .dtop_mright { grid-column: 3 / 4; grid-row: 1 / 2; text-align:right; }
+  	.xheader .dbottom_mleft { grid-column: 1 / 3; grid-row: 1 / 2; text-align:left; }
+  }
+  
+  .xheader .dbottom_mleft { text-align:center; }
+  .dbottom_mleft p.x-name { color:black;font-size:22px;font-weight:bold; margin-top:1em; }
+  .dbottom_mleft p.x-type { font-size:14px;color:#666; margin:0.75em 0; }
+  .dbottom_mleft p.x-status { font-size:12px;color:#888; }
+  .dbottom_mleft p.x-checkin { margin-top:0.5em; }
+  .dbottom_mleft .ui-button { display:inline-block;margin-top:0.5em; }
+  
+  .dtop_mright { text-align:center; }
+  .dtop_mright a { color:#888;text-decoration:none; }
+  .dtop_mright img { clip-path:circle(); }
+  .dtop_mright span { margin:0 auto;display:flex;justify-content:center;align-items:center;width:140px;height:140px;background:#BBB;clip-path:circle();color:#888;text-decoration:none;font-weight:bold;text-align:center; }
+  
+  @media screen and (max-width:600px) {
+  	.dbottom_mleft p.x-name { margin-top:0; }
+  	.xheader .dbottom_mleft { text-align:left; }
+  	.dtop_mright img { width:105px; height:105px; }
+  	.dtop_mright span { width:105px; height:105px; margin: 0 0 0 auto; }
+  }
+</style>
+</div>
+<div id='ui-object-page'>
+
+<ul class="ui-menu" id="ui-menu1" style="display:none;"><li><a href="" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="34" id=""><span class="arrow"></span> Portal...</a></li><li><a href="/profile" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My profile</a></li><li><a href="/password" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My login details</a></li><li><a href="/my_boats" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My boats &amp; berths</a></li><li><a href="/qualifications" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My qualifications</a></li><li><a href="/membership" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My membership</a></li><li><a href="/renew" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My renewals</a></li><li><a href="/my-information" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My data</a></li></ul>
+<ul class="ui-menu" id="ui-menu9" style="display:none;"><li><a href="" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="34" id=""><span class="arrow"></span> Portal...</a></li><li><a href="/orders" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My orders</a></li><li><a href="/invoices" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My invoices</a></li><li><a href="/statement" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My statement of account</a></li></ul>
+<ul class="ui-menu" id="ui-menu13" style="display:none;"><li><a href="" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="34" id=""><span class="arrow"></span> Portal...</a></li><li><a href="/schedule" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">Schedule</a></li><li><a href="/bookings" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My bookings & allocations</a></li><li><a href="/booking" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">Book event &nearr;</a></li><li><a href="/my-crew" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My crew</a></li></ul>
+<ul class="ui-menu" id="ui-menu18" style="display:none;"><li><a href="" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="34" id=""><span class="arrow"></span> Portal...</a></li><li><a href="/members-directory" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">Member Directory</a></li><li><a href="/boats-directory" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">Boat Directory</a></li><li><a href="/trophies" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">Trophy Cabinet</a></li></ul>
+<ul class="ui-menu" id="ui-menu22" style="display:none;"><li><a href="" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="34" id=""><span class="arrow"></span> Portal...</a></li><li><a href="/roster" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">Duty roster</a></li><li><a href="/duties" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My duties</a></li><li><a href="/swaps" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">Duty swaps</a></li><li><a href="/tasks" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">Tasks</a></li></ul>
+<ul class="ui-menu" id="ui-menu27" style="display:none;"><li><a href="" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="34" id=""><span class="arrow"></span> Portal...</a></li><li><a href="/crews" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">My availability</a></li><li><a href="/portal-crew-finder" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">Crew available</a></li><li><a href="/portal-boat-finder" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">Crew wanted</a></li></ul>
+<ul class="ui-menu" id="ui-menu31" style="display:none;"><li><a href="" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="34" id=""><span class="arrow"></span> Portal...</a></li><li><a href="/messages" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">Messages</a></li><li><a href="/mailings" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="" id="">Mailings &amp; Lists</a></li></ul>
+<ul class="ui-menu" id="ui-menu34" style=""><li><a href="/schedule" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="13" id="uid_booking">Bookings & Logbook...</a></li><li><a href="/roster" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="22" id="uid_volunteer">Volunteering...</a></li><li><a href="/crews" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="27" id="uid_finder">Crew-Finder...</a></li><li><a href="/profile" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="1" id="uid_profile">Profile & Membership...</a></li><li><a href="/orders" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="9" id="uid_payment">Payments & Account...</a></li><li><a href="/members-directory" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="18" id="uid_club">Club Directory...</a></li><li><a href="/messages" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal" data-home="" data-menu="31" id="uid_comms">Communication...</a></li></ul>
+<ul class="ui-menu" id="ui-menu42" style="display:none;"><li><a href="" onclick="return uix_click(this);" class="ui-button ui-wide ui-left ui-space-small-below ui-x-portal ui-on" data-home="" data-menu="" id=""><span class="arrow"></span> Portal</a></li></ul>
+            <script>
+            function uix_mobile() { return true; /*window.matchMedia("(width<=800px)").matches;*/ }
+            function uix_menu_switch( id, do_not_hide ) { $('.ui-menu').hide(); $('#ui-menu'+id).show().removeClass('ui-hidden'); if (!do_not_hide) { $('#ui-object-page-content').hide(); } }
+            function uix_click( dom ) {
+                var a = $(dom);
+                var href = dom.getAttribute("href");
+                var menu = a.data('menu');
+                if (a.data('home') && uix_mobile()) {
+                    uix_home();
+                    return false;
+                }
+                if ((!href || uix_mobile()) && menu) {
+                    uix_menu_switch( menu );
+                    $('#ui-object-photo').removeClass( 'ui-hidden' ); //show();
+                    $('#ui-object-layout').removeClass('ui-stack');
+                    return false;
+                }
+                return true;
+            }
+            function uix_home() {
+                if (window.location.pathname!='/portal') {
+                    window.location = '/portal-home';
+                } else {
+                    uix_menu_switch( 42 );
+                    $('#ui-object-page-content').removeClass( 'ui-hidden' ).show();
+                }
+            }
+            </script>
+            <style>
+            .ui-layout-fixed-auto { display:grid; grid-template-columns:213px 1fr; grid-column-gap:2em; }
+            @media screen and (max-width:600px) {
+            .ui-layout-fixed-auto { display:block; }
+            .ui-layout-fixed-auto li a.ui-right { text-align:left !important; }
+            }
+            .ui-layout-fixed-auto > div:first-child a.ui-on { font-weight:bold; }
+            .ui-layout-fixed-auto.ui-stack { display:block; }
+            /* Funky back arrow https://webspe.net/tools/en/arrow/ */
+            .arrow { position:relative;display:inline-block;width:7.9px;height:12.9px;margin-right:0.5em;top:1px; }
+            .arrow::before, .arrow::after { content:"";position:absolute;top:calc(50% - 1.5px);left:0;width:10px;height:3px;border-radius:9999px;background-color:#0000EE;transform-origin:1.5px 50%; }
+            .arrow::before { transform: rotate(45deg); }
+            .arrow::after { transform: rotate(-45deg); }
+            .ui-on .arrow::before, .ui-on .arrow::after { background-color:#FFFFFF; }
+                        a.ui-button.ui-x-portal { background:#EEEEEE !important; color:#0000EE !important; }
+            a.ui-button.ui-x-portal:hover { background:#DDDDDD !important; }
+            a.ui-button.ui-x-portal.ui-on { background:#008800 !important; color:#FFFFFF !important; }
+            a.ui-button.ui-x-portal.ui-on:hover { background:#008800 !important; }
+
+            </style>
+            <script>
+            $(function(){
+                const urlParams = new URLSearchParams(window.location.search);
+                const myParam = urlParams.get('uix_click');
+                if (myParam) { uix_click( $('#'+myParam)[0] ); }
+            })
+            </script>
+
+<div class='ui-hidden' id='ui-object-page-content'>
+<p>Welcome to the member portal.</p>
+
+</div>
+</div>
+</div>
+<style>
+  #base-paging { text-align:left; }
+  #base-paging a:first-child, #base-paging span:first-child { }
+  #base-paging a:last-child, #base-paging span:last-child { float:right; }
+</style>
+<div id='base-paging'>
+</div>
+</div>
+<div style='clear:both;'></div>
+</div>
+</div>
+
+
+
+
+<div id='footer'>
+<div class='inner'>
+<table>
+<tr>
+<td class='cols3'>
+<h2>Safety and Policies</h2>
+<script>
+  function descendant_selector( path ) { return $('li[data-path^='+path+']').not('li[data-path='+path+']') }
+  function child_selector( path ) { var depth = $('li[data-path='+path+']').data('depth'); return $('li[data-path^='+path+'].depth'+(depth+1)).not('li[data-path='+path+']') }
+  
+  function toggle_descendants( path ) { descendant_selector( path ).toggle() }
+  function toggle_children( path ) { child_selector( path ).toggle() }
+  
+  function hide_descendants( path ) { descendant_selector( path ).hide() }
+  function hide_children( path ) { child_selector( path ).hide() }
+  
+  function show_descendants( path ) { descendant_selector( path ).show() }
+  function show_children( path ) { child_selector( path ).show() }
+  
+  function handle_toggle_click( path ) {
+  	// (if) any children visible (then) hide all descendents (else) show children
+  	if (child_selector( path ).filter(':visible').length) {
+  		hide_descendants( path );
+  	} else {
+  		hide_descendants( path );
+  		show_children( path );
+  	}
+  }
+  
+  function string_chop( str, size ) {
+  	if (str == null) return [];
+  	str = String(str);
+  	size = ~~size;
+  	return size > 0 ? str.match(new RegExp('.{1,' + size + '}', 'g')) : [str];
+  }
+  
+  function expose_menu_item( path, fragment_size ) {
+  	// Show parents and siblings of the given path
+  	var parts = string_chop( path, fragment_size );
+  	var partial = ''
+  
+  	for (var i=0;i<parts.length;i++) {
+  		partial += parts[i];
+  		$('li[data-path='+partial+']').show();
+  		show_children( partial );
+  	}
+  }
+</script>
+<ul class='menu'>
+<li class='  depth0    ' data-depth='0' data-path='0001'>
+<a rel="noopener noreferrer" href="/policies/myc-club-rules">MYC Club Rules</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='0002'>
+<a rel="noopener noreferrer" href="/policies/gdpr-policy">GDPR Policy</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='0003'>
+<a rel="noopener noreferrer" href="/policies/dbs-policy">DBS Policy</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='0004'>
+<a rel="noopener noreferrer" href="/policies/risk-assessment-">Risk Assessment </a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='0005'>
+<a rel="noopener noreferrer" href="/policies/safety-and-operations">Safety and Operations</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-path='0006'>
+<a rel="noopener noreferrer" href="/policies/safeguarding-policy">Safeguarding Policy</a>
+</li>
+</ul>
+
+</td>
+<td class='cols3'>
+<h2>Site</h2>
+<script>
+  function descendant_selector( path ) { return $('li[data-path^='+path+']').not('li[data-path='+path+']') }
+  function child_selector( path ) { var depth = $('li[data-path='+path+']').data('depth'); return $('li[data-path^='+path+'].depth'+(depth+1)).not('li[data-path='+path+']') }
+  
+  function toggle_descendants( path ) { descendant_selector( path ).toggle() }
+  function toggle_children( path ) { child_selector( path ).toggle() }
+  
+  function hide_descendants( path ) { descendant_selector( path ).hide() }
+  function hide_children( path ) { child_selector( path ).hide() }
+  
+  function show_descendants( path ) { descendant_selector( path ).show() }
+  function show_children( path ) { child_selector( path ).show() }
+  
+  function handle_toggle_click( path ) {
+  	// (if) any children visible (then) hide all descendents (else) show children
+  	if (child_selector( path ).filter(':visible').length) {
+  		hide_descendants( path );
+  	} else {
+  		hide_descendants( path );
+  		show_children( path );
+  	}
+  }
+  
+  function string_chop( str, size ) {
+  	if (str == null) return [];
+  	str = String(str);
+  	size = ~~size;
+  	return size > 0 ? str.match(new RegExp('.{1,' + size + '}', 'g')) : [str];
+  }
+  
+  function expose_menu_item( path, fragment_size ) {
+  	// Show parents and siblings of the given path
+  	var parts = string_chop( path, fragment_size );
+  	var partial = ''
+  
+  	for (var i=0;i<parts.length;i++) {
+  		partial += parts[i];
+  		$('li[data-path='+partial+']').show();
+  		show_children( partial );
+  	}
+  }
+</script>
+<ul class='menu'>
+<li class='  depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/">Home</a>
+</li>
+<li class='  depth0    ' data-depth='0' data-index='4'>
+<a href="#" onclick="toggle_menu( 4 ); return false;">Safety and Policies</a>
+</li>
+<li class='  depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/links">Open Meetings</a>
+</li>
+<li class='  depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/events">Calendar</a>
+</li>
+<li class='  depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/news">News</a>
+</li>
+<li class='  depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/results">Results</a>
+</li>
+<li class='  depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/booking">Book online</a>
+</li>
+<li class='  depth0    ' data-depth='0'>
+<a rel="noopener noreferrer" href="/contact">Contact</a>
+</li>
+</ul>
+
+</td>
+<td class='cols3'>
+<h2>Contact details</h2>
+<p>14 Fort Hill<br />Margate<br />Kent<br />CT91HE<br />England</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+
+
+<div id='base'>
+<div class='inner'>
+<span id='base-credit'>&copy; 2026 Margate Yacht Club</span>
+<span id='base-right'>powered by <a target="_blank" rel="noopener noreferrer" href="http://www.sailingclubmanager.com">Sailing Club Manager</a></span>
+</div>
+</div>
+
+
+</body>
+</html>
