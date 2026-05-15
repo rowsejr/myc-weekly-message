@@ -207,6 +207,27 @@ function tideLabel(ds) {
 const LAT = 51.3904, LON = 1.3791;
 let weatherCache = null;
 
+// ─── WEATHER THRESHOLDS (tweak these) ────────────────────────────────────────
+const WEATHER_THRESHOLDS = {
+  // Wind emoji rules
+  // Green: F2–F3 (unless gust escalates)
+  // Amber: sustained F4+ OR (F3 gusting F4+)
+  // Red: gusting F6+
+  wind: {
+    red_gust_bft: 6,
+    amber_sustained_bft: 4,
+    amber_when_sustained_bft: 3,
+    amber_gust_bft: 4,
+  },
+
+  // Condition warnings
+  rain_mmh: { amber: 1, red: 3 },
+  gust_mph: { amber: 24, red: 30 },
+  wave_m: { amber: 1.0, red: 1.5 },
+  fog_proxy: { cloud_pct: 95, wind_mph_lte: 6 },
+  stormy_proxy: { cloud_pct: 90, rain_mmh_gte: 1, gust_mph_gte: 24 },
+};
+
 async function fetchWeather() {
   if (weatherCache) return weatherCache;
   const base   = `https://api.open-meteo.com/v1/forecast?latitude=${LAT}&longitude=${LON}`;
@@ -250,6 +271,104 @@ function dirLabel(deg) {
 function windDesc(mph, dir) {
   const d = dirLabel(dir);
   return `${d ? d + ' ' : ''}${Math.round(mph)}mph`;
+}
+
+function beaufortFromMph(mph) {
+  // Approximate Beaufort number from mph.
+  // https://en.wikipedia.org/wiki/Beaufort_scale (rounded thresholds)
+  if (mph == null || Number.isNaN(mph)) return null;
+  const v = Number(mph);
+  if (v < 1) return 0;
+  if (v < 4) return 1;
+  if (v < 8) return 2;
+  if (v < 13) return 3;
+  if (v < 19) return 4;
+  if (v < 25) return 5;
+  if (v < 32) return 6;
+  if (v < 39) return 7;
+  if (v < 47) return 8;
+  if (v < 55) return 9;
+  if (v < 64) return 10;
+  if (v < 73) return 11;
+  return 12;
+}
+
+function windRiskEmoji(wx) {
+  // Rules requested:
+  // - F2-3 green
+  // - F3 gusting F4 amber
+  // - gusting 6 red
+  // Interpreting: base wind (sustained) uses Beaufort; gust uses Beaufort.
+  const bf = beaufortFromMph(wx?.wind);
+  const g  = beaufortFromMph(wx?.gust);
+  if (bf == null) return '';
+
+  // Red if gust reaches configured Bft
+  if (g != null && g >= WEATHER_THRESHOLDS.wind.red_gust_bft) return '🔴';
+
+  // Amber if sustained >= 4 OR (sustained is 3 and gust >= 4)
+  if (bf >= WEATHER_THRESHOLDS.wind.amber_sustained_bft) return '🟠';
+  if (bf === WEATHER_THRESHOLDS.wind.amber_when_sustained_bft && g != null && g >= WEATHER_THRESHOLDS.wind.amber_gust_bft) return '🟠';
+
+  // Green for F2-3 (and calmer)
+  return '🟢';
+}
+
+function conditionWarnings(wx) {
+  // Heuristics only (Open-Meteo free endpoints don't provide thunder probability here)
+  // Use rain/cloud/wave as proxies for “rain/squall/fog” style warnings.
+  const warns = [];
+  if (!wx) return warns;
+
+  const rain = Number(wx.rain ?? 0);
+  const cloud = Number(wx.cloud ?? 0);
+  const wave = wx.wave == null ? null : Number(wx.wave);
+  const gust = Number(wx.gust ?? 0);
+
+  // Rain warning
+  if (rain >= WEATHER_THRESHOLDS.rain_mmh.red) warns.push({ level: 'red', label: 'Heavy rain', emoji: '🌧️' });
+  else if (rain >= WEATHER_THRESHOLDS.rain_mmh.amber) warns.push({ level: 'amber', label: 'Showers', emoji: '🌦️' });
+
+  // Squall/gustiness warning
+  if (gust >= WEATHER_THRESHOLDS.gust_mph.red) warns.push({ level: 'red', label: 'Squally gusts', emoji: '💥' });
+  else if (gust >= WEATHER_THRESHOLDS.gust_mph.amber) warns.push({ level: 'amber', label: 'Gusty', emoji: '🌬️' });
+
+  // Fog proxy: very high cloud + low wind can indicate poor vis (rough heuristic)
+  if (cloud >= WEATHER_THRESHOLDS.fog_proxy.cloud_pct && (wx.wind ?? 0) <= WEATHER_THRESHOLDS.fog_proxy.wind_mph_lte) {
+    warns.push({ level: 'amber', label: 'Possible fog/low vis', emoji: '🌫️' });
+  }
+
+  // Waves warning (if marine endpoint returned waves)
+  if (wave != null) {
+    if (wave >= WEATHER_THRESHOLDS.wave_m.red) warns.push({ level: 'red', label: `${wave.toFixed(1)}m waves`, emoji: '🌊' });
+    else if (wave >= WEATHER_THRESHOLDS.wave_m.amber) warns.push({ level: 'amber', label: `${wave.toFixed(1)}m waves`, emoji: '🌊' });
+  }
+
+  // Thunder isn't available here; flag “stormy” when rain+gusty+very cloudy
+  if (
+    cloud >= WEATHER_THRESHOLDS.stormy_proxy.cloud_pct &&
+    rain >= WEATHER_THRESHOLDS.stormy_proxy.rain_mmh_gte &&
+    gust >= WEATHER_THRESHOLDS.stormy_proxy.gust_mph_gte
+  ) {
+    warns.push({ level: 'amber', label: 'Stormy conditions', emoji: '⛈️' });
+  }
+
+  return warns;
+}
+
+function worstLevel(warns) {
+  const order = { red: 2, amber: 1, green: 0 };
+  let best = 'green';
+  for (const w of (warns ?? [])) {
+    if ((order[w.level] ?? 0) > (order[best] ?? 0)) best = w.level;
+  }
+  return best;
+}
+
+function levelEmoji(level) {
+  if (level === 'red') return '🔴';
+  if (level === 'amber') return '🟠';
+  return '🟢';
 }
 
 // ─── MESSAGE FORMATTER ────────────────────────────────────────────────────────
@@ -321,36 +440,44 @@ function buildMessage(events) {
     const d = ev.duties || {};
     const wx = ev._wx;
     const tide = ev._tide;
+    const warns = conditionWarnings(wx);
+    const windEmoji = windRiskEmoji(wx);
 
     lines.push(`*${formatDate(ev.date)}*`);
     lines.push(`*${ev.title}*`);
 
-    if (d.meet)           lines.push(`Meet in yard from ${d.meet}`);
-    if (d.briefing)       lines.push(`${/race/i.test(ev.title) ? 'Race briefing' : 'Briefing'}: ${d.briefing}`);
-    if (d.race_start)     lines.push(`Race start: ${d.race_start}`);
-    if (d.on_water)       lines.push(`On water: ${d.on_water}`);
+    // Duties (roster-derived)
+    const dutyRows = formatDutyAssignments(d);
+    if (dutyRows.length) {
+      lines.push('');
+      for (const [label, value] of dutyRows) {
+        lines.push(`${label}: ${value}`);
+      }
+    }
 
     lines.push('');
-    if (d.race_officer)      lines.push(`Race Officers: ${d.race_officer}`);
-    if (d.safety_boat_helm)  lines.push(`Safety Boat Helm: ${d.safety_boat_helm}`);
-    if (d.safety_boat_crew)  lines.push(`Safety Boat Crew: ${d.safety_boat_crew}`);
-    if (d.safety_boat && !d.safety_boat_helm)
-                             lines.push(`Safety Boat: ${d.safety_boat}`);
-    if (d.instructor)        lines.push(`Instructor: ${d.instructor}`);
-     // Duties (roster-derived)
-     const dutyRows = formatDutyAssignments(d);
-     if (dutyRows.length) {
-       lines.push('');
-       for (const [label, value] of dutyRows) {
-         lines.push(`${label}: ${value}`);
-       }
-     }
+    if (tide)   lines.push(`Tide: ${tide}`);
+    if (wx) {
+      const bf = beaufortFromMph(wx.wind);
+      const bg = beaufortFromMph(wx.gust);
+      const bits = [];
+      bits.push(`${windEmoji} Wind: ${windDesc(wx.wind, wx.dir)}`);
+      if (wx.gust != null) bits.push(`gusts ${Math.round(wx.gust)}mph`);
+      if (bf != null) bits.push(`(F${bf}${bg != null ? ` gF${bg}` : ''})`);
+      lines.push(bits.join(' '));
 
-     lines.push('');
-     if (tide)   lines.push(`Tide: ${tide}`);
-     if (wx)     lines.push(`Winds: ${windDesc(wx.wind, wx.dir)}`);
+      // Concise warnings line
+      if (warns.length) {
+        const lvl = worstLevel(warns);
+        const top = warns
+          .slice(0, 3)
+          .map(w => `${w.emoji} ${w.label}`)
+          .join(' · ');
+        lines.push(`${levelEmoji(lvl)} Warnings: ${top}`);
+      }
+    }
 
-     lines.push('');
+    lines.push('');
   }
 
   return lines.join('\n').replace(/\n{3,}/g, '\n\n').trim();
@@ -361,8 +488,9 @@ function renderEventCard(ev) {
   const d = ev.duties || {};
   const wx = ev._wx;
   const tide = ev._tide;
+  const warns = conditionWarnings(wx);
 
-   const dutyRows = formatDutyAssignments(d);
+  const dutyRows = formatDutyAssignments(d);
 
    const dutyHTML = dutyRows.map(([label, value]) => `
      <div class="duty-row">
@@ -378,14 +506,26 @@ function renderEventCard(ev) {
       const speed = Math.round(wx.wind);
       const dir = dirLabel(wx.dir);
       const cls = speed > 25 ? 'bad' : speed > 18 ? 'warn' : 'wind';
-      chips.push(`<span class="wx-chip ${cls}">💨 ${dir} ${speed}mph</span>`);
-      if (wx.wave != null) {
-        const wcls = wx.wave > 1.5 ? 'bad' : wx.wave > 1.0 ? 'warn' : '';
-        chips.push(`<span class="wx-chip ${wcls}">🌊 ${wx.wave.toFixed(1)}m waves</span>`);
+      const windEmoji = windRiskEmoji(wx);
+      const bf = beaufortFromMph(wx.wind);
+      const bg = beaufortFromMph(wx.gust);
+      const gustTxt = wx.gust != null ? ` g${Math.round(wx.gust)}mph` : '';
+      const bfTxt = bf != null ? ` F${bf}${bg != null ? `g${bg}` : ''}` : '';
+      chips.push(`<span class="wx-chip ${cls}">${windEmoji} 💨 ${dir} ${speed}mph${gustTxt}${bfTxt}</span>`);
+
+      // Add warning chips
+      for (const w of warns.slice(0, 3)) {
+        const wcls = w.level === 'red' ? 'bad' : w.level === 'amber' ? 'warn' : '';
+        chips.push(`<span class="wx-chip ${wcls}">${w.emoji} ${w.label}</span>`);
       }
-    }
-    wxHTML = `<div class="weather-block">${chips.join('')}</div>`;
-  }
+
+       if (wx.wave != null) {
+         const wcls = wx.wave > 1.5 ? 'bad' : wx.wave > 1.0 ? 'warn' : '';
+         chips.push(`<span class="wx-chip ${wcls}">🌊 ${wx.wave.toFixed(1)}m waves</span>`);
+       }
+     }
+     wxHTML = `<div class="weather-block">${chips.join('')}</div>`;
+   }
 
   return `
   <div class="event-card">
