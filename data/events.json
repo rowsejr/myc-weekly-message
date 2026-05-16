@@ -1,12 +1,6 @@
 {
-  "generated_at": "2026-05-15T09:41:23.309196+00:00",
+  "generated_at": "2026-05-16T06:11:12.099188+00:00",
   "events": [
-    {
-      "title": "Safety Boat Training - for PB2",
-      "date": "2026-05-15",
-      "url": "https://www.margateyachtclub.co.uk/event/safety-boat-training-for-pb2",
-      "duties": {}
-    },
     {
       "title": "Safety Boat Training Practical",
       "date": "2026-05-16",
@@ -20,10 +14,10 @@
       "duties": {
         "Race Box": [
           {
-            "name": null,
+            "name": "Christopher Hatcher",
             "role": "RO",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4121981"
           },
           {
             "name": null,
@@ -120,10 +114,10 @@
         ],
         "Power Boat Crew": [
           {
-            "name": null,
+            "name": "Paul Brent",
             "role": "PB Crew",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4122617"
           }
         ]
       }
@@ -239,10 +233,10 @@
         ],
         "Power Boat Helm (PB2)": [
           {
-            "name": null,
+            "name": "Lawrence Head",
             "role": "PB2 Qualified",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4124427"
           }
         ],
         "Power Boat Crew": [
@@ -254,6 +248,12 @@
           }
         ]
       }
+    },
+    {
+      "title": "Leisure Sailing 2026",
+      "date": "2026-05-30",
+      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
+      "duties": {}
     }
   ]
 }
