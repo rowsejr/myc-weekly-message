@@ -1,14 +1,8 @@
 {
-  "generated_at": "2026-05-16T06:11:12.099678+00:00",
+  "generated_at": "2026-05-17T06:25:32.591813+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
-    "https://www.margateyachtclub.co.uk/event/safety-boat-training-practical": {
-      "title": "Safety Boat Training Practical",
-      "date": "2026-05-16",
-      "url": "https://www.margateyachtclub.co.uk/event/safety-boat-training-practical",
-      "duties": {}
-    },
     "https://www.margateyachtclub.co.uk/event/commodore-cup-8": {
       "title": "Commodore Cup (Two Races)",
       "date": "2026-05-17",
@@ -22,10 +16,10 @@
             "member_url": "https://www.margateyachtclub.co.uk/member/4121981"
           },
           {
-            "name": null,
+            "name": "Wendy Tumber",
             "role": "Assistant",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4481375"
           }
         ],
         "Power Boat Helm (PB2)": [
@@ -144,7 +138,7 @@
     },
     "https://www.margateyachtclub.co.uk/event/pettman-cup-2026": {
       "title": "Pettman Cup 2026",
-      "date": "2026-05-25",
+      "date": "2026-05-31",
       "url": "https://www.margateyachtclub.co.uk/event/pettman-cup-2026",
       "duties": {
         "Race Box": [
@@ -163,18 +157,18 @@
         ],
         "Power Boat Helm (PB2)": [
           {
-            "name": "Lawrence Head",
+            "name": null,
             "role": "PB2 Qualified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4124427"
+            "status": "needed",
+            "member_url": null
           }
         ],
         "Power Boat Crew": [
           {
-            "name": "Emma Kehoe",
+            "name": null,
             "role": "PB Crew",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4785587"
+            "status": "needed",
+            "member_url": null
           }
         ]
       }

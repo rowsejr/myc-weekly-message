@@ -1,12 +1,6 @@
 {
-  "generated_at": "2026-05-16T06:11:12.099188+00:00",
+  "generated_at": "2026-05-17T06:25:32.591253+00:00",
   "events": [
-    {
-      "title": "Safety Boat Training Practical",
-      "date": "2026-05-16",
-      "url": "https://www.margateyachtclub.co.uk/event/safety-boat-training-practical",
-      "duties": {}
-    },
     {
       "title": "Commodore Cup (Two Races)",
       "date": "2026-05-17",
@@ -20,10 +14,10 @@
             "member_url": "https://www.margateyachtclub.co.uk/member/4121981"
           },
           {
-            "name": null,
+            "name": "Wendy Tumber",
             "role": "Assistant",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4481375"
           }
         ],
         "Power Boat Helm (PB2)": [
@@ -254,6 +248,43 @@
       "date": "2026-05-30",
       "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
       "duties": {}
+    },
+    {
+      "title": "Pettman Cup 2026",
+      "date": "2026-05-31",
+      "url": "https://www.margateyachtclub.co.uk/event/pettman-cup-2026",
+      "duties": {
+        "Race Box": [
+          {
+            "name": null,
+            "role": "RO",
+            "status": "needed",
+            "member_url": null
+          },
+          {
+            "name": null,
+            "role": "Assistant",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": null,
+            "role": "PB Crew",
+            "status": "needed",
+            "member_url": null
+          }
+        ]
+      }
     }
   ]
 }
