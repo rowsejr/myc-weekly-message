@@ -1,45 +1,8 @@
 {
-  "generated_at": "2026-05-17T06:25:32.591813+00:00",
+  "generated_at": "2026-05-18T06:38:59.843380+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
-    "https://www.margateyachtclub.co.uk/event/commodore-cup-8": {
-      "title": "Commodore Cup (Two Races)",
-      "date": "2026-05-17",
-      "url": "https://www.margateyachtclub.co.uk/event/commodore-cup-8",
-      "duties": {
-        "Race Box": [
-          {
-            "name": "Christopher Hatcher",
-            "role": "RO",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4121981"
-          },
-          {
-            "name": "Wendy Tumber",
-            "role": "Assistant",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4481375"
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Don Gray",
-            "role": "PB2 Qualified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4122017"
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": "Rob Powell",
-            "role": "PB Crew",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4122013"
-          }
-        ]
-      }
-    },
     "https://www.margateyachtclub.co.uk/event/rnli-meeting": {
       "title": "RNLI MEETING",
       "date": "2026-05-20",
