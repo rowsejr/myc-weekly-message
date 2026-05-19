@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T06:38:59.842853+00:00",
+  "generated_at": "2026-05-19T06:35:07.031713+00:00",
   "events": [
     {
       "title": "RNLI MEETING",
@@ -49,10 +49,10 @@
       "duties": {
         "Race Box": [
           {
-            "name": null,
+            "name": "Pat Head",
             "role": "RO",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
           },
           {
             "name": "Emma Kehoe",
@@ -95,7 +95,38 @@
       "title": "Long Distance Race",
       "date": "2026-05-24",
       "url": "https://www.margateyachtclub.co.uk/event/long-distance-race",
-      "duties": {}
+      "duties": {
+        "Race Box": [
+          {
+            "name": null,
+            "role": "RO",
+            "status": "needed",
+            "member_url": null
+          },
+          {
+            "name": null,
+            "role": "Assistant",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": null,
+            "role": "PB Crew",
+            "status": "needed",
+            "member_url": null
+          }
+        ]
+      }
     },
     {
       "title": "Pettman Cup 2026",
@@ -104,10 +135,10 @@
       "duties": {
         "Race Box": [
           {
-            "name": null,
+            "name": "Pat Head",
             "role": "RO",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
           },
           {
             "name": null,
