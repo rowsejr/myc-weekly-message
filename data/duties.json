@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T06:35:07.032292+00:00",
+  "generated_at": "2026-05-20T06:34:59.514656+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -11,7 +11,7 @@
     },
     "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1": {
       "title": "Youth Training",
-      "date": "2026-05-27",
+      "date": "2026-06-03",
       "url": "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1",
       "duties": {
         "Instructor": [
@@ -46,7 +46,7 @@
     },
     "https://www.margateyachtclub.co.uk/event/halfmoon-2026-1": {
       "title": "Halfmoon 2026",
-      "date": "2026-05-27",
+      "date": "2026-06-03",
       "url": "https://www.margateyachtclub.co.uk/event/halfmoon-2026-1",
       "duties": {
         "Race Box": [
@@ -57,18 +57,18 @@
             "member_url": null
           },
           {
-            "name": "Emma Kehoe",
+            "name": null,
             "role": "Assistant",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4785587"
+            "status": "needed",
+            "member_url": null
           }
         ],
         "Power Boat Helm (PB2)": [
           {
-            "name": "Lawrence Head",
+            "name": null,
             "role": "PB2 Qualified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4124427"
+            "status": "needed",
+            "member_url": null
           }
         ],
         "Power Boat Crew": [
@@ -100,10 +100,10 @@
       "duties": {
         "Race Box": [
           {
-            "name": null,
+            "name": "Pat Head",
             "role": "RO",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
           },
           {
             "name": null,
@@ -114,18 +114,18 @@
         ],
         "Power Boat Helm (PB2)": [
           {
-            "name": null,
+            "name": "Robert Atkinson",
             "role": "PB2 Qualified",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4613635"
           }
         ],
         "Power Boat Crew": [
           {
-            "name": null,
+            "name": "Alex Goody",
             "role": "PB Crew",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4372393"
           }
         ]
       }
