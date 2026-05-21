@@ -1,84 +1,6 @@
 {
-  "generated_at": "2026-05-20T06:34:59.514064+00:00",
+  "generated_at": "2026-05-21T06:36:33.451830+00:00",
   "events": [
-    {
-      "title": "RNLI MEETING",
-      "date": "2026-05-20",
-      "url": "https://www.margateyachtclub.co.uk/event/rnli-meeting",
-      "duties": {}
-    },
-    {
-      "title": "Youth Training",
-      "date": "2026-05-20",
-      "url": "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1",
-      "duties": {
-        "Instructor": [
-          {
-            "name": "Lawrence Head",
-            "role": null,
-            "status": "pending",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4124427"
-          },
-          {
-            "name": "Emma Macfarlane",
-            "role": null,
-            "status": "pending",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4121973"
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Graham Head",
-            "role": "PB2 Qulaified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4122059"
-          },
-          {
-            "name": "Jeremy McCabe",
-            "role": null,
-            "status": "pending",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4121991"
-          }
-        ]
-      }
-    },
-    {
-      "title": "Halfmoon 2026",
-      "date": "2026-05-20",
-      "url": "https://www.margateyachtclub.co.uk/event/halfmoon-2026-1",
-      "duties": {
-        "Race Box": [
-          {
-            "name": "Emma Kehoe",
-            "role": "Assistant",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4785587"
-          },
-          {
-            "name": null,
-            "role": null,
-            "status": "needed",
-            "member_url": null
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Tony Atkins",
-            "role": "PB2 Qualified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4122629"
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": "Paul Brent",
-            "role": "PB Crew",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4122617"
-          }
-        ]
-      }
-    },
     {
       "title": "Safety Boat Training - for PB2 (backup date)",
       "date": "2026-05-23",
@@ -141,10 +63,10 @@
             "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
           },
           {
-            "name": null,
+            "name": "Darren Ray",
             "role": "Assistant",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4128555"
           }
         ],
         "Power Boat Helm (PB2)": [
