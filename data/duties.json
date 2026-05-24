@@ -1,20 +1,8 @@
 {
-  "generated_at": "2026-05-23T06:19:04.305296+00:00",
+  "generated_at": "2026-05-24T06:27:56.954561+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
-    "https://www.margateyachtclub.co.uk/event/safety-boat-training-for-pb2-backup-date": {
-      "title": "Safety Boat Training - for PB2 (backup date)",
-      "date": "2026-05-23",
-      "url": "https://www.margateyachtclub.co.uk/event/safety-boat-training-for-pb2-backup-date",
-      "duties": {}
-    },
-    "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1": {
-      "title": "Leisure Sailing 2026",
-      "date": "2026-05-30",
-      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
-      "duties": {}
-    },
     "https://www.margateyachtclub.co.uk/event/long-distance-race": {
       "title": "Long Distance Race",
       "date": "2026-05-24",
@@ -160,6 +148,18 @@
           }
         ]
       }
+    },
+    "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1": {
+      "title": "Leisure Sailing 2026",
+      "date": "2026-05-30",
+      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
+      "duties": {}
+    },
+    "https://www.margateyachtclub.co.uk/event/bsc-90-anniversary-open-meeting": {
+      "title": "BSC 90 Anniversary Open Meeting",
+      "date": "2026-06-07",
+      "url": "https://www.margateyachtclub.co.uk/event/bsc-90-anniversary-open-meeting",
+      "duties": {}
     }
   }
 }
