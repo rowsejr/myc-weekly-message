@@ -1,43 +1,6 @@
 {
-  "generated_at": "2026-05-24T06:27:56.954024+00:00",
+  "generated_at": "2026-05-25T06:47:27.283830+00:00",
   "events": [
-    {
-      "title": "Long Distance Race",
-      "date": "2026-05-24",
-      "url": "https://www.margateyachtclub.co.uk/event/long-distance-race",
-      "duties": {
-        "Race Box": [
-          {
-            "name": "Pat Head",
-            "role": "RO",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
-          },
-          {
-            "name": "Annelise Langmead",
-            "role": "Assistant",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4608475"
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Robert Atkinson",
-            "role": "PB2 Qualified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4613635"
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": "Alex Goody",
-            "role": "PB Crew",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4372393"
-          }
-        ]
-      }
-    },
     {
       "title": "Pettman Cup 2026",
       "date": "2026-05-25",
