@@ -1,43 +1,6 @@
 {
-  "generated_at": "2026-05-25T06:47:27.283830+00:00",
+  "generated_at": "2026-05-26T06:33:59.549344+00:00",
   "events": [
-    {
-      "title": "Pettman Cup 2026",
-      "date": "2026-05-25",
-      "url": "https://www.margateyachtclub.co.uk/event/pettman-cup-2026",
-      "duties": {
-        "Race Box": [
-          {
-            "name": "Pat Head",
-            "role": "RO",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
-          },
-          {
-            "name": "Darren Ray",
-            "role": "Assistant",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4128555"
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Jeremy McCabe",
-            "role": "PB2 Qualified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4121991"
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": "Emma Kehoe",
-            "role": "PB Crew",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4785587"
-          }
-        ]
-      }
-    },
     {
       "title": "Youth Training",
       "date": "2026-05-27",
