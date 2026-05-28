@@ -1,8 +1,51 @@
 {
-  "generated_at": "2026-05-27T06:43:24.724656+00:00",
+  "generated_at": "2026-05-28T06:38:21.343813+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
+    "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1": {
+      "title": "Leisure Sailing 2026",
+      "date": "2026-05-30",
+      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
+      "duties": {}
+    },
+    "https://www.margateyachtclub.co.uk/event/pettman-cup-2026": {
+      "title": "Pettman Cup 2026",
+      "date": "2026-05-31",
+      "url": "https://www.margateyachtclub.co.uk/event/pettman-cup-2026",
+      "duties": {
+        "Race Box": [
+          {
+            "name": null,
+            "role": "RO",
+            "status": "needed",
+            "member_url": null
+          },
+          {
+            "name": null,
+            "role": "Assistant",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": null,
+            "role": "PB Crew",
+            "status": "needed",
+            "member_url": null
+          }
+        ]
+      }
+    },
     "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1": {
       "title": "Youth Training",
       "date": "2026-06-10",
@@ -42,49 +85,6 @@
       "title": "Halfmoon 2026",
       "date": "2026-06-10",
       "url": "https://www.margateyachtclub.co.uk/event/halfmoon-2026-1",
-      "duties": {
-        "Race Box": [
-          {
-            "name": null,
-            "role": "RO",
-            "status": "needed",
-            "member_url": null
-          },
-          {
-            "name": null,
-            "role": "Assistant",
-            "status": "needed",
-            "member_url": null
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": null,
-            "role": "PB2 Qualified",
-            "status": "needed",
-            "member_url": null
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": null,
-            "role": "PB Crew",
-            "status": "needed",
-            "member_url": null
-          }
-        ]
-      }
-    },
-    "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1": {
-      "title": "Leisure Sailing 2026",
-      "date": "2026-05-30",
-      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
-      "duties": {}
-    },
-    "https://www.margateyachtclub.co.uk/event/pettman-cup-2026": {
-      "title": "Pettman Cup 2026",
-      "date": "2026-05-31",
-      "url": "https://www.margateyachtclub.co.uk/event/pettman-cup-2026",
       "duties": {
         "Race Box": [
           {
