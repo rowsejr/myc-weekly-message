@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T06:38:21.343813+00:00",
+  "generated_at": "2026-05-29T06:39:41.436749+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -30,10 +30,10 @@
         ],
         "Power Boat Helm (PB2)": [
           {
-            "name": null,
+            "name": "Lawrence Head",
             "role": "PB2 Qualified",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4124427"
           }
         ],
         "Power Boat Crew": [
