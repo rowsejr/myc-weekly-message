@@ -1,12 +1,6 @@
 {
-  "generated_at": "2026-05-30T06:25:32.201042+00:00",
+  "generated_at": "2026-05-31T06:40:21.000067+00:00",
   "events": [
-    {
-      "title": "Leisure Sailing 2026",
-      "date": "2026-05-30",
-      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
-      "duties": {}
-    },
     {
       "title": "Pettman Cup 2026",
       "date": "2026-05-31",
@@ -14,10 +8,10 @@
       "duties": {
         "Race Box": [
           {
-            "name": null,
+            "name": "Sue Anderson",
             "role": "RO",
-            "status": "needed",
-            "member_url": null
+            "status": "pending",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4124337"
           },
           {
             "name": null,
@@ -36,10 +30,10 @@
         ],
         "Power Boat Crew": [
           {
-            "name": null,
+            "name": "Lawrence Head",
             "role": "PB Crew",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4124427"
           }
         ]
       }
@@ -190,6 +184,43 @@
             "role": "PB Crew",
             "status": "needed",
             "member_url": null
+          }
+        ]
+      }
+    },
+    {
+      "title": "Summer Points 2026",
+      "date": "2026-06-14",
+      "url": "https://www.margateyachtclub.co.uk/event/summer-points-2026-1",
+      "duties": {
+        "Race Box": [
+          {
+            "name": null,
+            "role": "RO",
+            "status": "needed",
+            "member_url": null
+          },
+          {
+            "name": null,
+            "role": "Assistant",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": "Andrew Hudson",
+            "role": "PB2 Qualified",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4122625"
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": "Andrew Hudson",
+            "role": "PB Crew",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4122625"
           }
         ]
       }
