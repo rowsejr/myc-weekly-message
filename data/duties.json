@@ -1,45 +1,8 @@
 {
-  "generated_at": "2026-05-31T06:40:21.000469+00:00",
+  "generated_at": "2026-06-01T06:56:22.008341+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
-    "https://www.margateyachtclub.co.uk/event/pettman-cup-2026": {
-      "title": "Pettman Cup 2026",
-      "date": "2026-05-31",
-      "url": "https://www.margateyachtclub.co.uk/event/pettman-cup-2026",
-      "duties": {
-        "Race Box": [
-          {
-            "name": "Sue Anderson",
-            "role": "RO",
-            "status": "pending",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4124337"
-          },
-          {
-            "name": null,
-            "role": "Assistant",
-            "status": "needed",
-            "member_url": null
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Lawrence Head",
-            "role": "PB2 Qualified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4124427"
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": "Lawrence Head",
-            "role": "PB Crew",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4124427"
-          }
-        ]
-      }
-    },
     "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1": {
       "title": "Youth Training",
       "date": "2026-06-10",
