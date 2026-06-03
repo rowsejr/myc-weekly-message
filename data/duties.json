@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-02T06:52:27.427052+00:00",
+  "generated_at": "2026-06-03T06:55:40.877813+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
     "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1": {
       "title": "Youth Training",
-      "date": "2026-06-10",
+      "date": "2026-06-17",
       "url": "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1",
       "duties": {
         "Instructor": [
@@ -117,6 +117,12 @@
           }
         ]
       }
+    },
+    "https://www.margateyachtclub.co.uk/event/spare-day": {
+      "title": "SPARE DAY",
+      "date": "2026-06-17",
+      "url": "https://www.margateyachtclub.co.uk/event/spare-day",
+      "duties": {}
     }
   }
 }
