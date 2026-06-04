@@ -1,8 +1,14 @@
 {
-  "generated_at": "2026-06-03T06:55:40.877813+00:00",
+  "generated_at": "2026-06-04T06:52:59.131001+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
+    "https://www.margateyachtclub.co.uk/event/bsc-90-anniversary-open-meeting": {
+      "title": "BSC 90 Anniversary Open Meeting",
+      "date": "2026-06-07",
+      "url": "https://www.margateyachtclub.co.uk/event/bsc-90-anniversary-open-meeting",
+      "duties": {}
+    },
     "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1": {
       "title": "Youth Training",
       "date": "2026-06-17",
@@ -74,12 +80,6 @@
           }
         ]
       }
-    },
-    "https://www.margateyachtclub.co.uk/event/bsc-90-anniversary-open-meeting": {
-      "title": "BSC 90 Anniversary Open Meeting",
-      "date": "2026-06-07",
-      "url": "https://www.margateyachtclub.co.uk/event/bsc-90-anniversary-open-meeting",
-      "duties": {}
     },
     "https://www.margateyachtclub.co.uk/event/summer-points-2026-1": {
       "title": "Summer Points 2026",
