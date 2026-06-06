@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T06:45:32.372208+00:00",
+  "generated_at": "2026-06-06T06:26:44.835274+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -122,6 +122,24 @@
       "title": "SPARE DAY",
       "date": "2026-06-17",
       "url": "https://www.margateyachtclub.co.uk/event/spare-day",
+      "duties": {}
+    },
+    "https://www.margateyachtclub.co.uk/event/rya-training": {
+      "title": "RYA Training",
+      "date": "2026-06-20",
+      "url": "https://www.margateyachtclub.co.uk/event/rya-training",
+      "duties": {}
+    },
+    "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1": {
+      "title": "Leisure Sailing 2026",
+      "date": "2026-06-20",
+      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
+      "duties": {}
+    },
+    "https://www.margateyachtclub.co.uk/event/bsc-90th-anniversary-dinner-dance": {
+      "title": "BSC 90th Anniversary Dinner Dance",
+      "date": "2026-06-20",
+      "url": "https://www.margateyachtclub.co.uk/event/bsc-90th-anniversary-dinner-dance",
       "duties": {}
     }
   }
