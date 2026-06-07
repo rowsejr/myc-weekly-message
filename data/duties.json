@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T06:26:44.835274+00:00",
+  "generated_at": "2026-06-07T06:44:43.544816+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -141,6 +141,43 @@
       "date": "2026-06-20",
       "url": "https://www.margateyachtclub.co.uk/event/bsc-90th-anniversary-dinner-dance",
       "duties": {}
+    },
+    "https://www.margateyachtclub.co.uk/event/summer-solstice-cup": {
+      "title": "Summer Solstice Cup (Two Races)",
+      "date": "2026-06-21",
+      "url": "https://www.margateyachtclub.co.uk/event/summer-solstice-cup",
+      "duties": {
+        "Race Box": [
+          {
+            "name": "Sue Anderson",
+            "role": "RO",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4124337"
+          },
+          {
+            "name": null,
+            "role": "Assistant",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": null,
+            "role": "PB Crew",
+            "status": "needed",
+            "member_url": null
+          }
+        ]
+      }
     }
   }
 }
