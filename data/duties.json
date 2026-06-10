@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-09T06:35:07.556997+00:00",
+  "generated_at": "2026-06-10T06:45:28.368025+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
     "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1": {
       "title": "Youth Training",
-      "date": "2026-06-17",
+      "date": "2026-06-24",
       "url": "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1",
       "duties": {
         "Instructor": [
@@ -45,24 +45,24 @@
       "duties": {
         "Race Box": [
           {
-            "name": null,
+            "name": "Pat Head",
             "role": "RO",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
           },
           {
-            "name": null,
+            "name": "Graham Head",
             "role": "Assistant",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4122059"
           }
         ],
         "Power Boat Helm (PB2)": [
           {
-            "name": null,
+            "name": "Graham Head",
             "role": "PB2 Qualified",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4122059"
           }
         ],
         "Power Boat Crew": [
@@ -82,10 +82,10 @@
       "duties": {
         "Race Box": [
           {
-            "name": null,
+            "name": "Pat Head",
             "role": "RO",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
           },
           {
             "name": null,
@@ -172,6 +172,12 @@
           }
         ]
       }
+    },
+    "https://www.margateyachtclub.co.uk/event/solstice-pursuit-race": {
+      "title": "Solstice Pursuit Race",
+      "date": "2026-06-24",
+      "url": "https://www.margateyachtclub.co.uk/event/solstice-pursuit-race",
+      "duties": {}
     }
   }
 }
