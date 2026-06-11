@@ -1,80 +1,8 @@
 {
-  "generated_at": "2026-06-10T06:45:28.368025+00:00",
+  "generated_at": "2026-06-11T06:55:19.193317+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
-    "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1": {
-      "title": "Youth Training",
-      "date": "2026-06-24",
-      "url": "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1",
-      "duties": {
-        "Instructor": [
-          {
-            "name": "Lawrence Head",
-            "role": null,
-            "status": "pending",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4124427"
-          },
-          {
-            "name": "Emma Macfarlane",
-            "role": null,
-            "status": "pending",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4121973"
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Graham Head",
-            "role": "PB2 Qulaified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4122059"
-          },
-          {
-            "name": "Jeremy McCabe",
-            "role": null,
-            "status": "pending",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4121991"
-          }
-        ]
-      }
-    },
-    "https://www.margateyachtclub.co.uk/event/halfmoon-2026-1": {
-      "title": "Halfmoon 2026",
-      "date": "2026-06-10",
-      "url": "https://www.margateyachtclub.co.uk/event/halfmoon-2026-1",
-      "duties": {
-        "Race Box": [
-          {
-            "name": "Pat Head",
-            "role": "RO",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
-          },
-          {
-            "name": "Graham Head",
-            "role": "Assistant",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4122059"
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Graham Head",
-            "role": "PB2 Qualified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4122059"
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": null,
-            "role": "PB Crew",
-            "status": "needed",
-            "member_url": null
-          }
-        ]
-      }
-    },
     "https://www.margateyachtclub.co.uk/event/summer-points-2026-1": {
       "title": "Summer Points 2026",
       "date": "2026-06-14",
@@ -108,6 +36,41 @@
             "role": "PB Crew",
             "status": "confirmed",
             "member_url": "https://www.margateyachtclub.co.uk/member/4122625"
+          }
+        ]
+      }
+    },
+    "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1": {
+      "title": "Youth Training",
+      "date": "2026-06-24",
+      "url": "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1",
+      "duties": {
+        "Instructor": [
+          {
+            "name": "Lawrence Head",
+            "role": null,
+            "status": "pending",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4124427"
+          },
+          {
+            "name": "Emma Macfarlane",
+            "role": null,
+            "status": "pending",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4121973"
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": "Graham Head",
+            "role": "PB2 Qulaified",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4122059"
+          },
+          {
+            "name": "Jeremy McCabe",
+            "role": null,
+            "status": "pending",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4121991"
           }
         ]
       }
