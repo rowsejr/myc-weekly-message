@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T06:39:11.065329+00:00",
+  "generated_at": "2026-06-14T06:53:06.494479+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -76,10 +76,41 @@
       }
     },
     "https://www.margateyachtclub.co.uk/event/spare-day": {
-      "title": "SPARE DAY",
+      "title": "'Buddy up Race'",
       "date": "2026-06-17",
       "url": "https://www.margateyachtclub.co.uk/event/spare-day",
-      "duties": {}
+      "duties": {
+        "Race Box": [
+          {
+            "name": null,
+            "role": null,
+            "status": "unassigned",
+            "member_url": null
+          },
+          {
+            "name": null,
+            "role": null,
+            "status": "unassigned",
+            "member_url": null
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": null,
+            "status": "unassigned",
+            "member_url": null
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": null,
+            "role": null,
+            "status": "unassigned",
+            "member_url": null
+          }
+        ]
+      }
     },
     "https://www.margateyachtclub.co.uk/event/rya-training": {
       "title": "RYA Training",
@@ -89,9 +120,26 @@
     },
     "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1": {
       "title": "Leisure Sailing 2026",
-      "date": "2026-06-27",
+      "date": "2026-06-28",
       "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
-      "duties": {}
+      "duties": {
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": null,
+            "status": "unassigned",
+            "member_url": null
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": null,
+            "role": null,
+            "status": "unassigned",
+            "member_url": null
+          }
+        ]
+      }
     },
     "https://www.margateyachtclub.co.uk/event/bsc-90th-anniversary-dinner-dance": {
       "title": "BSC 90th Anniversary Dinner Dance",
@@ -140,11 +188,42 @@
       "title": "Solstice Pursuit Race",
       "date": "2026-06-24",
       "url": "https://www.margateyachtclub.co.uk/event/solstice-pursuit-race",
-      "duties": {}
+      "duties": {
+        "Race Box": [
+          {
+            "name": null,
+            "role": null,
+            "status": "unassigned",
+            "member_url": null
+          },
+          {
+            "name": null,
+            "role": null,
+            "status": "unassigned",
+            "member_url": null
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": null,
+            "status": "unassigned",
+            "member_url": null
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": null,
+            "role": null,
+            "status": "unassigned",
+            "member_url": null
+          }
+        ]
+      }
     },
     "https://www.margateyachtclub.co.uk/event/rya-level-1-2026": {
       "title": "RYA Level 1 2026",
-      "date": "2026-06-27",
+      "date": "2026-06-28",
       "url": "https://www.margateyachtclub.co.uk/event/rya-level-1-2026",
       "duties": {
         "Power Boat Helm (PB2)": [
