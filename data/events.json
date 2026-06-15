@@ -1,43 +1,6 @@
 {
-  "generated_at": "2026-06-14T06:53:06.493814+00:00",
+  "generated_at": "2026-06-15T07:02:00.042431+00:00",
   "events": [
-    {
-      "title": "Summer Points 2026",
-      "date": "2026-06-14",
-      "url": "https://www.margateyachtclub.co.uk/event/summer-points-2026-1",
-      "duties": {
-        "Race Box": [
-          {
-            "name": "Pat Head",
-            "role": "RO",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
-          },
-          {
-            "name": "Tim Ahern",
-            "role": "Assistant",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4122025"
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Andrew Hudson",
-            "role": "PB2 Qualified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4122625"
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": "Andrew Hudson",
-            "role": "PB Crew",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4122625"
-          }
-        ]
-      }
-    },
     {
       "title": "Youth Training",
       "date": "2026-06-17",
@@ -81,30 +44,30 @@
         "Race Box": [
           {
             "name": null,
-            "role": null,
-            "status": "unassigned",
+            "role": "RO",
+            "status": "needed",
             "member_url": null
           },
           {
             "name": null,
-            "role": null,
-            "status": "unassigned",
+            "role": "Assistant",
+            "status": "needed",
             "member_url": null
           }
         ],
         "Power Boat Helm (PB2)": [
           {
-            "name": null,
-            "role": null,
-            "status": "unassigned",
-            "member_url": null
+            "name": "Richard Fulcher",
+            "role": "PB2 Qualified",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4122055"
           }
         ],
         "Power Boat Crew": [
           {
             "name": null,
             "role": null,
-            "status": "unassigned",
+            "status": "needed",
             "member_url": null
           }
         ]
@@ -124,16 +87,8 @@
         "Power Boat Helm (PB2)": [
           {
             "name": null,
-            "role": null,
-            "status": "unassigned",
-            "member_url": null
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": null,
-            "role": null,
-            "status": "unassigned",
+            "role": "PB2 Qualified only",
+            "status": "needed",
             "member_url": null
           }
         ]
@@ -166,10 +121,10 @@
         ],
         "Power Boat Helm (PB2)": [
           {
-            "name": null,
+            "name": "Richard Fulcher",
             "role": "PB2 Qualified",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4122055"
           }
         ],
         "Power Boat Crew": [
@@ -225,30 +180,30 @@
         "Race Box": [
           {
             "name": null,
-            "role": null,
-            "status": "unassigned",
+            "role": "RO",
+            "status": "needed",
             "member_url": null
           },
           {
             "name": null,
-            "role": null,
-            "status": "unassigned",
+            "role": "Assistant",
+            "status": "needed",
             "member_url": null
           }
         ],
         "Power Boat Helm (PB2)": [
           {
             "name": null,
-            "role": null,
-            "status": "unassigned",
+            "role": "PB2 Qualified",
+            "status": "needed",
             "member_url": null
           }
         ],
         "Power Boat Crew": [
           {
             "name": null,
-            "role": null,
-            "status": "unassigned",
+            "role": "PB Crew",
+            "status": "needed",
             "member_url": null
           }
         ]
@@ -297,16 +252,8 @@
         "Power Boat Helm (PB2)": [
           {
             "name": null,
-            "role": null,
-            "status": "unassigned",
-            "member_url": null
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": null,
-            "role": null,
-            "status": "unassigned",
+            "role": "PB2 Qualified only",
+            "status": "needed",
             "member_url": null
           }
         ]
@@ -355,16 +302,8 @@
         "Power Boat Helm (PB2)": [
           {
             "name": null,
-            "role": null,
-            "status": "unassigned",
-            "member_url": null
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": null,
-            "role": null,
-            "status": "unassigned",
+            "role": "PB2 Qualified only",
+            "status": "needed",
             "member_url": null
           }
         ]
