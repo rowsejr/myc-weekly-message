@@ -1,35 +1,8 @@
 {
-  "generated_at": "2026-06-20T06:43:54.432516+00:00",
+  "generated_at": "2026-06-21T06:55:11.322299+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
-    "https://www.margateyachtclub.co.uk/event/rya-training": {
-      "title": "RYA Training",
-      "date": "2026-06-20",
-      "url": "https://www.margateyachtclub.co.uk/event/rya-training",
-      "duties": {}
-    },
-    "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1": {
-      "title": "Leisure Sailing 2026",
-      "date": "2026-07-04",
-      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
-      "duties": {
-        "Power Boat Helm (PB2)": [
-          {
-            "name": null,
-            "role": "PB2 Qualified only",
-            "status": "needed",
-            "member_url": null
-          }
-        ]
-      }
-    },
-    "https://www.margateyachtclub.co.uk/event/bsc-90th-anniversary-dinner-dance": {
-      "title": "BSC 90th Anniversary Dinner Dance",
-      "date": "2026-06-20",
-      "url": "https://www.margateyachtclub.co.uk/event/bsc-90th-anniversary-dinner-dance",
-      "duties": {}
-    },
     "https://www.margateyachtclub.co.uk/event/summer-solstice-cup": {
       "title": "Summer Solstice Cup (Two Races)",
       "date": "2026-06-21",
@@ -174,6 +147,21 @@
         ]
       }
     },
+    "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1": {
+      "title": "Leisure Sailing 2026",
+      "date": "2026-07-04",
+      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
+      "duties": {
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified only",
+            "status": "needed",
+            "member_url": null
+          }
+        ]
+      }
+    },
     "https://www.margateyachtclub.co.uk/event/coastguard-2026-1": {
       "title": "Coastguard 2026",
       "date": "2026-07-01",
@@ -199,6 +187,43 @@
             "role": "PB2 Qualified",
             "status": "confirmed",
             "member_url": "https://www.margateyachtclub.co.uk/member/4122055"
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": null,
+            "role": "PB Crew",
+            "status": "needed",
+            "member_url": null
+          }
+        ]
+      }
+    },
+    "https://www.margateyachtclub.co.uk/event/summer-points-2026-1": {
+      "title": "Summer Points 2026",
+      "date": "2026-07-05",
+      "url": "https://www.margateyachtclub.co.uk/event/summer-points-2026-1",
+      "duties": {
+        "Race Box": [
+          {
+            "name": null,
+            "role": "RO",
+            "status": "needed",
+            "member_url": null
+          },
+          {
+            "name": null,
+            "role": "Assistant",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified",
+            "status": "needed",
+            "member_url": null
           }
         ],
         "Power Boat Crew": [
