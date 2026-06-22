@@ -1,43 +1,6 @@
 {
-  "generated_at": "2026-06-21T06:55:11.321672+00:00",
+  "generated_at": "2026-06-22T07:04:02.244996+00:00",
   "events": [
-    {
-      "title": "Summer Solstice Cup (Two Races)",
-      "date": "2026-06-21",
-      "url": "https://www.margateyachtclub.co.uk/event/summer-solstice-cup",
-      "duties": {
-        "Race Box": [
-          {
-            "name": "Sue Anderson",
-            "role": "RO",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4124337"
-          },
-          {
-            "name": "Jonathan Spokes",
-            "role": "Assistant",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4703401"
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Richard Fulcher",
-            "role": "PB2 Qualified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4122055"
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": "Alex Kennedy",
-            "role": "PB Crew",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4142675"
-          }
-        ]
-      }
-    },
     {
       "title": "Youth Training",
       "date": "2026-06-24",
