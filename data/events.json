@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T06:37:11.622313+00:00",
+  "generated_at": "2026-06-27T06:26:36.102004+00:00",
   "events": [
     {
       "title": "RYA Level 1 2026",
@@ -291,6 +291,21 @@
             "role": null,
             "status": "pending",
             "member_url": "https://www.margateyachtclub.co.uk/member/4121991"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Leisure Sailing 2026",
+      "date": "2026-07-11",
+      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
+      "duties": {
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified only",
+            "status": "needed",
+            "member_url": null
           }
         ]
       }
