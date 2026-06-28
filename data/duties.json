@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T06:26:36.102574+00:00",
+  "generated_at": "2026-06-28T06:41:53.454321+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -161,6 +161,55 @@
           }
         ]
       }
+    },
+    "https://www.margateyachtclub.co.uk/event/streaker-nationals-sunderland": {
+      "title": "Streaker Nationals (Sunderland)",
+      "date": "2026-07-12",
+      "url": "https://www.margateyachtclub.co.uk/event/streaker-nationals-sunderland",
+      "duties": {}
+    },
+    "https://www.margateyachtclub.co.uk/event/wild-wise-crew-a-cadet-2": {
+      "title": "Wild & Wise - Crew a cadet",
+      "date": "2026-07-12",
+      "url": "https://www.margateyachtclub.co.uk/event/wild-wise-crew-a-cadet-2",
+      "duties": {
+        "Race Box": [
+          {
+            "name": null,
+            "role": "RO",
+            "status": "needed",
+            "member_url": null
+          },
+          {
+            "name": null,
+            "role": "Assistant",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": null,
+            "role": "PB Crew",
+            "status": "needed",
+            "member_url": null
+          }
+        ]
+      }
+    },
+    "https://www.margateyachtclub.co.uk/event/social": {
+      "title": "Social",
+      "date": "2026-07-12",
+      "url": "https://www.margateyachtclub.co.uk/event/social",
+      "duties": {}
     }
   }
 }
