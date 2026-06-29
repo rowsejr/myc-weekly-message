@@ -1,56 +1,6 @@
 {
-  "generated_at": "2026-06-28T06:41:53.453717+00:00",
+  "generated_at": "2026-06-29T06:54:59.041494+00:00",
   "events": [
-    {
-      "title": "RYA Level 1 2026",
-      "date": "2026-06-28",
-      "url": "https://www.margateyachtclub.co.uk/event/rya-level-1-2026",
-      "duties": {
-        "Power Boat Helm (PB2)": [
-          {
-            "name": null,
-            "role": null,
-            "status": "unassigned",
-            "member_url": null
-          }
-        ],
-        "Instructor": [
-          {
-            "name": null,
-            "role": null,
-            "status": "unassigned",
-            "member_url": null
-          },
-          {
-            "name": null,
-            "role": null,
-            "status": "unassigned",
-            "member_url": null
-          },
-          {
-            "name": null,
-            "role": null,
-            "status": "unassigned",
-            "member_url": null
-          }
-        ]
-      }
-    },
-    {
-      "title": "Leisure Sailing 2026",
-      "date": "2026-06-28",
-      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
-      "duties": {
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Robert Atkinson",
-            "role": "PB2 Qualified only",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4613635"
-          }
-        ]
-      }
-    },
     {
       "title": "Youth Training",
       "date": "2026-07-01",
@@ -307,6 +257,12 @@
       "title": "Social",
       "date": "2026-07-12",
       "url": "https://www.margateyachtclub.co.uk/event/social",
+      "duties": {}
+    },
+    {
+      "title": "Committee Meeting",
+      "date": "2026-07-13",
+      "url": "https://www.margateyachtclub.co.uk/event/committee-meeting-7",
       "duties": {}
     }
   ]
