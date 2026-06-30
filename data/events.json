@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T06:54:59.041494+00:00",
+  "generated_at": "2026-06-30T06:39:20.806235+00:00",
   "events": [
     {
       "title": "Youth Training",
@@ -65,10 +65,10 @@
         ],
         "Power Boat Crew": [
           {
-            "name": null,
+            "name": "Alex Goody",
             "role": "PB Crew",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4372393"
           }
         ]
       }
