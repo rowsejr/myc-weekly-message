@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T06:26:52.236828+00:00",
+  "generated_at": "2026-07-03T10:02:01.273478+00:00",
   "events": [
     {
       "title": "Coastguard 2026",
@@ -80,10 +80,10 @@
       "duties": {
         "Power Boat Helm (PB2)": [
           {
-            "name": null,
+            "name": "Alex Goody",
             "role": "PB2 Qualified only",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4372393"
           }
         ]
       }
