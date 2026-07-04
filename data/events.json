@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T10:02:01.273478+00:00",
+  "generated_at": "2026-07-04T06:24:35.138348+00:00",
   "events": [
     {
       "title": "Coastguard 2026",
@@ -14,10 +14,10 @@
             "member_url": "https://www.margateyachtclub.co.uk/member/4121993"
           },
           {
-            "name": null,
+            "name": "Adele Jackson",
             "role": "Assistant",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4795331"
           }
         ],
         "Power Boat Helm (PB2)": [
@@ -101,10 +101,10 @@
             "member_url": null
           },
           {
-            "name": null,
+            "name": "Patricia Blake",
             "role": "Assistant",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4789387"
           }
         ],
         "Power Boat Helm (PB2)": [
@@ -173,10 +173,10 @@
             "member_url": null
           },
           {
-            "name": null,
+            "name": "Adele Jackson",
             "role": "Assistant",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4795331"
           }
         ],
         "Power Boat Helm (PB2)": [
@@ -298,6 +298,21 @@
             "role": null,
             "status": "pending",
             "member_url": "https://www.margateyachtclub.co.uk/member/4121991"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Leisure Sailing 2026",
+      "date": "2026-07-18",
+      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
+      "duties": {
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified only",
+            "status": "needed",
+            "member_url": null
           }
         ]
       }
