@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T06:24:35.138348+00:00",
+  "generated_at": "2026-07-05T06:27:51.344139+00:00",
   "events": [
     {
       "title": "Coastguard 2026",
@@ -39,66 +39,16 @@
       }
     },
     {
-      "title": "RYA Level 1 2026",
-      "date": "2026-07-04",
-      "url": "https://www.margateyachtclub.co.uk/event/rya-level-1-2026",
-      "duties": {
-        "Power Boat Helm (PB2)": [
-          {
-            "name": null,
-            "role": null,
-            "status": "unassigned",
-            "member_url": null
-          }
-        ],
-        "Instructor": [
-          {
-            "name": null,
-            "role": null,
-            "status": "unassigned",
-            "member_url": null
-          },
-          {
-            "name": null,
-            "role": null,
-            "status": "unassigned",
-            "member_url": null
-          },
-          {
-            "name": null,
-            "role": null,
-            "status": "unassigned",
-            "member_url": null
-          }
-        ]
-      }
-    },
-    {
-      "title": "Leisure Sailing 2026",
-      "date": "2026-07-04",
-      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
-      "duties": {
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Alex Goody",
-            "role": "PB2 Qualified only",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4372393"
-          }
-        ]
-      }
-    },
-    {
       "title": "Summer Points 2026",
       "date": "2026-07-05",
       "url": "https://www.margateyachtclub.co.uk/event/summer-points-2026-1",
       "duties": {
         "Race Box": [
           {
-            "name": null,
+            "name": "Sue Anderson",
             "role": "RO",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4124337"
           },
           {
             "name": "Patricia Blake",
@@ -313,6 +263,43 @@
             "role": "PB2 Qualified only",
             "status": "needed",
             "member_url": null
+          }
+        ]
+      }
+    },
+    {
+      "title": "Summer Points 2026",
+      "date": "2026-07-19",
+      "url": "https://www.margateyachtclub.co.uk/event/summer-points-2026-1",
+      "duties": {
+        "Race Box": [
+          {
+            "name": null,
+            "role": "RO",
+            "status": "needed",
+            "member_url": null
+          },
+          {
+            "name": null,
+            "role": "Assistant",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": "Andrew Hudson",
+            "role": "PB2 Qualified",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4122625"
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": "Andrew Hudson",
+            "role": "PB Crew",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4122625"
           }
         ]
       }
