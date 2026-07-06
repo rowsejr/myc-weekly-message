@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T06:27:51.344139+00:00",
+  "generated_at": "2026-07-06T06:47:39.091499+00:00",
   "events": [
     {
       "title": "Coastguard 2026",
@@ -34,43 +34,6 @@
             "role": "PB Crew",
             "status": "confirmed",
             "member_url": "https://www.margateyachtclub.co.uk/member/4372393"
-          }
-        ]
-      }
-    },
-    {
-      "title": "Summer Points 2026",
-      "date": "2026-07-05",
-      "url": "https://www.margateyachtclub.co.uk/event/summer-points-2026-1",
-      "duties": {
-        "Race Box": [
-          {
-            "name": "Sue Anderson",
-            "role": "RO",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4124337"
-          },
-          {
-            "name": "Patricia Blake",
-            "role": "Assistant",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4789387"
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": null,
-            "role": "PB2 Qualified",
-            "status": "needed",
-            "member_url": null
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": null,
-            "role": "PB Crew",
-            "status": "needed",
-            "member_url": null
           }
         ]
       }
@@ -117,10 +80,10 @@
       "duties": {
         "Race Box": [
           {
-            "name": null,
+            "name": "Pat Head",
             "role": "RO",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
           },
           {
             "name": "Adele Jackson",
@@ -175,16 +138,16 @@
       "duties": {
         "Race Box": [
           {
-            "name": null,
+            "name": "Pat Head",
             "role": "RO",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
           },
           {
-            "name": null,
+            "name": "Emma Kehoe",
             "role": "Assistant",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4785587"
           }
         ],
         "Power Boat Helm (PB2)": [
