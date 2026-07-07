@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T06:47:39.091499+00:00",
+  "generated_at": "2026-07-07T06:31:43.722012+00:00",
   "events": [
     {
       "title": "Coastguard 2026",
@@ -102,10 +102,10 @@
         ],
         "Power Boat Crew": [
           {
-            "name": null,
+            "name": "Daryl Bynon",
             "role": "PB Crew",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4681045"
           }
         ]
       }
