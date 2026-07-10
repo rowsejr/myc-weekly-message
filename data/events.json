@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T06:29:33.600483+00:00",
+  "generated_at": "2026-07-10T06:29:19.305183+00:00",
   "events": [
     {
       "title": "Coastguard 2026",
@@ -231,6 +231,18 @@
           }
         ]
       }
+    },
+    {
+      "title": "Ramsgate Week",
+      "date": "2026-07-24",
+      "url": "https://www.margateyachtclub.co.uk/event/ramsgate-week",
+      "duties": {}
+    },
+    {
+      "title": "NSSA - Downs SC",
+      "date": "2026-07-24",
+      "url": "https://www.margateyachtclub.co.uk/event/nssa-downs-sc",
+      "duties": {}
     },
     {
       "title": "Youth Training",
