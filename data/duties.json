@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T06:29:19.305725+00:00",
+  "generated_at": "2026-07-11T06:02:17.432824+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -193,6 +193,41 @@
       "date": "2026-07-24",
       "url": "https://www.margateyachtclub.co.uk/event/nssa-downs-sc",
       "duties": {}
+    },
+    "https://www.margateyachtclub.co.uk/event/rya-level-2-2026": {
+      "title": "RYA Level 2 2026",
+      "date": "2026-07-25",
+      "url": "https://www.margateyachtclub.co.uk/event/rya-level-2-2026",
+      "duties": {
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": null,
+            "status": "unassigned",
+            "member_url": null
+          }
+        ],
+        "Instructor": [
+          {
+            "name": null,
+            "role": null,
+            "status": "unassigned",
+            "member_url": null
+          },
+          {
+            "name": null,
+            "role": null,
+            "status": "unassigned",
+            "member_url": null
+          },
+          {
+            "name": null,
+            "role": null,
+            "status": "unassigned",
+            "member_url": null
+          }
+        ]
+      }
     }
   }
 }

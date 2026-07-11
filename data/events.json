@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T06:29:19.305183+00:00",
+  "generated_at": "2026-07-11T06:02:17.432213+00:00",
   "events": [
     {
       "title": "Coastguard 2026",
@@ -275,6 +275,41 @@
             "role": null,
             "status": "pending",
             "member_url": "https://www.margateyachtclub.co.uk/member/4121991"
+          }
+        ]
+      }
+    },
+    {
+      "title": "RYA Level 2 2026",
+      "date": "2026-07-25",
+      "url": "https://www.margateyachtclub.co.uk/event/rya-level-2-2026",
+      "duties": {
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": null,
+            "status": "unassigned",
+            "member_url": null
+          }
+        ],
+        "Instructor": [
+          {
+            "name": null,
+            "role": null,
+            "status": "unassigned",
+            "member_url": null
+          },
+          {
+            "name": null,
+            "role": null,
+            "status": "unassigned",
+            "member_url": null
+          },
+          {
+            "name": null,
+            "role": null,
+            "status": "unassigned",
+            "member_url": null
           }
         ]
       }
