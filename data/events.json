@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T06:02:17.432213+00:00",
+  "generated_at": "2026-07-12T06:14:58.404094+00:00",
   "events": [
     {
       "title": "Coastguard 2026",
@@ -43,21 +43,6 @@
       "date": "2026-07-12",
       "url": "https://www.margateyachtclub.co.uk/event/streaker-nationals-sunderland",
       "duties": {}
-    },
-    {
-      "title": "Leisure Sailing 2026",
-      "date": "2026-07-11",
-      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
-      "duties": {
-        "Power Boat Helm (PB2)": [
-          {
-            "name": null,
-            "role": "PB2 Qualified only",
-            "status": "needed",
-            "member_url": null
-          }
-        ]
-      }
     },
     {
       "title": "Wild & Wise - Crew a cadet",
@@ -172,10 +157,10 @@
         ],
         "Power Boat Crew": [
           {
-            "name": null,
+            "name": "Ashleigh Dale",
             "role": "PB Crew",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4738957"
           }
         ]
       }
@@ -309,6 +294,56 @@
             "name": null,
             "role": null,
             "status": "unassigned",
+            "member_url": null
+          }
+        ]
+      }
+    },
+    {
+      "title": "RYA Level 2 2026",
+      "date": "2026-07-26",
+      "url": "https://www.margateyachtclub.co.uk/event/rya-level-2-2026",
+      "duties": {
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": null,
+            "status": "unassigned",
+            "member_url": null
+          }
+        ],
+        "Instructor": [
+          {
+            "name": null,
+            "role": null,
+            "status": "unassigned",
+            "member_url": null
+          },
+          {
+            "name": null,
+            "role": null,
+            "status": "unassigned",
+            "member_url": null
+          },
+          {
+            "name": null,
+            "role": null,
+            "status": "unassigned",
+            "member_url": null
+          }
+        ]
+      }
+    },
+    {
+      "title": "Leisure Sailing 2026",
+      "date": "2026-07-26",
+      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
+      "duties": {
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified only",
+            "status": "needed",
             "member_url": null
           }
         ]

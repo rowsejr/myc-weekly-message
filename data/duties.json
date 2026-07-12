@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T06:02:17.432824+00:00",
+  "generated_at": "2026-07-12T06:14:58.404745+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -32,10 +32,10 @@
         ],
         "Power Boat Crew": [
           {
-            "name": null,
+            "name": "Ashleigh Dale",
             "role": "PB Crew",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4738957"
           }
         ]
       }
@@ -45,21 +45,6 @@
       "date": "2026-07-12",
       "url": "https://www.margateyachtclub.co.uk/event/streaker-nationals-sunderland",
       "duties": {}
-    },
-    "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1": {
-      "title": "Leisure Sailing 2026",
-      "date": "2026-07-18",
-      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
-      "duties": {
-        "Power Boat Helm (PB2)": [
-          {
-            "name": null,
-            "role": "PB2 Qualified only",
-            "status": "needed",
-            "member_url": null
-          }
-        ]
-      }
     },
     "https://www.margateyachtclub.co.uk/event/wild-wise-crew-a-cadet-2": {
       "title": "Wild & Wise - Crew a cadet",
@@ -145,6 +130,21 @@
         ]
       }
     },
+    "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1": {
+      "title": "Leisure Sailing 2026",
+      "date": "2026-07-26",
+      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
+      "duties": {
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified only",
+            "status": "needed",
+            "member_url": null
+          }
+        ]
+      }
+    },
     "https://www.margateyachtclub.co.uk/event/summer-points-2026-1": {
       "title": "Summer Points 2026",
       "date": "2026-07-19",
@@ -196,7 +196,7 @@
     },
     "https://www.margateyachtclub.co.uk/event/rya-level-2-2026": {
       "title": "RYA Level 2 2026",
-      "date": "2026-07-25",
+      "date": "2026-07-26",
       "url": "https://www.margateyachtclub.co.uk/event/rya-level-2-2026",
       "duties": {
         "Power Boat Helm (PB2)": [
