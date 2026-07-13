@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T06:14:58.404094+00:00",
+  "generated_at": "2026-07-13T06:24:35.698345+00:00",
   "events": [
     {
       "title": "Coastguard 2026",
@@ -37,55 +37,6 @@
           }
         ]
       }
-    },
-    {
-      "title": "Streaker Nationals (Sunderland)",
-      "date": "2026-07-12",
-      "url": "https://www.margateyachtclub.co.uk/event/streaker-nationals-sunderland",
-      "duties": {}
-    },
-    {
-      "title": "Wild & Wise - Crew a cadet",
-      "date": "2026-07-12",
-      "url": "https://www.margateyachtclub.co.uk/event/wild-wise-crew-a-cadet-2",
-      "duties": {
-        "Race Box": [
-          {
-            "name": "Pat Head",
-            "role": "RO",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
-          },
-          {
-            "name": "Emma Kehoe",
-            "role": "Assistant",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4785587"
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": null,
-            "role": "PB2 Qualified",
-            "status": "needed",
-            "member_url": null
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": null,
-            "role": "PB Crew",
-            "status": "needed",
-            "member_url": null
-          }
-        ]
-      }
-    },
-    {
-      "title": "Social",
-      "date": "2026-07-12",
-      "url": "https://www.margateyachtclub.co.uk/event/social",
-      "duties": {}
     },
     {
       "title": "Committee Meeting",
