@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T06:24:35.698886+00:00",
+  "generated_at": "2026-07-14T05:59:40.670106+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -10,10 +10,10 @@
       "duties": {
         "Race Box": [
           {
-            "name": null,
+            "name": "Wendy Tumber",
             "role": "RO",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4481375"
           },
           {
             "name": "Richard Fulcher",
@@ -32,19 +32,13 @@
         ],
         "Power Boat Crew": [
           {
-            "name": "Ashleigh Dale",
+            "name": "Daryl Bynon",
             "role": "PB Crew",
             "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4738957"
+            "member_url": "https://www.margateyachtclub.co.uk/member/4681045"
           }
         ]
       }
-    },
-    "https://www.margateyachtclub.co.uk/event/committee-meeting-7": {
-      "title": "Committee Meeting",
-      "date": "2026-07-13",
-      "url": "https://www.margateyachtclub.co.uk/event/committee-meeting-7",
-      "duties": {}
     },
     "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1": {
       "title": "Youth Training",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T06:24:35.698345+00:00",
+  "generated_at": "2026-07-14T05:59:40.669664+00:00",
   "events": [
     {
       "title": "Coastguard 2026",
@@ -37,12 +37,6 @@
           }
         ]
       }
-    },
-    {
-      "title": "Committee Meeting",
-      "date": "2026-07-13",
-      "url": "https://www.margateyachtclub.co.uk/event/committee-meeting-7",
-      "duties": {}
     },
     {
       "title": "Youth Training",
@@ -86,10 +80,10 @@
       "duties": {
         "Race Box": [
           {
-            "name": null,
+            "name": "Wendy Tumber",
             "role": "RO",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4481375"
           },
           {
             "name": "Richard Fulcher",
@@ -108,10 +102,10 @@
         ],
         "Power Boat Crew": [
           {
-            "name": "Ashleigh Dale",
+            "name": "Daryl Bynon",
             "role": "PB Crew",
             "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4738957"
+            "member_url": "https://www.margateyachtclub.co.uk/member/4681045"
           }
         ]
       }
