@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T05:59:40.670106+00:00",
+  "generated_at": "2026-07-15T06:01:05.150721+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -24,18 +24,18 @@
         ],
         "Power Boat Helm (PB2)": [
           {
-            "name": null,
+            "name": "Robert Atkinson",
             "role": "PB2 Qualified",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4613635"
           }
         ],
         "Power Boat Crew": [
           {
-            "name": "Daryl Bynon",
+            "name": "Linnéa Johansson",
             "role": "PB Crew",
             "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4681045"
+            "member_url": "https://www.margateyachtclub.co.uk/member/4817995"
           }
         ]
       }
@@ -77,13 +77,13 @@
     },
     "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1": {
       "title": "Leisure Sailing 2026",
-      "date": "2026-07-26",
+      "date": "2026-07-29",
       "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
       "duties": {
         "Power Boat Helm (PB2)": [
           {
             "name": null,
-            "role": "PB2 Qualified only",
+            "role": null,
             "status": "needed",
             "member_url": null
           }
@@ -97,10 +97,10 @@
       "duties": {
         "Race Box": [
           {
-            "name": null,
+            "name": "Pat Head",
             "role": "RO",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
           },
           {
             "name": null,
