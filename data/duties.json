@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T06:01:05.150721+00:00",
+  "generated_at": "2026-07-16T06:03:41.284664+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -40,6 +40,70 @@
         ]
       }
     },
+    "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1": {
+      "title": "Leisure Sailing 2026",
+      "date": "2026-07-29",
+      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
+      "duties": {
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": null,
+            "status": "needed",
+            "member_url": null
+          }
+        ]
+      }
+    },
+    "https://www.margateyachtclub.co.uk/event/summer-points-2026-1": {
+      "title": "Summer Points 2026",
+      "date": "2026-07-19",
+      "url": "https://www.margateyachtclub.co.uk/event/summer-points-2026-1",
+      "duties": {
+        "Race Box": [
+          {
+            "name": "Pat Head",
+            "role": "RO",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
+          },
+          {
+            "name": "Gretta McGill",
+            "role": "Assistant",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4137851"
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": "Andrew Hudson",
+            "role": "PB2 Qualified",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4122625"
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": "Andrew Hudson",
+            "role": "PB Crew",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4122625"
+          }
+        ]
+      }
+    },
+    "https://www.margateyachtclub.co.uk/event/ramsgate-week": {
+      "title": "Ramsgate Week",
+      "date": "2026-07-24",
+      "url": "https://www.margateyachtclub.co.uk/event/ramsgate-week",
+      "duties": {}
+    },
+    "https://www.margateyachtclub.co.uk/event/nssa-downs-sc": {
+      "title": "NSSA - Downs SC",
+      "date": "2026-07-24",
+      "url": "https://www.margateyachtclub.co.uk/event/nssa-downs-sc",
+      "duties": {}
+    },
     "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1": {
       "title": "Youth Training",
       "date": "2026-07-22",
@@ -74,70 +138,6 @@
           }
         ]
       }
-    },
-    "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1": {
-      "title": "Leisure Sailing 2026",
-      "date": "2026-07-29",
-      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
-      "duties": {
-        "Power Boat Helm (PB2)": [
-          {
-            "name": null,
-            "role": null,
-            "status": "needed",
-            "member_url": null
-          }
-        ]
-      }
-    },
-    "https://www.margateyachtclub.co.uk/event/summer-points-2026-1": {
-      "title": "Summer Points 2026",
-      "date": "2026-07-19",
-      "url": "https://www.margateyachtclub.co.uk/event/summer-points-2026-1",
-      "duties": {
-        "Race Box": [
-          {
-            "name": "Pat Head",
-            "role": "RO",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
-          },
-          {
-            "name": null,
-            "role": "Assistant",
-            "status": "needed",
-            "member_url": null
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Andrew Hudson",
-            "role": "PB2 Qualified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4122625"
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": "Andrew Hudson",
-            "role": "PB Crew",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4122625"
-          }
-        ]
-      }
-    },
-    "https://www.margateyachtclub.co.uk/event/ramsgate-week": {
-      "title": "Ramsgate Week",
-      "date": "2026-07-24",
-      "url": "https://www.margateyachtclub.co.uk/event/ramsgate-week",
-      "duties": {}
-    },
-    "https://www.margateyachtclub.co.uk/event/nssa-downs-sc": {
-      "title": "NSSA - Downs SC",
-      "date": "2026-07-24",
-      "url": "https://www.margateyachtclub.co.uk/event/nssa-downs-sc",
-      "duties": {}
     },
     "https://www.margateyachtclub.co.uk/event/rya-level-2-2026": {
       "title": "RYA Level 2 2026",
