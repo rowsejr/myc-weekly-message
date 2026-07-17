@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T06:03:41.284099+00:00",
+  "generated_at": "2026-07-17T06:04:04.694325+00:00",
   "events": [
     {
       "title": "Coastguard 2026",
@@ -45,10 +45,10 @@
       "duties": {
         "Power Boat Helm (PB2)": [
           {
-            "name": null,
+            "name": "Robert Atkinson",
             "role": "PB2 Qualified only",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4613635"
           }
         ]
       }
@@ -221,6 +221,12 @@
           }
         ]
       }
+    },
+    {
+      "title": "Youth Training",
+      "date": "2026-07-31",
+      "url": "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1",
+      "duties": {}
     },
     {
       "title": "Leisure Sailing 2026",
