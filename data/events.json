@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T05:57:05.795635+00:00",
+  "generated_at": "2026-07-19T06:11:48.477627+00:00",
   "events": [
     {
       "title": "Coastguard 2026",
@@ -34,21 +34,6 @@
             "role": "PB Crew",
             "status": "confirmed",
             "member_url": "https://www.margateyachtclub.co.uk/member/4817995"
-          }
-        ]
-      }
-    },
-    {
-      "title": "Leisure Sailing 2026",
-      "date": "2026-07-18",
-      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
-      "duties": {
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "James Rowse",
-            "role": "PB2 Qualified only",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4145193"
           }
         ]
       }
@@ -273,6 +258,43 @@
             "name": null,
             "role": null,
             "status": "unassigned",
+            "member_url": null
+          }
+        ]
+      }
+    },
+    {
+      "title": "Long Distance Race",
+      "date": "2026-08-02",
+      "url": "https://www.margateyachtclub.co.uk/event/long-distance-race",
+      "duties": {
+        "Race Box": [
+          {
+            "name": null,
+            "role": "RO",
+            "status": "needed",
+            "member_url": null
+          },
+          {
+            "name": null,
+            "role": "Assistant",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": null,
+            "role": "PB Crew",
+            "status": "needed",
             "member_url": null
           }
         ]
