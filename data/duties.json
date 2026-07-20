@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T06:11:48.478216+00:00",
+  "generated_at": "2026-07-20T06:23:22.188549+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -36,43 +36,6 @@
             "role": "PB Crew",
             "status": "confirmed",
             "member_url": "https://www.margateyachtclub.co.uk/member/4817995"
-          }
-        ]
-      }
-    },
-    "https://www.margateyachtclub.co.uk/event/summer-points-2026-1": {
-      "title": "Summer Points 2026",
-      "date": "2026-07-19",
-      "url": "https://www.margateyachtclub.co.uk/event/summer-points-2026-1",
-      "duties": {
-        "Race Box": [
-          {
-            "name": "Pat Head",
-            "role": "RO",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
-          },
-          {
-            "name": "Gretta McGill",
-            "role": "Assistant",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4137851"
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Andrew Hudson",
-            "role": "PB2 Qualified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4122625"
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": "Andrew Hudson",
-            "role": "PB Crew",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4122625"
           }
         ]
       }
