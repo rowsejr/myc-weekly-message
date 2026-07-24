@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T06:13:04.152452+00:00",
+  "generated_at": "2026-07-24T06:09:37.205057+00:00",
   "events": [
     {
       "title": "Ramsgate Week",
@@ -84,21 +84,6 @@
       }
     },
     {
-      "title": "Leisure Sailing 2026",
-      "date": "2026-07-26",
-      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
-      "duties": {
-        "Power Boat Helm (PB2)": [
-          {
-            "name": null,
-            "role": "PB2 Qualified only",
-            "status": "needed",
-            "member_url": null
-          }
-        ]
-      }
-    },
-    {
       "title": "Long Distance Race",
       "date": "2026-07-26",
       "url": "https://www.margateyachtclub.co.uk/event/long-distance-race",
@@ -140,10 +125,10 @@
       "duties": {
         "Power Boat Helm (PB2)": [
           {
-            "name": null,
+            "name": "Lawrence Head",
             "role": null,
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4124427"
           }
         ]
       }
@@ -178,6 +163,43 @@
             "name": null,
             "role": null,
             "status": "unassigned",
+            "member_url": null
+          }
+        ]
+      }
+    },
+    {
+      "title": "Race (details to follow)",
+      "date": "2026-08-02",
+      "url": "https://www.margateyachtclub.co.uk/event/race-details-to-follow",
+      "duties": {
+        "Race Box": [
+          {
+            "name": null,
+            "role": "RO",
+            "status": "needed",
+            "member_url": null
+          },
+          {
+            "name": null,
+            "role": "Assistant",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": null,
+            "role": "PB Crew",
+            "status": "needed",
             "member_url": null
           }
         ]
