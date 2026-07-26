@@ -1,41 +1,6 @@
 {
-  "generated_at": "2026-07-25T06:04:38.373866+00:00",
+  "generated_at": "2026-07-26T06:16:23.213474+00:00",
   "events": [
-    {
-      "title": "RYA Level 2 2026",
-      "date": "2026-07-25",
-      "url": "https://www.margateyachtclub.co.uk/event/rya-level-2-2026",
-      "duties": {
-        "Power Boat Helm (PB2)": [
-          {
-            "name": null,
-            "role": null,
-            "status": "unassigned",
-            "member_url": null
-          }
-        ],
-        "Instructor": [
-          {
-            "name": null,
-            "role": null,
-            "status": "unassigned",
-            "member_url": null
-          },
-          {
-            "name": null,
-            "role": null,
-            "status": "unassigned",
-            "member_url": null
-          },
-          {
-            "name": null,
-            "role": null,
-            "status": "unassigned",
-            "member_url": null
-          }
-        ]
-      }
-    },
     {
       "title": "RYA Level 2 2026",
       "date": "2026-07-26",
@@ -232,6 +197,43 @@
       "title": "Coastguard 2026",
       "date": "2026-08-05",
       "url": "https://www.margateyachtclub.co.uk/event/coastguard-2026-1",
+      "duties": {
+        "Race Box": [
+          {
+            "name": null,
+            "role": "RO",
+            "status": "needed",
+            "member_url": null
+          },
+          {
+            "name": null,
+            "role": "Assistant",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": null,
+            "role": "PB Crew",
+            "status": "needed",
+            "member_url": null
+          }
+        ]
+      }
+    },
+    {
+      "title": "Improvers Cup (Two Races)",
+      "date": "2026-08-09",
+      "url": "https://www.margateyachtclub.co.uk/event/improvers-cup-1",
       "duties": {
         "Race Box": [
           {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T06:04:38.374365+00:00",
+  "generated_at": "2026-07-26T06:16:23.213914+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -158,6 +158,43 @@
       "title": "Coastguard 2026",
       "date": "2026-08-05",
       "url": "https://www.margateyachtclub.co.uk/event/coastguard-2026-1",
+      "duties": {
+        "Race Box": [
+          {
+            "name": null,
+            "role": "RO",
+            "status": "needed",
+            "member_url": null
+          },
+          {
+            "name": null,
+            "role": "Assistant",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": null,
+            "role": "PB Crew",
+            "status": "needed",
+            "member_url": null
+          }
+        ]
+      }
+    },
+    "https://www.margateyachtclub.co.uk/event/improvers-cup-1": {
+      "title": "Improvers Cup (Two Races)",
+      "date": "2026-08-09",
+      "url": "https://www.margateyachtclub.co.uk/event/improvers-cup-1",
       "duties": {
         "Race Box": [
           {
