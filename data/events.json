@@ -1,70 +1,6 @@
 {
-  "generated_at": "2026-07-26T06:16:23.213474+00:00",
+  "generated_at": "2026-07-27T06:26:18.456081+00:00",
   "events": [
-    {
-      "title": "RYA Level 2 2026",
-      "date": "2026-07-26",
-      "url": "https://www.margateyachtclub.co.uk/event/rya-level-2-2026",
-      "duties": {
-        "Power Boat Helm (PB2)": [
-          {
-            "name": null,
-            "role": null,
-            "status": "unassigned",
-            "member_url": null
-          }
-        ],
-        "Instructor": [
-          {
-            "name": null,
-            "role": null,
-            "status": "unassigned",
-            "member_url": null
-          },
-          {
-            "name": null,
-            "role": null,
-            "status": "unassigned",
-            "member_url": null
-          },
-          {
-            "name": null,
-            "role": null,
-            "status": "unassigned",
-            "member_url": null
-          }
-        ]
-      }
-    },
-    {
-      "title": "Long Distance Race",
-      "date": "2026-07-26",
-      "url": "https://www.margateyachtclub.co.uk/event/long-distance-race",
-      "duties": {
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Antony Shaw",
-            "role": "PB2 Qualified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4121975"
-          },
-          {
-            "name": null,
-            "role": null,
-            "status": "unassigned",
-            "member_url": null
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": "Graham Head",
-            "role": "PB Crew",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4122059"
-          }
-        ]
-      }
-    },
     {
       "title": "Youth Training",
       "date": "2026-07-31",
@@ -128,10 +64,10 @@
       "duties": {
         "Race Box": [
           {
-            "name": null,
+            "name": "Pat Head",
             "role": "RO",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
           },
           {
             "name": null,
