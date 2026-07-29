@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T06:09:38.264110+00:00",
+  "generated_at": "2026-07-29T06:12:05.200288+00:00",
   "events": [
     {
       "title": "Youth Training",
@@ -158,6 +158,43 @@
         ],
         "Power Boat Crew": [
           {
+            "name": "Daryl Bynon",
+            "role": "PB Crew",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4681045"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Improvers Cup (Two Races)",
+      "date": "2026-08-09",
+      "url": "https://www.margateyachtclub.co.uk/event/improvers-cup-1",
+      "duties": {
+        "Race Box": [
+          {
+            "name": null,
+            "role": "RO",
+            "status": "needed",
+            "member_url": null
+          },
+          {
+            "name": null,
+            "role": "Assistant",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Crew": [
+          {
             "name": null,
             "role": "PB Crew",
             "status": "needed",
@@ -167,9 +204,68 @@
       }
     },
     {
-      "title": "Improvers Cup (Two Races)",
-      "date": "2026-08-09",
-      "url": "https://www.margateyachtclub.co.uk/event/improvers-cup-1",
+      "title": "Youth Training",
+      "date": "2026-08-12",
+      "url": "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1",
+      "duties": {
+        "Instructor": [
+          {
+            "name": "Lawrence Head",
+            "role": null,
+            "status": "pending",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4124427"
+          },
+          {
+            "name": "Lawrence Head",
+            "role": null,
+            "status": "pending",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4124427"
+          },
+          {
+            "name": "Emma Macfarlane",
+            "role": null,
+            "status": "pending",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4121973"
+          },
+          {
+            "name": "Emma Macfarlane",
+            "role": null,
+            "status": "pending",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4121973"
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": "Graham Head",
+            "role": "PB2 Qulaified",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4122059"
+          },
+          {
+            "name": "Graham Head",
+            "role": "PB2 Qulaified",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4122059"
+          },
+          {
+            "name": "Jeremy McCabe",
+            "role": null,
+            "status": "pending",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4121991"
+          },
+          {
+            "name": "Jeremy McCabe",
+            "role": null,
+            "status": "pending",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4121991"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Coastguard 2026",
+      "date": "2026-08-12",
+      "url": "https://www.margateyachtclub.co.uk/event/coastguard-2026-1",
       "duties": {
         "Race Box": [
           {
