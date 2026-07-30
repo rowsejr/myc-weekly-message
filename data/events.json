@@ -1,26 +1,11 @@
 {
-  "generated_at": "2026-07-29T06:12:05.200288+00:00",
+  "generated_at": "2026-07-30T06:08:38.799416+00:00",
   "events": [
     {
       "title": "Youth Training",
       "date": "2026-07-31",
       "url": "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1",
       "duties": {}
-    },
-    {
-      "title": "Leisure Sailing 2026",
-      "date": "2026-07-29",
-      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
-      "duties": {
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Lawrence Head",
-            "role": null,
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4124427"
-          }
-        ]
-      }
     },
     {
       "title": "RYA Level 2 2026",
