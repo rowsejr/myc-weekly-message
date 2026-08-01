@@ -1,12 +1,6 @@
 {
-  "generated_at": "2026-07-31T06:20:51.578106+00:00",
+  "generated_at": "2026-08-01T06:12:29.153271+00:00",
   "events": [
-    {
-      "title": "Youth Training",
-      "date": "2026-07-31",
-      "url": "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1",
-      "duties": {}
-    },
     {
       "title": "RYA Level 2 2026",
       "date": "2026-08-01",
@@ -55,26 +49,26 @@
             "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
           },
           {
-            "name": null,
+            "name": "Darren Ray",
             "role": "Assistant",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4128555"
           }
         ],
         "Power Boat Helm (PB2)": [
           {
-            "name": null,
+            "name": "Rob Powell",
             "role": "PB2 Qualified",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4122013"
           }
         ],
         "Power Boat Crew": [
           {
-            "name": null,
+            "name": "Gretta McGill",
             "role": "PB Crew",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4137851"
           }
         ]
       }
@@ -283,6 +277,12 @@
           }
         ]
       }
+    },
+    {
+      "title": "Leisure Sailing 2026",
+      "date": "2026-08-15",
+      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
+      "duties": {}
     }
   ]
 }
