@@ -1,45 +1,8 @@
 {
-  "generated_at": "2026-08-02T06:15:05.355810+00:00",
+  "generated_at": "2026-08-03T06:25:28.205804+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
-    "https://www.margateyachtclub.co.uk/event/race-details-to-follow": {
-      "title": "Margate Soul Cup",
-      "date": "2026-08-02",
-      "url": "https://www.margateyachtclub.co.uk/event/race-details-to-follow",
-      "duties": {
-        "Race Box": [
-          {
-            "name": "Pat Head",
-            "role": "RO",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
-          },
-          {
-            "name": "Darren Ray",
-            "role": "Assistant",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4128555"
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Rob Powell",
-            "role": "PB2 Qualified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4122013"
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": "Gretta McGill",
-            "role": "PB Crew",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4137851"
-          }
-        ]
-      }
-    },
     "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1": {
       "title": "Youth Training",
       "date": "2026-08-12",
