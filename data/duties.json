@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T06:25:28.205804+00:00",
+  "generated_at": "2026-08-04T06:10:15.825053+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -106,10 +106,10 @@
       "duties": {
         "Race Box": [
           {
-            "name": null,
+            "name": "Pat Head",
             "role": "RO",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
           },
           {
             "name": null,
@@ -120,18 +120,18 @@
         ],
         "Power Boat Helm (PB2)": [
           {
-            "name": null,
+            "name": "Lawrence Head",
             "role": "PB2 Qualified",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4124427"
           }
         ],
         "Power Boat Crew": [
           {
-            "name": null,
+            "name": "Lawrence Head",
             "role": "PB Crew",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4124427"
           }
         ]
       }
