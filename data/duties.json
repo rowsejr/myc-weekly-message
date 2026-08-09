@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T05:30:32.103977+00:00",
+  "generated_at": "2026-08-09T05:33:46.436435+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -190,6 +190,43 @@
             "role": "RO",
             "status": "pending",
             "member_url": "https://www.margateyachtclub.co.uk/member/4124337"
+          },
+          {
+            "name": null,
+            "role": "Assistant",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": null,
+            "role": "PB Crew",
+            "status": "needed",
+            "member_url": null
+          }
+        ]
+      }
+    },
+    "https://www.margateyachtclub.co.uk/event/pursuit-race-6": {
+      "title": "Pursuit Race",
+      "date": "2026-08-23",
+      "url": "https://www.margateyachtclub.co.uk/event/pursuit-race-6",
+      "duties": {
+        "Race Box": [
+          {
+            "name": null,
+            "role": "RO",
+            "status": "needed",
+            "member_url": null
           },
           {
             "name": null,
