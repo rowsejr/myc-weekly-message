@@ -1,43 +1,6 @@
 {
-  "generated_at": "2026-08-09T05:33:46.435811+00:00",
+  "generated_at": "2026-08-10T05:46:08.846639+00:00",
   "events": [
-    {
-      "title": "Improvers Cup (Two Races)",
-      "date": "2026-08-09",
-      "url": "https://www.margateyachtclub.co.uk/event/improvers-cup-1",
-      "duties": {
-        "Race Box": [
-          {
-            "name": "Pat Head",
-            "role": "RO",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
-          },
-          {
-            "name": null,
-            "role": "Assistant",
-            "status": "needed",
-            "member_url": null
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Christopher Hatcher",
-            "role": "PB2 Qualified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4121981"
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": "Lawrence Head",
-            "role": "PB Crew",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4124427"
-          }
-        ]
-      }
-    },
     {
       "title": "Youth Training",
       "date": "2026-08-12",
