@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T05:46:08.846639+00:00",
+  "generated_at": "2026-08-11T05:37:45.569811+00:00",
   "events": [
     {
       "title": "Youth Training",
@@ -81,10 +81,10 @@
         ],
         "Power Boat Helm (PB2)": [
           {
-            "name": null,
+            "name": "Graham Head",
             "role": "PB2 Qualified",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4122059"
           }
         ],
         "Power Boat Crew": [
@@ -101,7 +101,16 @@
       "title": "Leisure Sailing 2026",
       "date": "2026-08-15",
       "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
-      "duties": {}
+      "duties": {
+        "Power Boat Helm (PB2)": [
+          {
+            "name": "Stanley",
+            "role": null,
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4655035"
+          }
+        ]
+      }
     },
     {
       "title": "Hatfield Cup (Two Races)",
