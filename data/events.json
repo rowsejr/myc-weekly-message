@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T05:37:45.569811+00:00",
+  "generated_at": "2026-08-12T05:47:06.162842+00:00",
   "events": [
     {
       "title": "Youth Training",
@@ -73,10 +73,10 @@
             "member_url": "https://www.margateyachtclub.co.uk/member/4124337"
           },
           {
-            "name": null,
+            "name": "James Rowse",
             "role": "Assistant",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4145193"
           }
         ],
         "Power Boat Helm (PB2)": [
@@ -89,10 +89,10 @@
         ],
         "Power Boat Crew": [
           {
-            "name": null,
+            "name": "Adele Jackson",
             "role": "PB Crew",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4795331"
           }
         ]
       }
@@ -109,6 +109,14 @@
             "status": "confirmed",
             "member_url": "https://www.margateyachtclub.co.uk/member/4655035"
           }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": "Lawrence Head",
+            "role": null,
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4124427"
+          }
         ]
       }
     },
@@ -119,16 +127,16 @@
       "duties": {
         "Race Box": [
           {
-            "name": null,
+            "name": "Pat Head",
             "role": "RO",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
           },
           {
-            "name": null,
+            "name": "Patricia Blake",
             "role": "Assistant",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4789387"
           }
         ],
         "Power Boat Helm (PB2)": [
@@ -256,6 +264,43 @@
             "role": "RO",
             "status": "needed",
             "member_url": null
+          },
+          {
+            "name": null,
+            "role": "Assistant",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": null,
+            "role": "PB Crew",
+            "status": "needed",
+            "member_url": null
+          }
+        ]
+      }
+    },
+    {
+      "title": "Coastguard 2026",
+      "date": "2026-08-26",
+      "url": "https://www.margateyachtclub.co.uk/event/coastguard-2026-1",
+      "duties": {
+        "Race Box": [
+          {
+            "name": "Sue Anderson",
+            "role": "RO",
+            "status": "pending",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4124337"
           },
           {
             "name": null,
