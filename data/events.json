@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T05:47:04.539727+00:00",
+  "generated_at": "2026-08-15T05:25:15.641557+00:00",
   "events": [
     {
       "title": "Leisure Sailing 2026",
@@ -45,10 +45,10 @@
         ],
         "Power Boat Helm (PB2)": [
           {
-            "name": null,
+            "name": "Alex Goody",
             "role": "PB2 Qualified",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4372393"
           }
         ],
         "Power Boat Crew": [
@@ -225,6 +225,21 @@
           {
             "name": null,
             "role": "PB Crew",
+            "status": "needed",
+            "member_url": null
+          }
+        ]
+      }
+    },
+    {
+      "title": "Leisure Sailing 2026",
+      "date": "2026-08-29",
+      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
+      "duties": {
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified only",
             "status": "needed",
             "member_url": null
           }
