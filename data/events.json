@@ -1,29 +1,6 @@
 {
-  "generated_at": "2026-08-15T05:25:15.641557+00:00",
+  "generated_at": "2026-08-16T05:26:00.580767+00:00",
   "events": [
-    {
-      "title": "Leisure Sailing 2026",
-      "date": "2026-08-15",
-      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
-      "duties": {
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Stanley",
-            "role": null,
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4655035"
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": "Lawrence Head",
-            "role": null,
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4124427"
-          }
-        ]
-      }
-    },
     {
       "title": "Hatfield Cup (Two Races)",
       "date": "2026-08-16",
@@ -240,6 +217,43 @@
           {
             "name": null,
             "role": "PB2 Qualified only",
+            "status": "needed",
+            "member_url": null
+          }
+        ]
+      }
+    },
+    {
+      "title": "Poupard Cup",
+      "date": "2026-08-30",
+      "url": "https://www.margateyachtclub.co.uk/event/poupard-cup",
+      "duties": {
+        "Race Box": [
+          {
+            "name": "Pat Head",
+            "role": "RO",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
+          },
+          {
+            "name": null,
+            "role": "Assistant",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": null,
+            "role": "PB Crew",
             "status": "needed",
             "member_url": null
           }

@@ -1,23 +1,8 @@
 {
-  "generated_at": "2026-08-15T05:25:15.642107+00:00",
+  "generated_at": "2026-08-16T05:26:00.581347+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
-    "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1": {
-      "title": "Leisure Sailing 2026",
-      "date": "2026-08-29",
-      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
-      "duties": {
-        "Power Boat Helm (PB2)": [
-          {
-            "name": null,
-            "role": "PB2 Qualified only",
-            "status": "needed",
-            "member_url": null
-          }
-        ]
-      }
-    },
     "https://www.margateyachtclub.co.uk/event/hatfield-cup-3": {
       "title": "Hatfield Cup (Two Races)",
       "date": "2026-08-16",
@@ -199,6 +184,58 @@
             "role": "RO",
             "status": "pending",
             "member_url": "https://www.margateyachtclub.co.uk/member/4124337"
+          },
+          {
+            "name": null,
+            "role": "Assistant",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": null,
+            "role": "PB Crew",
+            "status": "needed",
+            "member_url": null
+          }
+        ]
+      }
+    },
+    "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1": {
+      "title": "Leisure Sailing 2026",
+      "date": "2026-08-29",
+      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
+      "duties": {
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified only",
+            "status": "needed",
+            "member_url": null
+          }
+        ]
+      }
+    },
+    "https://www.margateyachtclub.co.uk/event/poupard-cup": {
+      "title": "Poupard Cup",
+      "date": "2026-08-30",
+      "url": "https://www.margateyachtclub.co.uk/event/poupard-cup",
+      "duties": {
+        "Race Box": [
+          {
+            "name": "Pat Head",
+            "role": "RO",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
           },
           {
             "name": null,
