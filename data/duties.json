@@ -1,45 +1,8 @@
 {
-  "generated_at": "2026-08-16T05:26:00.581347+00:00",
+  "generated_at": "2026-08-17T05:26:51.900822+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
-    "https://www.margateyachtclub.co.uk/event/hatfield-cup-3": {
-      "title": "Hatfield Cup (Two Races)",
-      "date": "2026-08-16",
-      "url": "https://www.margateyachtclub.co.uk/event/hatfield-cup-3",
-      "duties": {
-        "Race Box": [
-          {
-            "name": "Pat Head",
-            "role": "RO",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
-          },
-          {
-            "name": "Patricia Blake",
-            "role": "Assistant",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4789387"
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Alex Goody",
-            "role": "PB2 Qualified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4372393"
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": null,
-            "role": "PB Crew",
-            "status": "needed",
-            "member_url": null
-          }
-        ]
-      }
-    },
     "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1": {
       "title": "Youth Training",
       "date": "2026-08-19",
@@ -112,10 +75,10 @@
             "member_url": "https://www.margateyachtclub.co.uk/member/4124337"
           },
           {
-            "name": null,
+            "name": "Pat Head",
             "role": "Assistant",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
           }
         ],
         "Power Boat Helm (PB2)": [
@@ -128,10 +91,10 @@
         ],
         "Power Boat Crew": [
           {
-            "name": null,
+            "name": "Daryl Bynon",
             "role": "PB Crew",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4681045"
           }
         ]
       }
@@ -157,10 +120,10 @@
         ],
         "Power Boat Helm (PB2)": [
           {
-            "name": null,
+            "name": "Richard Fulcher",
             "role": "PB2 Qualified",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4122055"
           }
         ],
         "Power Boat Crew": [
@@ -210,6 +173,12 @@
         ]
       }
     },
+    "https://www.margateyachtclub.co.uk/event/burnham-week-regatta-2025": {
+      "title": "Burnham Week Regatta 2025",
+      "date": "2026-08-31",
+      "url": "https://www.margateyachtclub.co.uk/event/burnham-week-regatta-2025",
+      "duties": {}
+    },
     "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1": {
       "title": "Leisure Sailing 2026",
       "date": "2026-08-29",
@@ -227,7 +196,7 @@
     },
     "https://www.margateyachtclub.co.uk/event/poupard-cup": {
       "title": "Poupard Cup",
-      "date": "2026-08-30",
+      "date": "2026-08-31",
       "url": "https://www.margateyachtclub.co.uk/event/poupard-cup",
       "duties": {
         "Race Box": [
