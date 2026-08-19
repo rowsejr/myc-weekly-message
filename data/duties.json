@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-18T05:25:41.666408+00:00",
+  "generated_at": "2026-08-19T05:25:53.731015+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
     "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1": {
       "title": "Youth Training",
-      "date": "2026-08-19",
+      "date": "2026-09-02",
       "url": "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1",
       "duties": {
         "Instructor": [
@@ -38,13 +38,13 @@
           {
             "name": "Graham Head",
             "role": "PB2 Qulaified",
-            "status": "confirmed",
+            "status": "pending",
             "member_url": "https://www.margateyachtclub.co.uk/member/4122059"
           },
           {
             "name": "Graham Head",
             "role": "PB2 Qulaified",
-            "status": "confirmed",
+            "status": "pending",
             "member_url": "https://www.margateyachtclub.co.uk/member/4122059"
           },
           {
@@ -71,7 +71,7 @@
           {
             "name": "Sue Anderson",
             "role": "RO",
-            "status": "pending",
+            "status": "confirmed",
             "member_url": "https://www.margateyachtclub.co.uk/member/4124337"
           },
           {
@@ -112,10 +112,10 @@
             "member_url": null
           },
           {
-            "name": null,
+            "name": "Patricia Blake",
             "role": "Assistant",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4789387"
           }
         ],
         "Power Boat Helm (PB2)": [
@@ -128,10 +128,10 @@
         ],
         "Power Boat Crew": [
           {
-            "name": null,
+            "name": "Gretta McGill",
             "role": "PB Crew",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4137851"
           }
         ]
       }
