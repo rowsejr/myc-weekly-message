@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T05:26:45.459392+00:00",
+  "generated_at": "2026-08-22T05:25:35.831770+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -10,10 +10,10 @@
       "duties": {
         "Race Box": [
           {
-            "name": null,
+            "name": "Pat Head",
             "role": "RO",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
           },
           {
             "name": "Patricia Blake",
@@ -85,7 +85,7 @@
     },
     "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1": {
       "title": "Leisure Sailing 2026",
-      "date": "2026-08-29",
+      "date": "2026-09-05",
       "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
       "duties": {
         "Power Boat Helm (PB2)": [
