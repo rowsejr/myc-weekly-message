@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T05:25:35.831770+00:00",
+  "generated_at": "2026-08-23T05:26:01.220691+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -193,6 +193,55 @@
           }
         ]
       }
+    },
+    "https://www.margateyachtclub.co.uk/event/osprey-nationals-mounts-bay": {
+      "title": "Osprey Nationals (Mounts Bay)",
+      "date": "2026-09-06",
+      "url": "https://www.margateyachtclub.co.uk/event/osprey-nationals-mounts-bay",
+      "duties": {}
+    },
+    "https://www.margateyachtclub.co.uk/event/autumn-series-2026": {
+      "title": "Autumn Series 2026",
+      "date": "2026-09-06",
+      "url": "https://www.margateyachtclub.co.uk/event/autumn-series-2026",
+      "duties": {
+        "Race Box": [
+          {
+            "name": null,
+            "role": "RO",
+            "status": "needed",
+            "member_url": null
+          },
+          {
+            "name": null,
+            "role": "Assistant",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": null,
+            "role": "PB Crew",
+            "status": "needed",
+            "member_url": null
+          }
+        ]
+      }
+    },
+    "https://www.margateyachtclub.co.uk/event/ios-round-the-island-2025": {
+      "title": "IOS Round the Island 2025",
+      "date": "2026-09-06",
+      "url": "https://www.margateyachtclub.co.uk/event/ios-round-the-island-2025",
+      "duties": {}
     }
   }
 }
