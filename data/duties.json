@@ -1,45 +1,8 @@
 {
-  "generated_at": "2026-08-23T05:26:01.220691+00:00",
+  "generated_at": "2026-08-24T05:27:39.874548+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
-    "https://www.margateyachtclub.co.uk/event/pursuit-race-6": {
-      "title": "Pursuit Race",
-      "date": "2026-08-23",
-      "url": "https://www.margateyachtclub.co.uk/event/pursuit-race-6",
-      "duties": {
-        "Race Box": [
-          {
-            "name": "Pat Head",
-            "role": "RO",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
-          },
-          {
-            "name": "Patricia Blake",
-            "role": "Assistant",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4789387"
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Richard Fulcher",
-            "role": "PB2 Qualified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4122055"
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": "Gretta McGill",
-            "role": "PB Crew",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4137851"
-          }
-        ]
-      }
-    },
     "https://www.margateyachtclub.co.uk/event/coastguard-2026-1": {
       "title": "Coastguard 2026",
       "date": "2026-08-26",
