@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T05:27:39.874031+00:00",
+  "generated_at": "2026-08-25T05:26:17.104170+00:00",
   "events": [
     {
       "title": "Coastguard 2026",
@@ -14,26 +14,26 @@
             "member_url": "https://www.margateyachtclub.co.uk/member/4124337"
           },
           {
-            "name": null,
+            "name": "Pat Head",
             "role": "Assistant",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
           }
         ],
         "Power Boat Helm (PB2)": [
           {
-            "name": null,
+            "name": "Robert Atkinson",
             "role": "PB2 Qualified",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4613635"
           }
         ],
         "Power Boat Crew": [
           {
-            "name": null,
+            "name": "Daryl Bynon",
             "role": "PB Crew",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4681045"
           }
         ]
       }
