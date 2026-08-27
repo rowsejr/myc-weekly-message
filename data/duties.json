@@ -1,45 +1,8 @@
 {
-  "generated_at": "2026-08-26T05:26:50.008297+00:00",
+  "generated_at": "2026-08-27T07:54:53.982872+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
-    "https://www.margateyachtclub.co.uk/event/coastguard-2026-1": {
-      "title": "Coastguard 2026",
-      "date": "2026-08-26",
-      "url": "https://www.margateyachtclub.co.uk/event/coastguard-2026-1",
-      "duties": {
-        "Race Box": [
-          {
-            "name": "Sue Anderson",
-            "role": "RO",
-            "status": "pending",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4124337"
-          },
-          {
-            "name": "Pat Head",
-            "role": "Assistant",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Robert Atkinson",
-            "role": "PB2 Qualified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4613635"
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": "Daryl Bynon",
-            "role": "PB Crew",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4681045"
-          }
-        ]
-      }
-    },
     "https://www.margateyachtclub.co.uk/event/burnham-week-regatta-2025": {
       "title": "Burnham Week Regatta 2025",
       "date": "2026-08-31",
@@ -82,18 +45,18 @@
         ],
         "Power Boat Helm (PB2)": [
           {
-            "name": null,
+            "name": "Robert Atkinson",
             "role": "PB2 Qualified",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4613635"
           }
         ],
         "Power Boat Crew": [
           {
-            "name": null,
+            "name": "Robert Atkinson",
             "role": "PB Crew",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4613635"
           }
         ]
       }
