@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T07:54:53.982322+00:00",
+  "generated_at": "2026-08-28T07:56:48.112594+00:00",
   "events": [
     {
       "title": "Burnham Week Regatta 2025",
@@ -51,10 +51,10 @@
         ],
         "Power Boat Crew": [
           {
-            "name": null,
+            "name": "Richard Fulcher",
             "role": "PB Crew",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4122055"
           }
         ]
       }
