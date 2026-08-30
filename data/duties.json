@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T05:23:15.404732+00:00",
+  "generated_at": "2026-08-30T05:23:33.656188+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -8,21 +8,6 @@
       "date": "2026-08-31",
       "url": "https://www.margateyachtclub.co.uk/event/burnham-week-regatta-2025",
       "duties": {}
-    },
-    "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1": {
-      "title": "Leisure Sailing 2026",
-      "date": "2026-09-05",
-      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
-      "duties": {
-        "Power Boat Helm (PB2)": [
-          {
-            "name": null,
-            "role": "PB2 Qualified only",
-            "status": "needed",
-            "member_url": null
-          }
-        ]
-      }
     },
     "https://www.margateyachtclub.co.uk/event/poupard-cup": {
       "title": "Poupard Cup",
@@ -37,10 +22,10 @@
             "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
           },
           {
-            "name": null,
+            "name": "Patricia Blake",
             "role": "Assistant",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4789387"
           }
         ],
         "Power Boat Helm (PB2)": [
@@ -102,6 +87,21 @@
       "url": "https://www.margateyachtclub.co.uk/event/osprey-nationals-mounts-bay",
       "duties": {}
     },
+    "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1": {
+      "title": "Leisure Sailing 2026",
+      "date": "2026-09-05",
+      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
+      "duties": {
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified only",
+            "status": "needed",
+            "member_url": null
+          }
+        ]
+      }
+    },
     "https://www.margateyachtclub.co.uk/event/autumn-series-2026": {
       "title": "Autumn Series 2026",
       "date": "2026-09-06",
@@ -144,6 +144,43 @@
       "date": "2026-09-06",
       "url": "https://www.margateyachtclub.co.uk/event/ios-round-the-island-2025",
       "duties": {}
+    },
+    "https://www.margateyachtclub.co.uk/event/new-racers-cup-two-races": {
+      "title": "New Racers Cup (Two Races)",
+      "date": "2026-09-13",
+      "url": "https://www.margateyachtclub.co.uk/event/new-racers-cup-two-races",
+      "duties": {
+        "Race Box": [
+          {
+            "name": null,
+            "role": "RO",
+            "status": "needed",
+            "member_url": null
+          },
+          {
+            "name": null,
+            "role": "Assistant",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": null,
+            "role": "PB Crew",
+            "status": "needed",
+            "member_url": null
+          }
+        ]
+      }
     }
   }
 }
