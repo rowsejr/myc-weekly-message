@@ -1,48 +1,11 @@
 {
-  "generated_at": "2026-08-30T05:23:33.655710+00:00",
+  "generated_at": "2026-08-31T05:26:31.084342+00:00",
   "events": [
     {
       "title": "Burnham Week Regatta 2025",
       "date": "2026-08-31",
       "url": "https://www.margateyachtclub.co.uk/event/burnham-week-regatta-2025",
       "duties": {}
-    },
-    {
-      "title": "Poupard Cup",
-      "date": "2026-08-30",
-      "url": "https://www.margateyachtclub.co.uk/event/poupard-cup",
-      "duties": {
-        "Race Box": [
-          {
-            "name": "Pat Head",
-            "role": "RO",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
-          },
-          {
-            "name": "Patricia Blake",
-            "role": "Assistant",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4789387"
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Robert Atkinson",
-            "role": "PB2 Qualified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4613635"
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": "Richard Fulcher",
-            "role": "PB Crew",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4122055"
-          }
-        ]
-      }
     },
     {
       "title": "Poupard Cup",
