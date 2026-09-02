@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-01T05:26:44.904558+00:00",
+  "generated_at": "2026-09-02T05:29:27.264573+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
     "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1": {
       "title": "Youth Training",
-      "date": "2026-09-09",
+      "date": "2026-09-16",
       "url": "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1",
       "duties": {
         "Instructor": [
@@ -26,7 +26,7 @@
           {
             "name": "Graham Head",
             "role": "PB2 Qulaified",
-            "status": "pending",
+            "status": "confirmed",
             "member_url": "https://www.margateyachtclub.co.uk/member/4122059"
           },
           {
@@ -66,10 +66,10 @@
       "duties": {
         "Race Box": [
           {
-            "name": null,
+            "name": "Sue Anderson",
             "role": "RO",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4124337"
           },
           {
             "name": null,
