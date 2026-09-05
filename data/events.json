@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T05:25:49.583321+00:00",
+  "generated_at": "2026-09-05T05:24:11.275054+00:00",
   "events": [
     {
       "title": "Osprey Nationals (Mounts Bay)",
@@ -171,6 +171,12 @@
           }
         ]
       }
+    },
+    {
+      "title": "Assembly Music Festival",
+      "date": "2026-09-19",
+      "url": "https://www.margateyachtclub.co.uk/event/assembly-music-festival",
+      "duties": {}
     }
   ]
 }
