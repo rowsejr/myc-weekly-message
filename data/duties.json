@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T05:24:11.275433+00:00",
+  "generated_at": "2026-09-06T05:23:50.841491+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -8,21 +8,6 @@
       "date": "2026-09-06",
       "url": "https://www.margateyachtclub.co.uk/event/osprey-nationals-mounts-bay",
       "duties": {}
-    },
-    "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1": {
-      "title": "Leisure Sailing 2026",
-      "date": "2026-09-05",
-      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
-      "duties": {
-        "Power Boat Helm (PB2)": [
-          {
-            "name": null,
-            "role": "PB2 Qualified only",
-            "status": "needed",
-            "member_url": null
-          }
-        ]
-      }
     },
     "https://www.margateyachtclub.co.uk/event/autumn-series-2026": {
       "title": "Autumn Series 2026",
@@ -37,26 +22,26 @@
             "member_url": "https://www.margateyachtclub.co.uk/member/4124337"
           },
           {
-            "name": null,
+            "name": "Wendy Tumber",
             "role": "Assistant",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4481375"
           }
         ],
         "Power Boat Helm (PB2)": [
           {
-            "name": null,
+            "name": "Robert Atkinson",
             "role": "PB2 Qualified",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4613635"
           }
         ],
         "Power Boat Crew": [
           {
-            "name": null,
+            "name": "Jonathan Taft",
             "role": "PB Crew",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4121993"
           }
         ]
       }
@@ -143,6 +128,12 @@
       "title": "Assembly Music Festival",
       "date": "2026-09-19",
       "url": "https://www.margateyachtclub.co.uk/event/assembly-music-festival",
+      "duties": {}
+    },
+    "https://www.margateyachtclub.co.uk/event/pursuit-race": {
+      "title": "Pursuit Race",
+      "date": "2026-09-20",
+      "url": "https://www.margateyachtclub.co.uk/event/pursuit-race",
       "duties": {}
     }
   }
