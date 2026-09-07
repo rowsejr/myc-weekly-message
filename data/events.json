@@ -1,55 +1,6 @@
 {
-  "generated_at": "2026-09-06T05:23:50.841133+00:00",
+  "generated_at": "2026-09-07T05:26:56.327446+00:00",
   "events": [
-    {
-      "title": "Osprey Nationals (Mounts Bay)",
-      "date": "2026-09-06",
-      "url": "https://www.margateyachtclub.co.uk/event/osprey-nationals-mounts-bay",
-      "duties": {}
-    },
-    {
-      "title": "Autumn Series 2026",
-      "date": "2026-09-06",
-      "url": "https://www.margateyachtclub.co.uk/event/autumn-series-2026",
-      "duties": {
-        "Race Box": [
-          {
-            "name": "Sue Anderson",
-            "role": "RO",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4124337"
-          },
-          {
-            "name": "Wendy Tumber",
-            "role": "Assistant",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4481375"
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Robert Atkinson",
-            "role": "PB2 Qualified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4613635"
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": "Jonathan Taft",
-            "role": "PB Crew",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4121993"
-          }
-        ]
-      }
-    },
-    {
-      "title": "IOS Round the Island 2025",
-      "date": "2026-09-06",
-      "url": "https://www.margateyachtclub.co.uk/event/ios-round-the-island-2025",
-      "duties": {}
-    },
     {
       "title": "Youth Training",
       "date": "2026-09-09",
@@ -167,6 +118,12 @@
       "title": "Pursuit Race",
       "date": "2026-09-20",
       "url": "https://www.margateyachtclub.co.uk/event/pursuit-race",
+      "duties": {}
+    },
+    {
+      "title": "Committee Meeting",
+      "date": "2026-09-21",
+      "url": "https://www.margateyachtclub.co.uk/event/committee-meeting-8",
       "duties": {}
     }
   ]
