@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T05:26:08.377335+00:00",
+  "generated_at": "2026-09-09T05:26:21.140262+00:00",
   "events": [
     {
       "title": "Youth Training",
@@ -125,6 +125,41 @@
       "date": "2026-09-21",
       "url": "https://www.margateyachtclub.co.uk/event/committee-meeting-8",
       "duties": {}
+    },
+    {
+      "title": "Youth Training",
+      "date": "2026-09-23",
+      "url": "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1",
+      "duties": {
+        "Instructor": [
+          {
+            "name": "Lawrence Head",
+            "role": null,
+            "status": "pending",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4124427"
+          },
+          {
+            "name": "Emma Macfarlane",
+            "role": null,
+            "status": "pending",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4121973"
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": "Graham Head",
+            "role": "PB2 Qulaified",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4122059"
+          },
+          {
+            "name": "Jeremy McCabe",
+            "role": null,
+            "status": "pending",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4121991"
+          }
+        ]
+      }
     }
   ]
 }
