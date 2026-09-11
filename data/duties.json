@@ -1,8 +1,45 @@
 {
-  "generated_at": "2026-09-09T05:26:21.140633+00:00",
+  "generated_at": "2026-09-11T05:25:27.016498+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
+    "https://www.margateyachtclub.co.uk/event/new-racers-cup-two-races": {
+      "title": "New Racers Cup (Two Races)",
+      "date": "2026-09-13",
+      "url": "https://www.margateyachtclub.co.uk/event/new-racers-cup-two-races",
+      "duties": {
+        "Race Box": [
+          {
+            "name": "Pat Head",
+            "role": "RO",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
+          },
+          {
+            "name": null,
+            "role": "Assistant",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": "Graham Head",
+            "role": "PB2 Qualified",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4122059"
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": "Gretta McGill",
+            "role": "PB Crew",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4137851"
+          }
+        ]
+      }
+    },
     "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1": {
       "title": "Youth Training",
       "date": "2026-09-23",
@@ -34,43 +71,6 @@
             "role": null,
             "status": "pending",
             "member_url": "https://www.margateyachtclub.co.uk/member/4121991"
-          }
-        ]
-      }
-    },
-    "https://www.margateyachtclub.co.uk/event/new-racers-cup-two-races": {
-      "title": "New Racers Cup (Two Races)",
-      "date": "2026-09-13",
-      "url": "https://www.margateyachtclub.co.uk/event/new-racers-cup-two-races",
-      "duties": {
-        "Race Box": [
-          {
-            "name": null,
-            "role": "RO",
-            "status": "needed",
-            "member_url": null
-          },
-          {
-            "name": null,
-            "role": "Assistant",
-            "status": "needed",
-            "member_url": null
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": null,
-            "role": "PB2 Qualified",
-            "status": "needed",
-            "member_url": null
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": null,
-            "role": "PB Crew",
-            "status": "needed",
-            "member_url": null
           }
         ]
       }
