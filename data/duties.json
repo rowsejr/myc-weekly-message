@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T05:24:26.344426+00:00",
+  "generated_at": "2026-09-13T05:24:15.208737+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -16,10 +16,10 @@
             "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
           },
           {
-            "name": null,
+            "name": "Patricia Blake",
             "role": "Assistant",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4789387"
           }
         ],
         "Power Boat Helm (PB2)": [
@@ -92,6 +92,43 @@
       "date": "2026-09-21",
       "url": "https://www.margateyachtclub.co.uk/event/committee-meeting-8",
       "duties": {}
+    },
+    "https://www.margateyachtclub.co.uk/event/autumn-series-2026": {
+      "title": "Autumn Series 2026",
+      "date": "2026-09-27",
+      "url": "https://www.margateyachtclub.co.uk/event/autumn-series-2026",
+      "duties": {
+        "Race Box": [
+          {
+            "name": null,
+            "role": "RO",
+            "status": "needed",
+            "member_url": null
+          },
+          {
+            "name": null,
+            "role": "Assistant",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": null,
+            "role": "PB2 Qualified",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": null,
+            "role": "PB Crew",
+            "status": "needed",
+            "member_url": null
+          }
+        ]
+      }
     }
   }
 }
