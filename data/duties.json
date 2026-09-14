@@ -1,45 +1,8 @@
 {
-  "generated_at": "2026-09-13T05:24:15.208737+00:00",
+  "generated_at": "2026-09-14T05:27:10.740265+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
-    "https://www.margateyachtclub.co.uk/event/new-racers-cup-two-races": {
-      "title": "New Racers Cup (Two Races)",
-      "date": "2026-09-13",
-      "url": "https://www.margateyachtclub.co.uk/event/new-racers-cup-two-races",
-      "duties": {
-        "Race Box": [
-          {
-            "name": "Pat Head",
-            "role": "RO",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
-          },
-          {
-            "name": "Patricia Blake",
-            "role": "Assistant",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4789387"
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Graham Head",
-            "role": "PB2 Qualified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4122059"
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": "Gretta McGill",
-            "role": "PB Crew",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4137851"
-          }
-        ]
-      }
-    },
     "https://www.margateyachtclub.co.uk/event/cadet-training-cadet-training-1": {
       "title": "Youth Training",
       "date": "2026-09-23",
