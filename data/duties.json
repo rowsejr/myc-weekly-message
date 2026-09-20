@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T05:24:42.744200+00:00",
+  "generated_at": "2026-09-20T05:24:46.516981+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -12,7 +12,7 @@
           {
             "name": "Sue Anderson",
             "role": "RO",
-            "status": "pending",
+            "status": "confirmed",
             "member_url": "https://www.margateyachtclub.co.uk/member/4124337"
           },
           {
@@ -32,10 +32,10 @@
         ],
         "Power Boat Crew": [
           {
-            "name": null,
+            "name": "Robert Atkinson",
             "role": "PB Crew",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4613635"
           }
         ]
       }
@@ -83,7 +83,7 @@
     },
     "https://www.margateyachtclub.co.uk/event/autumn-series-2026": {
       "title": "Autumn Series 2026",
-      "date": "2026-09-27",
+      "date": "2026-10-04",
       "url": "https://www.margateyachtclub.co.uk/event/autumn-series-2026",
       "duties": {
         "Race Box": [
