@@ -1,45 +1,8 @@
 {
-  "generated_at": "2026-09-20T05:24:46.516981+00:00",
+  "generated_at": "2026-09-21T05:27:59.045830+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
-    "https://www.margateyachtclub.co.uk/event/pursuit-race": {
-      "title": "Pursuit Race",
-      "date": "2026-09-20",
-      "url": "https://www.margateyachtclub.co.uk/event/pursuit-race",
-      "duties": {
-        "Race Box": [
-          {
-            "name": "Sue Anderson",
-            "role": "RO",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4124337"
-          },
-          {
-            "name": null,
-            "role": "Assistant",
-            "status": "needed",
-            "member_url": null
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Francis Sokalski",
-            "role": "PB2 Qualified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4662675"
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": "Robert Atkinson",
-            "role": "PB Crew",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4613635"
-          }
-        ]
-      }
-    },
     "https://www.margateyachtclub.co.uk/event/committee-meeting-8": {
       "title": "Committee Meeting",
       "date": "2026-09-21",
@@ -110,10 +73,10 @@
         ],
         "Power Boat Crew": [
           {
-            "name": null,
+            "name": "Gretta McGill",
             "role": "PB Crew",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4137851"
           }
         ]
       }
