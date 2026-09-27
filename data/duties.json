@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T05:25:42.185589+00:00",
+  "generated_at": "2026-09-27T05:26:16.939837+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -39,6 +39,12 @@
           }
         ]
       }
+    },
+    "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1": {
+      "title": "Leisure Sailing 2026",
+      "date": "2026-10-11",
+      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
+      "duties": {}
     }
   }
 }
