@@ -1,43 +1,6 @@
 {
-  "generated_at": "2026-09-27T05:26:16.939452+00:00",
+  "generated_at": "2026-09-28T05:30:25.858747+00:00",
   "events": [
-    {
-      "title": "Autumn Series 2026",
-      "date": "2026-09-27",
-      "url": "https://www.margateyachtclub.co.uk/event/autumn-series-2026",
-      "duties": {
-        "Race Box": [
-          {
-            "name": "Pat Head",
-            "role": "RO",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
-          },
-          {
-            "name": "Tim Ahern",
-            "role": "Assistant",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4122025"
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Robert Atkinson",
-            "role": "PB2 Qualified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4613635"
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": "Gretta McGill",
-            "role": "PB Crew",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4137851"
-          }
-        ]
-      }
-    },
     {
       "title": "Autumn Series 2026",
       "date": "2026-10-04",
