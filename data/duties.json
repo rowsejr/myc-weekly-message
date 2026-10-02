@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T05:29:51.386329+00:00",
+  "generated_at": "2026-10-02T05:28:53.959001+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -10,16 +10,16 @@
       "duties": {
         "Race Box": [
           {
-            "name": null,
+            "name": "Pat Head",
             "role": "RO",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
           },
           {
-            "name": null,
+            "name": "Francis Sokalski",
             "role": "Assistant",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4662675"
           }
         ],
         "Power Boat Helm (PB2)": [
