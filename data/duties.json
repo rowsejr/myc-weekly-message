@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T05:35:25.289469+00:00",
+  "generated_at": "2026-10-04T07:10:34.309230+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -45,6 +45,43 @@
       "date": "2026-10-11",
       "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
       "duties": {}
+    },
+    "https://www.margateyachtclub.co.uk/event/winter-series-2026-1": {
+      "title": "Winter Series 2026",
+      "date": "2026-10-18",
+      "url": "https://www.margateyachtclub.co.uk/event/winter-series-2026-1",
+      "duties": {
+        "Race Box": [
+          {
+            "name": "Pat Head",
+            "role": "RO",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
+          },
+          {
+            "name": "Andrew Hudson",
+            "role": "Assistant",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4122625"
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": "Robert Atkinson",
+            "role": "PB2 Qualified",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4613635"
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": "Gretta McGill",
+            "role": "PB Crew",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4137851"
+          }
+        ]
+      }
     }
   }
 }
