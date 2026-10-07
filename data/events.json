@@ -1,11 +1,42 @@
 {
-  "generated_at": "2026-10-06T05:30:08.521431+00:00",
+  "generated_at": "2026-10-07T05:30:22.223545+00:00",
   "events": [
     {
-      "title": "Leisure Sailing 2026",
+      "title": "Autumn Series 2026",
       "date": "2026-10-11",
-      "url": "https://www.margateyachtclub.co.uk/event/leisure-sailing-2026-1",
-      "duties": {}
+      "url": "https://www.margateyachtclub.co.uk/event/autumn-series-2026",
+      "duties": {
+        "Race Box": [
+          {
+            "name": "Pat Head",
+            "role": "RO",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
+          },
+          {
+            "name": null,
+            "role": "Assistant",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": "Robert Atkinson",
+            "role": "PB2 Qualified",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4613635"
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": null,
+            "role": "PB Crew",
+            "status": "needed",
+            "member_url": null
+          }
+        ]
+      }
     },
     {
       "title": "Winter Series 2026",
