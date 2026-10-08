@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T05:30:22.223855+00:00",
+  "generated_at": "2026-10-08T05:30:47.129621+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -32,10 +32,10 @@
         ],
         "Power Boat Crew": [
           {
-            "name": null,
+            "name": "Daryl Bynon",
             "role": "PB Crew",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4681045"
           }
         ]
       }
