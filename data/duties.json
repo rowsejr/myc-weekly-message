@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T05:28:17.518755+00:00",
+  "generated_at": "2026-10-11T05:28:44.682249+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -42,21 +42,21 @@
     },
     "https://www.margateyachtclub.co.uk/event/winter-series-2026-1": {
       "title": "Winter Series 2026",
-      "date": "2026-10-18",
+      "date": "2026-10-25",
       "url": "https://www.margateyachtclub.co.uk/event/winter-series-2026-1",
       "duties": {
         "Race Box": [
           {
-            "name": "Pat Head",
+            "name": null,
             "role": "RO",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
+            "status": "needed",
+            "member_url": null
           },
           {
-            "name": "Andrew Hudson",
+            "name": null,
             "role": "Assistant",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4122625"
+            "status": "needed",
+            "member_url": null
           }
         ],
         "Power Boat Helm (PB2)": [
