@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T05:25:10.584824+00:00",
+  "generated_at": "2026-10-18T05:24:39.857131+00:00",
   "events": [
     {
       "title": "Winter Series 2026",
@@ -41,6 +41,43 @@
     {
       "title": "Winter Series 2026",
       "date": "2026-10-25",
+      "url": "https://www.margateyachtclub.co.uk/event/winter-series-2026-1",
+      "duties": {
+        "Race Box": [
+          {
+            "name": null,
+            "role": "RO",
+            "status": "needed",
+            "member_url": null
+          },
+          {
+            "name": null,
+            "role": "Assistant",
+            "status": "needed",
+            "member_url": null
+          }
+        ],
+        "Power Boat Helm (PB2)": [
+          {
+            "name": "Robert Atkinson",
+            "role": "PB2 Qualified",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4613635"
+          }
+        ],
+        "Power Boat Crew": [
+          {
+            "name": "Gretta McGill",
+            "role": "PB Crew",
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4137851"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Winter Series 2026",
+      "date": "2026-11-01",
       "url": "https://www.margateyachtclub.co.uk/event/winter-series-2026-1",
       "duties": {
         "Race Box": [
