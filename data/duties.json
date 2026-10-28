@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T05:28:37.919705+00:00",
+  "generated_at": "2026-10-28T05:21:36.221018+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
@@ -10,10 +10,10 @@
       "duties": {
         "Race Box": [
           {
-            "name": null,
+            "name": "Pat Head",
             "role": "RO",
-            "status": "needed",
-            "member_url": null
+            "status": "confirmed",
+            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
           },
           {
             "name": null,
