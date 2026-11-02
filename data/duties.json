@@ -1,44 +1,13 @@
 {
-  "generated_at": "2026-11-01T05:19:00.350654+00:00",
+  "generated_at": "2026-11-02T05:19:30.471673+00:00",
   "logged_in": true,
   "source": "roster",
   "duties": {
-    "https://www.margateyachtclub.co.uk/event/winter-series-2026-1": {
-      "title": "Winter Series 2026",
-      "date": "2026-11-01",
-      "url": "https://www.margateyachtclub.co.uk/event/winter-series-2026-1",
-      "duties": {
-        "Race Box": [
-          {
-            "name": "Pat Head",
-            "role": "RO",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4131089"
-          },
-          {
-            "name": "Patricia Blake",
-            "role": "Assistant",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4789387"
-          }
-        ],
-        "Power Boat Helm (PB2)": [
-          {
-            "name": "Robert Atkinson",
-            "role": "PB2 Qualified",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4613635"
-          }
-        ],
-        "Power Boat Crew": [
-          {
-            "name": "Gretta McGill",
-            "role": "PB Crew",
-            "status": "confirmed",
-            "member_url": "https://www.margateyachtclub.co.uk/member/4137851"
-          }
-        ]
-      }
+    "https://www.margateyachtclub.co.uk/event/committee-meeting-9": {
+      "title": "Committee Meeting",
+      "date": "2026-11-16",
+      "url": "https://www.margateyachtclub.co.uk/event/committee-meeting-9",
+      "duties": {}
     }
   }
 }
